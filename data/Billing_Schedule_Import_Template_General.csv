@@ -1,0 +1,5 @@
+Company Name,Project Name,Employee Name,Month,Start Date,End Date,Hours,Bill Rate,Record Type
+Acme Corporation,E-Commerce Platform,Juan García,Jan,2026-01-01,2026-01-31,160,75,Monthly_Fixed_Priced
+Acme Corporation,E-Commerce Platform,María Rodríguez,Jan,2026-01-01,2026-01-31,160,85,Monthly_Fixed_Priced
+TechSolutions Inc,Mobile Banking App,Carlos López,Feb,2026-02-01,2026-02-28,140,65,Hourly
+TechSolutions Inc,Mobile Banking App,Ana Martínez,Feb,2026-02-01,2026-02-28,160,70,Hourly

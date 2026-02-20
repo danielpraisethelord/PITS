@@ -1,0 +1,126 @@
+<template>
+    <lightning-card title="Import Billing Schedules" icon-name="custom:custom63">
+        <div class="slds-card__body slds-card__body_inner">
+            <!-- Instructions -->
+            <div class="slds-m-bottom_medium">
+                <lightning-icon icon-name="utility:info" size="x-small" class="slds-m-right_x-small"></lightning-icon>
+                <strong>Upload a CSV file with billing schedule data</strong>
+                <div class="slds-text-color_weak slds-m-top_x-small">
+                    Required columns: Company Name, Project Name, Employee Name, Month, Start Date, End Date, Hours, Bill Rate, Record Type
+                </div>
+                <div class="slds-text-color_weak slds-m-top_x-small">
+                    Max file size: 5MB | Max rows: 2000
+                </div>
+            </div>
+
+            <!-- File Upload -->
+            <template if:false={isProcessing}>
+                <lightning-input
+                    type="file"
+                    label="Select CSV File"
+                    accept=".csv"
+                    onchange={handleFileUpload}
+                    disabled={isProcessing}>
+                </lightning-input>
+
+                <template if:true={fileName}>
+                    <div class="slds-m-top_small slds-text-body_small">
+                        Selected file: <strong>{fileName}</strong> ({fileSize})
+                    </div>
+                </template>
+
+                <div class="slds-m-top_medium">
+                    <lightning-button
+                        variant="brand"
+                        label="Import"
+                        icon-name="utility:upload"
+                        onclick={handleImport}
+                        disabled={disableImport}
+                        class="slds-m-right_x-small">
+                    </lightning-button>
+                    <lightning-button
+                        label="Reset"
+                        onclick={handleReset}
+                        disabled={disableReset}>
+                    </lightning-button>
+                </div>
+            </template>
+
+            <!-- Processing Spinner -->
+            <template if:true={isProcessing}>
+                <div class="slds-text-align_center slds-m-vertical_large">
+                    <lightning-spinner alternative-text="Processing..." size="medium"></lightning-spinner>
+                    <div class="slds-m-top_small slds-text-heading_small">
+                        Processing your import...
+                    </div>
+                    <div class="slds-text-color_weak slds-m-top_x-small">
+                        This may take a few moments
+                    </div>
+                </div>
+            </template>
+
+            <!-- Results -->
+            <template if:true={showResults}>
+                <div class="slds-m-top_large">
+                    <div class="slds-text-heading_small slds-m-bottom_medium">
+                        <lightning-icon icon-name="utility:check" size="x-small" class="slds-m-right_x-small"></lightning-icon>
+                        Import Complete
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="stats-grid slds-m-bottom_medium">
+                        <div class="stat-box stat-total">
+                            <div class="stat-number">{totalRows}</div>
+                            <div class="stat-label">Total Rows</div>
+                        </div>
+                        <div class="stat-box stat-success">
+                            <div class="stat-number">{createdCount}</div>
+                            <div class="stat-label">Created</div>
+                        </div>
+                        <div class="stat-box stat-warning">
+                            <div class="stat-number">{updatedCount}</div>
+                            <div class="stat-label">Updated</div>
+                        </div>
+                        <div class="stat-box stat-error">
+                            <div class="stat-number">{failedCount}</div>
+                            <div class="stat-label">Failed</div>
+                        </div>
+                    </div>
+
+                    <!-- Success Message -->
+                    <template if:true={hasSuccesses}>
+                        <lightning-formatted-text
+                            value={successMessage}
+                            class="slds-text-color_success slds-m-bottom_small">
+                        </lightning-formatted-text>
+                    </template>
+
+                    <!-- Errors Section -->
+                    <template if:true={hasErrors}>
+                        <lightning-accordion active-section-name="" class="error-accordion">
+                            <lightning-accordion-section name="errors" label={errorSectionLabel}>
+                                <ul class="slds-list_dotted error-list">
+                                    <template for:each={errors} for:item="error">
+                                        <li key={error.key} class="error-item">
+                                            <strong>Row {error.row}:</strong> {error.message}
+                                        </li>
+                                    </template>
+                                </ul>
+                            </lightning-accordion-section>
+                        </lightning-accordion>
+                    </template>
+
+                    <!-- Async Processing Notice -->
+                    <template if:true={isAsync}>
+                        <div class="slds-m-top_medium slds-notify slds-notify_alert slds-alert_warning">
+                            <lightning-icon icon-name="utility:warning" size="x-small" class="slds-m-right_small"></lightning-icon>
+                            <span>
+                                Large file detected. Processing in background. You will receive an email when complete.
+                            </span>
+                        </div>
+                    </template>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

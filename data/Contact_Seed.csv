@@ -1,0 +1,1001 @@
+FirstName,LastName,Email,Phone,Title,Department,Role__c,PITS_Hourly_rate__c,PITS_Hourly_Cost_to_Company__c,PITS_Monthly_Rate__c,PITS_Monthly_Cost_to_Company__c,Level__c,Languages__c,RecordType
+Sebastián,Iglesias,sebastián.iglesias1@pitstech.com,+34 672264178,Business Analyst,Engineering,DevOps,73,58,11680,9280,Mid-Level,Italian;German;English,Employee
+Leo,García,leo.garcía2@pitstech.com,+34 650147844,Frontend Developer,Quality Assurance,Security Specialist,37,29,5920,4640,Junior,Italian;German;Spanish,Employee
+Consuelo,Prieto,consuelo.prieto3@pitstech.com,+34 646593560,Backend Developer,Quality Assurance,Cloud Specialist,78,62,12480,9920,Senior,German,Employee
+Rodrigo,Delgado,rodrigo.delgado4@pitstech.com,+34 648711396,iOS Developer,Data,Data Scientist,57,45,9120,7200,Mid-Level,Italian;German;French,Employee
+Lucía,León,lucía.león5@pitstech.com,+34 635357279,ML Engineer,Business,Data Engineer,80,64,12800,10240,Senior,Spanish;French;German,Employee
+Francisco,Pascual,francisco.pascual6@pitstech.com,+34 687241969,Frontend Developer,Engineering,ML Engineer,66,52,10560,8320,Mid-Level,English;Portuguese,Employee
+Ana,Ortiz,ana.ortiz7@pitstech.com,+34 677381091,Software Architect,Data,Product Owner,39,31,6240,4960,Junior,Italian,Employee
+Sergio,García,sergio.garcía8@pitstech.com,+34 689902306,Data Engineer,Data,DBA,67,53,10720,8480,Mid-Level,French;English,Employee
+Guillermo,Jiménez,guillermo.jiménez9@pitstech.com,+34 616278526,UX Designer,Design,Frontend Developer,49,39,7840,6240,Junior,Spanish;Portuguese;Italian,Employee
+Ángel,Campos,ángel.campos10@pitstech.com,+34 635483447,Scrum Master,Quality Assurance,Cloud Specialist,82,65,13120,10400,Senior,English,Employee
+Javier,Ortega,javier.ortega11@pitstech.com,+34 679890337,Scrum Master,Design,Full Stack Developer,100,80,16000,12800,Senior,Spanish;French;English,Employee
+Marta,Delgado,marta.delgado12@pitstech.com,+34 656097802,DevOps Engineer,Data,Full Stack Developer,78,62,12480,9920,Senior,French;Portuguese;Spanish,Employee
+Julia,Cruz,julia.cruz13@pitstech.com,+34 675965451,Frontend Developer,Data,Tech Lead,91,72,14560,11520,Senior,German,Employee
+Diego,Herrera,diego.herrera14@pitstech.com,+34 694153899,Data Scientist,Design,Product Owner,85,68,13600,10880,Senior,French,Employee
+Guillermo,Vargas,guillermo.vargas15@pitstech.com,+34 666797235,Tech Lead,Design,Frontend Developer,68,54,10880,8640,Mid-Level,German;Italian;French,Employee
+Nicolás,Mora,nicolás.mora16@pitstech.com,+34 672399948,Data Engineer,Design,Cloud Specialist,56,44,8960,7040,Mid-Level,German;French;Italian,Employee
+Mateo,García,mateo.garcía17@pitstech.com,+34 653739031,iOS Developer,Product,Data Scientist,75,60,12000,9600,Senior,English,Employee
+Susana,Mora,susana.mora18@pitstech.com,+34 621315592,Backend Developer,Security,ML Engineer,47,37,7520,5920,Junior,Spanish;French,Employee
+Álvaro,Vega,álvaro.vega19@pitstech.com,+34 657613424,DevOps Engineer,Quality Assurance,Cloud Specialist,41,32,6560,5120,Junior,Spanish;German;French,Employee
+Alberto,Ruiz,alberto.ruiz20@pitstech.com,+34 631388009,iOS Developer,Data,Scrum Master,68,54,10880,8640,Mid-Level,English;Italian;German,Employee
+Silvia,Santos,silvia.santos21@pitstech.com,+34 683081610,Backend Developer,Security,Frontend Developer,59,47,9440,7520,Mid-Level,Portuguese;Spanish;Italian,Employee
+Lucía,Castro,lucía.castro22@pitstech.com,+34 622718979,Database Admin,Design,Cloud Specialist,41,32,6560,5120,Junior,Portuguese;Spanish,Employee
+Clara,Molina,clara.molina23@pitstech.com,+34 669469045,Security Engineer,Design,DevOps,72,57,11520,9120,Mid-Level,German,Employee
+Teresa,Sánchez,teresa.sánchez24@pitstech.com,+34 670417841,ML Engineer,Design,Tech Lead,74,59,11840,9440,Mid-Level,Italian,Employee
+Antonio,Benítez,antonio.benítez25@pitstech.com,+34 692791852,Senior Developer,Security,Cloud Specialist,90,72,14400,11520,Senior,English,Employee
+Teresa,Molina,teresa.molina26@pitstech.com,+34 656925136,iOS Developer,Security,Business Analyst,50,40,8000,6400,Junior,Spanish;Portuguese;French,Employee
+Ana,Fernández,ana.fernández27@pitstech.com,+34 672577129,Project Manager,Product,Full Stack Developer,43,34,6880,5440,Junior,French;Spanish;Italian,Employee
+Manuela,Cruz,manuela.cruz28@pitstech.com,+34 675762746,Business Analyst,Engineering,Data Scientist,75,60,12000,9600,Mid-Level,English,Employee
+Marina,García,marina.garcía29@pitstech.com,+34 638345641,Full Stack Developer,Data,Scrum Master,49,39,7840,6240,Junior,German;Portuguese,Employee
+Marina,Navarro,marina.navarro30@pitstech.com,+34 638184581,ML Engineer,Product,Software Architect,58,46,9280,7360,Mid-Level,Portuguese,Employee
+Raquel,Cruz,raquel.cruz31@pitstech.com,+34 640870276,Full Stack Developer,Quality Assurance,Mobile Developer,93,74,14880,11840,Senior,Spanish;English,Employee
+Luis,Santos,luis.santos32@pitstech.com,+34 649799953,UX Designer,Security,Project Manager,59,47,9440,7520,Mid-Level,Italian;Portuguese;German,Employee
+Antonia,Cruz,antonia.cruz33@pitstech.com,+34 610169174,iOS Developer,Security,QA Tester,75,60,12000,9600,Senior,Spanish,Employee
+Cristina,Ramírez,cristina.ramírez34@pitstech.com,+34 637982240,UI Designer,Security,QA Tester,40,32,6400,5120,Junior,French,Employee
+Miriam,Marín,miriam.marín35@pitstech.com,+34 658577911,QA Tester,Design,DBA,63,50,10080,8000,Mid-Level,Spanish;Portuguese,Employee
+Alba,Delgado,alba.delgado36@pitstech.com,+34 610587372,Data Scientist,Security,Frontend Developer,77,61,12320,9760,Senior,French;Portuguese,Employee
+Iván,Ortega,iván.ortega37@pitstech.com,+34 633912567,Backend Developer,Engineering,DevOps,56,44,8960,7040,Mid-Level,Portuguese,Employee
+Samuel,Delgado,samuel.delgado38@pitstech.com,+34 665495630,Project Manager,Business,Backend Developer,67,53,10720,8480,Mid-Level,French;Spanish;Portuguese,Employee
+Elena,Serrano,elena.serrano39@pitstech.com,+34 627229981,ML Engineer,Quality Assurance,Cloud Specialist,37,29,5920,4640,Junior,English;Spanish;Portuguese,Employee
+Pablo,Pascual,pablo.pascual40@pitstech.com,+34 668153000,Data Scientist,Design,ML Engineer,70,56,11200,8960,Mid-Level,Italian;Spanish;German,Employee
+Amparo,Vargas,amparo.vargas41@pitstech.com,+34 659749865,QA Engineer,Business,Backend Developer,45,36,7200,5760,Junior,English;Italian,Employee
+Martín,Molina,martín.molina42@pitstech.com,+34 614440566,QA Engineer,Product,QA Tester,90,72,14400,11520,Senior,Portuguese;English;French,Employee
+Alberto,Vázquez,alberto.vázquez43@pitstech.com,+34 654731901,Software Architect,Design,QA Tester,67,53,10720,8480,Mid-Level,English,Employee
+Rafael,Cortés,rafael.cortés44@pitstech.com,+34 691750367,UI Designer,Business,Project Manager,85,68,13600,10880,Senior,English;French;Italian,Employee
+Clara,Cruz,clara.cruz45@pitstech.com,+34 680095261,Security Engineer,Design,UX/UI Designer,47,37,7520,5920,Junior,Spanish;Italian,Employee
+Carlos,Lozano,carlos.lozano46@pitstech.com,+34 631889654,QA Tester,Design,Business Analyst,38,30,6080,4800,Junior,Italian,Employee
+Gabriel,Ruiz,gabriel.ruiz47@pitstech.com,+34 636771459,QA Tester,Quality Assurance,Business Analyst,91,72,14560,11520,Senior,English,Employee
+Andrea,Medina,andrea.medina48@pitstech.com,+34 652403542,Full Stack Developer,Product,Backend Developer,98,78,15680,12480,Senior,Spanish,Employee
+Gabriel,Marín,gabriel.marín49@pitstech.com,+34 675809878,Cloud Engineer,Security,UX/UI Designer,94,75,15040,12000,Senior,Italian,Employee
+Sergio,Santos,sergio.santos50@pitstech.com,+34 621324301,Frontend Developer,Quality Assurance,QA Tester,55,44,8800,7040,Mid-Level,Portuguese,Employee
+Antonia,Martínez,antonia.martínez51@pitstech.com,+34 650104352,iOS Developer,Engineering,Scrum Master,88,70,14080,11200,Senior,English;French;German,Employee
+Lucía,González,lucía.gonzález52@pitstech.com,+34 653218680,Scrum Master,Security,Frontend Developer,44,35,7040,5600,Junior,Portuguese;French,Employee
+Sofía,Ortiz,sofía.ortiz53@pitstech.com,+34 680249261,DevOps Engineer,Data,Data Engineer,59,47,9440,7520,Mid-Level,Spanish,Employee
+Silvia,Medina,silvia.medina54@pitstech.com,+34 663032845,Android Developer,Quality Assurance,QA Tester,100,80,16000,12800,Senior,English;Italian,Employee
+Víctor,Iglesias,víctor.iglesias55@pitstech.com,+34 699122896,Mobile Developer,Quality Assurance,Tech Lead,56,44,8960,7040,Mid-Level,Italian;German;French,Employee
+Ana,Herrera,ana.herrera56@pitstech.com,+34 658542183,Frontend Developer,Engineering,QA Tester,77,61,12320,9760,Senior,Italian;English,Employee
+Julia,Vargas,julia.vargas57@pitstech.com,+34 617557072,QA Engineer,Quality Assurance,Tech Lead,46,36,7360,5760,Junior,English;Portuguese;Italian,Employee
+Nicolás,Lozano,nicolás.lozano58@pitstech.com,+34 678561455,Security Engineer,Security,Mobile Developer,78,62,12480,9920,Senior,Italian;English;German,Employee
+Víctor,León,víctor.león59@pitstech.com,+34 631125357,Business Analyst,Security,Product Owner,48,38,7680,6080,Junior,French;German;Spanish,Employee
+Carlos,Díaz,carlos.díaz60@pitstech.com,+34 666151515,UI Designer,Engineering,Mobile Developer,97,77,15520,12320,Senior,German;English,Employee
+Paula,Fernández,paula.fernández61@pitstech.com,+34 674755712,Senior Developer,Engineering,Product Owner,40,32,6400,5120,Junior,English;Spanish,Employee
+Sofía,Iglesias,sofía.iglesias62@pitstech.com,+34 683420410,QA Tester,Product,Data Engineer,74,59,11840,9440,Mid-Level,French,Employee
+Pedro,Marín,pedro.marín63@pitstech.com,+34 692816817,QA Tester,Data,DevOps,94,75,15040,12000,Senior,Italian;Spanish;English,Employee
+Pilar,Benítez,pilar.benítez64@pitstech.com,+34 679666816,Backend Developer,Product,DBA,41,32,6560,5120,Junior,French;Spanish;Italian,Employee
+Sebastián,Navarro,sebastián.navarro65@pitstech.com,+34 653070503,Mobile Developer,Data,DBA,93,74,14880,11840,Senior,Italian,Employee
+Josefa,Méndez,josefa.méndez66@pitstech.com,+34 673106844,Project Manager,Security,Scrum Master,75,60,12000,9600,Senior,Spanish;French;English,Employee
+Isabel,Iglesias,isabel.iglesias67@pitstech.com,+34 634582053,Cloud Engineer,Product,ML Engineer,63,50,10080,8000,Mid-Level,French;Italian;German,Employee
+Alberto,Prieto,alberto.prieto68@pitstech.com,+34 630790864,Frontend Developer,Data,ML Engineer,80,64,12800,10240,Senior,Spanish,Employee
+Susana,Sánchez,susana.sánchez69@pitstech.com,+34 678201847,Security Engineer,Engineering,Scrum Master,42,33,6720,5280,Junior,German;French,Employee
+Consuelo,Suárez,consuelo.suárez70@pitstech.com,+34 674780328,Mobile Developer,Business,Frontend Developer,72,57,11520,9120,Mid-Level,Italian;French;English,Employee
+Isabel,Rubio,isabel.rubio71@pitstech.com,+34 643716283,ML Engineer,Security,Business Analyst,90,72,14400,11520,Senior,German;French;Spanish,Employee
+Rubén,Cano,rubén.cano72@pitstech.com,+34 673867636,QA Tester,Design,Frontend Developer,75,60,12000,9600,Senior,German;Italian;Portuguese,Employee
+Francisca,Sánchez,francisca.sánchez73@pitstech.com,+34 628669148,QA Engineer,Engineering,Frontend Developer,75,60,12000,9600,Senior,French;Portuguese,Employee
+Victoria,Medina,victoria.medina74@pitstech.com,+34 647042365,Scrum Master,Design,Cloud Specialist,50,40,8000,6400,Junior,Spanish;Portuguese;Italian,Employee
+Pedro,Ramos,pedro.ramos75@pitstech.com,+34 687949620,UI Designer,Product,Security Specialist,39,31,6240,4960,Junior,English,Employee
+Jorge,Díaz,jorge.díaz76@pitstech.com,+34 642480442,Android Developer,Business,DBA,88,70,14080,11200,Senior,English;Italian;French,Employee
+Amparo,López,amparo.lópez77@pitstech.com,+34 633612103,Business Analyst,Design,Data Engineer,41,32,6560,5120,Junior,Spanish;German;English,Employee
+Isabel,Vázquez,isabel.vázquez78@pitstech.com,+34 650494515,Business Analyst,Design,Backend Developer,75,60,12000,9600,Senior,Portuguese;French,Employee
+Sara,Sánchez,sara.sánchez79@pitstech.com,+34 630668589,Data Scientist,Product,Scrum Master,74,59,11840,9440,Mid-Level,Italian,Employee
+Antonia,Lozano,antonia.lozano80@pitstech.com,+34 686924710,Scrum Master,Quality Assurance,Software Architect,55,44,8800,7040,Mid-Level,French;German;Portuguese,Employee
+Remedios,Vega,remedios.vega81@pitstech.com,+34 684385168,Backend Developer,Engineering,Project Manager,67,53,10720,8480,Mid-Level,Spanish,Employee
+Rafael,Rodríguez,rafael.rodríguez82@pitstech.com,+34 693210571,Software Architect,Engineering,QA Tester,81,64,12960,10240,Senior,French,Employee
+Ramón,Cabrera,ramón.cabrera83@pitstech.com,+34 621697805,Full Stack Developer,Quality Assurance,ML Engineer,63,50,10080,8000,Mid-Level,Italian;French;German,Employee
+Victoria,Gil,victoria.gil84@pitstech.com,+34 625627107,Software Architect,Product,Software Architect,70,56,11200,8960,Mid-Level,Spanish;English;French,Employee
+Patricia,Marín,patricia.marín85@pitstech.com,+34 633620408,Junior Developer,Design,Scrum Master,50,40,8000,6400,Junior,Italian,Employee
+Montserrat,Romero,montserrat.romero86@pitstech.com,+34 660226535,Product Owner,Quality Assurance,DevOps,86,68,13760,10880,Senior,Italian,Employee
+Victoria,Rodríguez,victoria.rodríguez87@pitstech.com,+34 656233194,QA Engineer,Business,Business Analyst,47,37,7520,5920,Junior,German;Spanish;French,Employee
+Dolores,Ruiz,dolores.ruiz88@pitstech.com,+34 630422568,Android Developer,Security,Full Stack Developer,36,28,5760,4480,Junior,French;Italian;English,Employee
+Patricia,Herrera,patricia.herrera89@pitstech.com,+34 667182383,Tech Lead,Data,Tech Lead,49,39,7840,6240,Junior,Portuguese;Italian;Spanish,Employee
+Pilar,Serrano,pilar.serrano90@pitstech.com,+34 642540437,Senior Developer,Engineering,Mobile Developer,74,59,11840,9440,Mid-Level,English,Employee
+Mateo,Vargas,mateo.vargas91@pitstech.com,+34 672589352,Security Engineer,Quality Assurance,Product Owner,48,38,7680,6080,Junior,Italian,Employee
+Ángel,Pérez,ángel.pérez92@pitstech.com,+34 627152617,ML Engineer,Engineering,Full Stack Developer,77,61,12320,9760,Senior,French;Italian;Spanish,Employee
+Sofía,Pascual,sofía.pascual93@pitstech.com,+34 692801197,Mobile Developer,Engineering,DBA,89,71,14240,11360,Senior,Italian;Spanish,Employee
+Jesús,Álvarez,jesús.álvarez94@pitstech.com,+34 639404922,Database Admin,Data,UX/UI Designer,42,33,6720,5280,Junior,English,Employee
+Lidia,Vargas,lidia.vargas95@pitstech.com,+34 698670315,UX Designer,Product,DBA,78,62,12480,9920,Senior,Portuguese,Employee
+Paula,Ortiz,paula.ortiz96@pitstech.com,+34 681858072,Backend Developer,Product,Product Owner,74,59,11840,9440,Mid-Level,Spanish;Italian;Portuguese,Employee
+Lucas,Sánchez,lucas.sánchez97@pitstech.com,+34 689625304,Data Engineer,Design,DevOps,38,30,6080,4800,Junior,French;German;English,Employee
+Francisco,Rubio,francisco.rubio98@pitstech.com,+34 661035107,Software Architect,Business,QA Tester,71,56,11360,8960,Mid-Level,French;Portuguese;Italian,Employee
+Francisco,Medina,francisco.medina99@pitstech.com,+34 657161857,UI Designer,Engineering,Cloud Specialist,50,40,8000,6400,Junior,German;English,Employee
+Carmen,Benítez,carmen.benítez100@pitstech.com,+34 624226471,Senior Developer,Design,Cloud Specialist,61,48,9760,7680,Mid-Level,Italian;Portuguese,Employee
+Sergio,Castro,sergio.castro101@pitstech.com,+34 673818864,Tech Lead,Security,Tech Lead,72,57,11520,9120,Mid-Level,Spanish;English,Employee
+Guillermo,Méndez,guillermo.méndez102@pitstech.com,+34 652072278,QA Tester,Security,Software Architect,35,28,5600,4480,Junior,Italian,Employee
+Irene,Iglesias,irene.iglesias103@pitstech.com,+34 662122414,Android Developer,Engineering,QA Tester,47,37,7520,5920,Junior,English;Spanish,Employee
+Beatriz,Medina,beatriz.medina104@pitstech.com,+34 659743712,Data Scientist,Quality Assurance,Backend Developer,42,33,6720,5280,Junior,French;Portuguese;Spanish,Employee
+Pablo,Cruz,pablo.cruz105@pitstech.com,+34 662453300,DevOps Engineer,Product,Full Stack Developer,89,71,14240,11360,Senior,Portuguese;Italian;German,Employee
+Leo,Méndez,leo.méndez106@pitstech.com,+34 663698310,Android Developer,Design,Product Owner,86,68,13760,10880,Senior,Italian;English;Portuguese,Employee
+Raúl,Santos,raúl.santos107@pitstech.com,+34 671888482,iOS Developer,Business,Tech Lead,42,33,6720,5280,Junior,Italian;Portuguese;French,Employee
+Enrique,Rodríguez,enrique.rodríguez108@pitstech.com,+34 678192170,UI Designer,Product,Scrum Master,62,49,9920,7840,Mid-Level,Spanish;Italian;English,Employee
+Leo,Lozano,leo.lozano109@pitstech.com,+34 619013299,Project Manager,Security,Full Stack Developer,63,50,10080,8000,Mid-Level,German;English,Employee
+Francisca,Sánchez,francisca.sánchez110@pitstech.com,+34 651117576,QA Engineer,Design,Security Specialist,36,28,5760,4480,Junior,German;Spanish,Employee
+Juan,León,juan.león111@pitstech.com,+34 633808882,QA Tester,Security,Cloud Specialist,47,37,7520,5920,Junior,Spanish,Employee
+Hugo,Molina,hugo.molina112@pitstech.com,+34 691959116,Senior Developer,Quality Assurance,Full Stack Developer,50,40,8000,6400,Junior,French;Italian,Employee
+Montserrat,Moreno,montserrat.moreno113@pitstech.com,+34 626790944,UX Designer,Security,Scrum Master,87,69,13920,11040,Senior,German;French,Employee
+Juana,Rubio,juana.rubio114@pitstech.com,+34 694298410,Tech Lead,Data,UX/UI Designer,65,52,10400,8320,Mid-Level,French;Italian,Employee
+Beatriz,Rubio,beatriz.rubio115@pitstech.com,+34 638444299,Full Stack Developer,Security,Project Manager,92,73,14720,11680,Senior,Spanish;English;German,Employee
+Hugo,Cabrera,hugo.cabrera116@pitstech.com,+34 663106824,Data Scientist,Product,Mobile Developer,69,55,11040,8800,Mid-Level,English;Spanish,Employee
+Leo,Vázquez,leo.vázquez117@pitstech.com,+34 690329622,Project Manager,Product,UX/UI Designer,65,52,10400,8320,Mid-Level,French,Employee
+Ana,García,ana.garcía118@pitstech.com,+34 691011357,Business Analyst,Quality Assurance,UX/UI Designer,42,33,6720,5280,Junior,English;French;Italian,Employee
+Ignacio,López,ignacio.lópez119@pitstech.com,+34 616482296,ML Engineer,Design,QA Tester,48,38,7680,6080,Junior,German,Employee
+Francisco,Delgado,francisco.delgado120@pitstech.com,+34 645003673,iOS Developer,Product,Project Manager,100,80,16000,12800,Senior,Italian,Employee
+David,Rodríguez,david.rodríguez121@pitstech.com,+34 631560307,Scrum Master,Quality Assurance,DBA,37,29,5920,4640,Junior,Spanish;French;Portuguese,Employee
+Sara,Ruiz,sara.ruiz122@pitstech.com,+34 689515128,Security Engineer,Quality Assurance,Project Manager,84,67,13440,10720,Senior,Spanish;English;German,Employee
+Ángel,Ortega,ángel.ortega123@pitstech.com,+34 662344005,Android Developer,Quality Assurance,Software Architect,38,30,6080,4800,Junior,Portuguese;Italian,Employee
+Adam,Blanco,adam.blanco124@pitstech.com,+34 620800336,Data Engineer,Business,QA Tester,56,44,8960,7040,Mid-Level,Portuguese,Employee
+Cristina,Ramírez,cristina.ramírez125@pitstech.com,+34 660566284,Android Developer,Business,Backend Developer,81,64,12960,10240,Senior,Italian;English;French,Employee
+Nicolás,Sánchez,nicolás.sánchez126@pitstech.com,+34 671583641,Product Owner,Quality Assurance,Cloud Specialist,96,76,15360,12160,Senior,French;Italian;English,Employee
+Lorena,Ortiz,lorena.ortiz127@pitstech.com,+34 631213703,Security Engineer,Business,Full Stack Developer,39,31,6240,4960,Junior,French;Italian;Portuguese,Employee
+Óscar,Ruiz,óscar.ruiz128@pitstech.com,+34 657669700,Product Owner,Data,DevOps,57,45,9120,7200,Mid-Level,English;Portuguese,Employee
+Daniel,Herrera,daniel.herrera129@pitstech.com,+34 693677829,QA Tester,Engineering,Data Scientist,88,70,14080,11200,Senior,English,Employee
+Laura,Ramírez,laura.ramírez130@pitstech.com,+34 691471065,Database Admin,Design,Data Scientist,73,58,11680,9280,Mid-Level,French,Employee
+Dolores,Pérez,dolores.pérez131@pitstech.com,+34 618308995,Cloud Engineer,Data,Backend Developer,62,49,9920,7840,Mid-Level,Portuguese,Employee
+Julia,Castro,julia.castro132@pitstech.com,+34 650121717,Android Developer,Quality Assurance,Product Owner,47,37,7520,5920,Junior,Italian;French,Employee
+Samuel,Álvarez,samuel.álvarez133@pitstech.com,+34 633479304,iOS Developer,Data,ML Engineer,63,50,10080,8000,Mid-Level,Italian,Employee
+Manuel,Ruiz,manuel.ruiz134@pitstech.com,+34 628559938,DevOps Engineer,Engineering,Mobile Developer,63,50,10080,8000,Mid-Level,French;Italian;German,Employee
+Francisco,Cruz,francisco.cruz135@pitstech.com,+34 663384878,Business Analyst,Engineering,Cloud Specialist,48,38,7680,6080,Junior,Spanish,Employee
+Miguel,Ramos,miguel.ramos136@pitstech.com,+34 655039331,Tech Lead,Quality Assurance,QA Tester,88,70,14080,11200,Senior,Portuguese;Spanish;French,Employee
+Rafael,Jiménez,rafael.jiménez137@pitstech.com,+34 623826373,Mobile Developer,Product,DevOps,49,39,7840,6240,Junior,Italian;French;English,Employee
+Víctor,Díaz,víctor.díaz138@pitstech.com,+34 685699829,Project Manager,Design,QA Tester,83,66,13280,10560,Senior,Spanish;English;German,Employee
+Marcos,Suárez,marcos.suárez139@pitstech.com,+34 684972961,iOS Developer,Business,Software Architect,59,47,9440,7520,Mid-Level,German;Italian;English,Employee
+Emilia,Ramos,emilia.ramos140@pitstech.com,+34 662866992,Database Admin,Engineering,Software Architect,63,50,10080,8000,Mid-Level,German,Employee
+Remedios,Benítez,remedios.benítez141@pitstech.com,+34 633743854,Mobile Developer,Engineering,Data Engineer,60,48,9600,7680,Mid-Level,French,Employee
+Rocío,Suárez,rocío.suárez142@pitstech.com,+34 612763317,DevOps Engineer,Quality Assurance,Data Engineer,35,28,5600,4480,Junior,Portuguese;English,Employee
+Josefa,Cruz,josefa.cruz143@pitstech.com,+34 689738415,Tech Lead,Engineering,Tech Lead,75,60,12000,9600,Senior,Italian;German,Employee
+Jorge,Marín,jorge.marín144@pitstech.com,+34 698177530,QA Engineer,Data,Software Architect,40,32,6400,5120,Junior,German,Employee
+Sebastián,Rodríguez,sebastián.rodríguez145@pitstech.com,+34 687875487,Data Scientist,Business,DevOps,38,30,6080,4800,Junior,German;Spanish;Portuguese,Employee
+Juana,Torres,juana.torres146@pitstech.com,+34 681026910,Software Architect,Product,Project Manager,43,34,6880,5440,Junior,English;Spanish;Italian,Employee
+Eva,Gil,eva.gil147@pitstech.com,+34 698157205,DevOps Engineer,Security,Scrum Master,46,36,7360,5760,Junior,French;German,Employee
+Manuel,Ramos,manuel.ramos148@pitstech.com,+34 649657233,Data Scientist,Data,Business Analyst,46,36,7360,5760,Junior,Spanish;Italian,Employee
+José,León,josé.león149@pitstech.com,+34 695520224,Product Owner,Security,Security Specialist,50,40,8000,6400,Junior,Portuguese,Employee
+Patricia,Vázquez,patricia.vázquez150@pitstech.com,+34 648654036,DevOps Engineer,Data,Backend Developer,91,72,14560,11520,Senior,Italian;French,Employee
+Fernando,Cruz,fernando.cruz151@pitstech.com,+34 641349784,Software Architect,Quality Assurance,QA Tester,70,56,11200,8960,Mid-Level,Portuguese;Spanish,Employee
+Manuel,García,manuel.garcía152@pitstech.com,+34 669459644,QA Tester,Product,Tech Lead,76,60,12160,9600,Senior,English,Employee
+Dolores,Martínez,dolores.martínez153@pitstech.com,+34 667860755,UI Designer,Engineering,Data Scientist,70,56,11200,8960,Mid-Level,Italian;Spanish;Portuguese,Employee
+Emilia,Iglesias,emilia.iglesias154@pitstech.com,+34 653256171,Tech Lead,Data,Mobile Developer,88,70,14080,11200,Senior,German;Italian,Employee
+Nicolás,Méndez,nicolás.méndez155@pitstech.com,+34 691587657,Project Manager,Product,ML Engineer,79,63,12640,10080,Senior,Spanish;French,Employee
+Mercedes,Ortiz,mercedes.ortiz156@pitstech.com,+34 644128571,Tech Lead,Quality Assurance,Project Manager,81,64,12960,10240,Senior,Portuguese;German;English,Employee
+Josefa,Campos,josefa.campos157@pitstech.com,+34 656002185,Android Developer,Product,Business Analyst,37,29,5920,4640,Junior,Portuguese;Italian,Employee
+Andrea,Serrano,andrea.serrano158@pitstech.com,+34 615717544,iOS Developer,Product,Project Manager,76,60,12160,9600,Senior,Italian,Employee
+María,Vega,maría.vega159@pitstech.com,+34 675302719,Tech Lead,Data,Security Specialist,75,60,12000,9600,Mid-Level,English,Employee
+Alba,Marín,alba.marín160@pitstech.com,+34 665766272,Backend Developer,Data,DBA,41,32,6560,5120,Junior,Portuguese;German,Employee
+Ana,Reyes,ana.reyes161@pitstech.com,+34 635592749,UI Designer,Data,Software Architect,94,75,15040,12000,Senior,French;Spanish;Portuguese,Employee
+Emilia,Jiménez,emilia.jiménez162@pitstech.com,+34 615169583,Frontend Developer,Product,QA Tester,50,40,8000,6400,Junior,English,Employee
+Ramón,Castro,ramón.castro163@pitstech.com,+34 653336752,Software Architect,Engineering,UX/UI Designer,58,46,9280,7360,Mid-Level,German,Employee
+María,Jiménez,maría.jiménez164@pitstech.com,+34 645013196,iOS Developer,Engineering,Data Engineer,72,57,11520,9120,Mid-Level,English;German;French,Employee
+Carmen,Blanco,carmen.blanco165@pitstech.com,+34 648345484,Cloud Engineer,Business,ML Engineer,84,67,13440,10720,Senior,French,Employee
+Miriam,Iglesias,miriam.iglesias166@pitstech.com,+34 688456422,DevOps Engineer,Security,Data Scientist,41,32,6560,5120,Junior,English;Italian;Spanish,Employee
+Isabel,Ruiz,isabel.ruiz167@pitstech.com,+34 631267089,Android Developer,Business,Scrum Master,41,32,6560,5120,Junior,Italian;Portuguese,Employee
+Teresa,Torres,teresa.torres168@pitstech.com,+34 656359518,Backend Developer,Engineering,Backend Developer,55,44,8800,7040,Mid-Level,German,Employee
+Eva,Pascual,eva.pascual169@pitstech.com,+34 611541423,Junior Developer,Data,ML Engineer,49,39,7840,6240,Junior,Portuguese;Italian,Employee
+Montserrat,Navarro,montserrat.navarro170@pitstech.com,+34 684522799,DevOps Engineer,Product,Cloud Specialist,59,47,9440,7520,Mid-Level,German,Employee
+Pedro,Molina,pedro.molina171@pitstech.com,+34 679593246,Full Stack Developer,Data,Business Analyst,57,45,9120,7200,Mid-Level,Portuguese;German;English,Employee
+Tomás,Díaz,tomás.díaz172@pitstech.com,+34 666157780,Full Stack Developer,Security,UX/UI Designer,76,60,12160,9600,Senior,Portuguese;German,Employee
+Patricia,López,patricia.lópez173@pitstech.com,+34 666650010,Backend Developer,Business,Data Scientist,64,51,10240,8160,Mid-Level,French;Italian;German,Employee
+Sara,Mora,sara.mora174@pitstech.com,+34 616061136,QA Tester,Business,Project Manager,62,49,9920,7840,Mid-Level,French,Employee
+Pedro,López,pedro.lópez175@pitstech.com,+34 655646976,QA Engineer,Data,Software Architect,64,51,10240,8160,Mid-Level,German,Employee
+Andrés,Delgado,andrés.delgado176@pitstech.com,+34 641243024,Frontend Developer,Engineering,Product Owner,47,37,7520,5920,Junior,Portuguese,Employee
+Silvia,Suárez,silvia.suárez177@pitstech.com,+34 660317822,iOS Developer,Design,DBA,55,44,8800,7040,Mid-Level,German,Employee
+Rocío,Cruz,rocío.cruz178@pitstech.com,+34 693956799,ML Engineer,Product,Tech Lead,42,33,6720,5280,Junior,Italian,Employee
+Encarnación,Marín,encarnación.marín179@pitstech.com,+34 642602960,Database Admin,Engineering,Scrum Master,35,28,5600,4480,Junior,Italian;French;German,Employee
+Antonio,Suárez,antonio.suárez180@pitstech.com,+34 622128720,Software Architect,Security,QA Tester,45,36,7200,5760,Junior,Portuguese;German,Employee
+Andrés,García,andrés.garcía181@pitstech.com,+34 642115402,Android Developer,Product,ML Engineer,47,37,7520,5920,Junior,Portuguese;Italian,Employee
+Rodrigo,Santos,rodrigo.santos182@pitstech.com,+34 671696995,Product Owner,Security,UX/UI Designer,40,32,6400,5120,Junior,Portuguese,Employee
+Rubén,Torres,rubén.torres183@pitstech.com,+34 696604784,Data Scientist,Business,Data Scientist,36,28,5760,4480,Junior,Spanish;Portuguese;French,Employee
+Irene,Navarro,irene.navarro184@pitstech.com,+34 629857983,Senior Developer,Quality Assurance,DBA,50,40,8000,6400,Junior,English,Employee
+José,Herrera,josé.herrera185@pitstech.com,+34 694862449,Data Engineer,Design,Data Engineer,58,46,9280,7360,Mid-Level,Spanish,Employee
+Julia,Aguilar,julia.aguilar186@pitstech.com,+34 617096526,Scrum Master,Product,Business Analyst,75,60,12000,9600,Mid-Level,German;Portuguese;English,Employee
+Nicolás,Benítez,nicolás.benítez187@pitstech.com,+34 669081309,Project Manager,Quality Assurance,Frontend Developer,35,28,5600,4480,Junior,Portuguese,Employee
+Irene,Vargas,irene.vargas188@pitstech.com,+34 635900530,Software Architect,Business,Project Manager,81,64,12960,10240,Senior,Portuguese;Spanish;English,Employee
+Óscar,Aguilar,óscar.aguilar189@pitstech.com,+34 616493065,Frontend Developer,Data,Scrum Master,56,44,8960,7040,Mid-Level,Portuguese;English,Employee
+Francisco,Vázquez,francisco.vázquez190@pitstech.com,+34 626975706,Security Engineer,Security,QA Tester,83,66,13280,10560,Senior,Portuguese;French;English,Employee
+Ángel,Martínez,ángel.martínez191@pitstech.com,+34 677926086,Business Analyst,Quality Assurance,Security Specialist,45,36,7200,5760,Junior,English,Employee
+Alberto,Cruz,alberto.cruz192@pitstech.com,+34 677070591,Product Owner,Product,Product Owner,35,28,5600,4480,Junior,Portuguese;French,Employee
+Óscar,Navarro,óscar.navarro193@pitstech.com,+34 675400803,Mobile Developer,Business,ML Engineer,43,34,6880,5440,Junior,Portuguese;Italian,Employee
+Adam,González,adam.gonzález194@pitstech.com,+34 653758538,Frontend Developer,Quality Assurance,Project Manager,55,44,8800,7040,Mid-Level,German;French,Employee
+Daniel,Vázquez,daniel.vázquez195@pitstech.com,+34 660697261,Data Engineer,Security,QA Tester,35,28,5600,4480,Junior,English;German;French,Employee
+María,Vázquez,maría.vázquez196@pitstech.com,+34 622920593,Project Manager,Quality Assurance,Tech Lead,91,72,14560,11520,Senior,French,Employee
+Mateo,Pascual,mateo.pascual197@pitstech.com,+34 685933847,Database Admin,Security,QA Tester,100,80,16000,12800,Senior,French;German,Employee
+Hugo,Castro,hugo.castro198@pitstech.com,+34 614796062,Junior Developer,Quality Assurance,UX/UI Designer,38,30,6080,4800,Junior,German;Italian;Spanish,Employee
+Matías,Pascual,matías.pascual199@pitstech.com,+34 682030383,Data Scientist,Business,QA Tester,68,54,10880,8640,Mid-Level,German;Italian;French,Employee
+Alba,León,alba.león200@pitstech.com,+34 615738097,Mobile Developer,Business,Data Engineer,99,79,15840,12640,Senior,Portuguese,Employee
+Ramón,Ortiz,ramón.ortiz201@pitstech.com,+34 665690941,Full Stack Developer,Design,Mobile Developer,94,75,15040,12000,Senior,Portuguese;Spanish,Employee
+Carlos,Martínez,carlos.martínez202@pitstech.com,+34 646446946,Scrum Master,Business,UX/UI Designer,75,60,12000,9600,Mid-Level,English,Employee
+Tomás,Ramírez,tomás.ramírez203@pitstech.com,+34 682914358,Mobile Developer,Business,Backend Developer,75,60,12000,9600,Senior,Italian;English;French,Employee
+Sofía,Cruz,sofía.cruz204@pitstech.com,+34 617974256,Tech Lead,Product,DBA,42,33,6720,5280,Junior,French;English,Employee
+Carmen,Fernández,carmen.fernández205@pitstech.com,+34 658407538,Product Owner,Business,DevOps,75,60,12000,9600,Senior,Portuguese,Employee
+Silvia,Mora,silvia.mora206@pitstech.com,+34 641327528,Tech Lead,Engineering,UX/UI Designer,41,32,6560,5120,Junior,German;Italian,Employee
+Sebastián,Díaz,sebastián.díaz207@pitstech.com,+34 666729717,Database Admin,Design,ML Engineer,64,51,10240,8160,Mid-Level,Italian;French;German,Employee
+Fernando,Ramírez,fernando.ramírez208@pitstech.com,+34 652023183,Project Manager,Engineering,Project Manager,40,32,6400,5120,Junior,French;German,Employee
+Andrea,Molina,andrea.molina209@pitstech.com,+34 687369152,Data Engineer,Quality Assurance,Security Specialist,61,48,9760,7680,Mid-Level,French;Italian;German,Employee
+Javier,Jiménez,javier.jiménez210@pitstech.com,+34 655395033,Cloud Engineer,Security,Software Architect,98,78,15680,12480,Senior,French;Italian,Employee
+Marta,Ramírez,marta.ramírez211@pitstech.com,+34 661661982,UX Designer,Data,DevOps,78,62,12480,9920,Senior,German;Portuguese,Employee
+Gabriel,Mora,gabriel.mora212@pitstech.com,+34 631147856,QA Tester,Security,Tech Lead,77,61,12320,9760,Senior,French,Employee
+Iván,Pérez,iván.pérez213@pitstech.com,+34 699654415,QA Tester,Quality Assurance,Project Manager,50,40,8000,6400,Junior,Italian,Employee
+Enrique,Ortiz,enrique.ortiz214@pitstech.com,+34 644381031,Android Developer,Quality Assurance,Full Stack Developer,76,60,12160,9600,Senior,Italian;Spanish;English,Employee
+Hugo,Jiménez,hugo.jiménez215@pitstech.com,+34 620953213,Full Stack Developer,Product,Backend Developer,39,31,6240,4960,Junior,Spanish,Employee
+Alberto,Herrera,alberto.herrera216@pitstech.com,+34 695477777,Data Scientist,Quality Assurance,Data Engineer,62,49,9920,7840,Mid-Level,English;Portuguese,Employee
+Iván,Ortiz,iván.ortiz217@pitstech.com,+34 613721473,Security Engineer,Design,ML Engineer,84,67,13440,10720,Senior,French;Italian;Spanish,Employee
+Irene,Méndez,irene.méndez218@pitstech.com,+34 630418788,Mobile Developer,Design,Cloud Specialist,44,35,7040,5600,Junior,German,Employee
+Patricia,Gil,patricia.gil219@pitstech.com,+34 674742683,Senior Developer,Security,Product Owner,67,53,10720,8480,Mid-Level,Italian;Spanish;French,Employee
+Javier,Ortiz,javier.ortiz220@pitstech.com,+34 646711688,UI Designer,Quality Assurance,Mobile Developer,79,63,12640,10080,Senior,English;Italian,Employee
+Eva,Díaz,eva.díaz221@pitstech.com,+34 647726211,iOS Developer,Security,Cloud Specialist,86,68,13760,10880,Senior,French,Employee
+Manuel,León,manuel.león222@pitstech.com,+34 622729511,Business Analyst,Data,ML Engineer,77,61,12320,9760,Senior,Italian;Spanish;German,Employee
+Manuel,Ramírez,manuel.ramírez223@pitstech.com,+34 694163826,Project Manager,Data,Project Manager,39,31,6240,4960,Junior,Spanish;Portuguese,Employee
+Dolores,Santos,dolores.santos224@pitstech.com,+34 625421865,Product Owner,Security,Data Engineer,66,52,10560,8320,Mid-Level,Italian;Portuguese,Employee
+Rubén,Cruz,rubén.cruz225@pitstech.com,+34 648242092,Data Scientist,Quality Assurance,Product Owner,98,78,15680,12480,Senior,French;Portuguese;English,Employee
+Fernando,Marín,fernando.marín226@pitstech.com,+34 661883670,Software Architect,Business,Backend Developer,61,48,9760,7680,Mid-Level,German,Employee
+Paula,González,paula.gonzález227@pitstech.com,+34 634971291,Mobile Developer,Design,Project Manager,100,80,16000,12800,Senior,German,Employee
+Lorena,Prieto,lorena.prieto228@pitstech.com,+34 673170855,Product Owner,Product,Data Engineer,98,78,15680,12480,Senior,Spanish;Italian;English,Employee
+Fernando,Vázquez,fernando.vázquez229@pitstech.com,+34 692162425,Android Developer,Design,Frontend Developer,75,60,12000,9600,Senior,French,Employee
+Sergio,Martínez,sergio.martínez230@pitstech.com,+34 662645885,Android Developer,Product,Scrum Master,59,47,9440,7520,Mid-Level,French,Employee
+Guillermo,Méndez,guillermo.méndez231@pitstech.com,+34 672695128,Android Developer,Business,Frontend Developer,73,58,11680,9280,Mid-Level,French;Italian;Spanish,Employee
+Enrique,López,enrique.lópez232@pitstech.com,+34 668781597,Software Architect,Engineering,Frontend Developer,63,50,10080,8000,Mid-Level,English,Employee
+Cristina,Cabrera,cristina.cabrera233@pitstech.com,+34 682462054,Backend Developer,Data,Mobile Developer,42,33,6720,5280,Junior,Portuguese,Employee
+Rubén,Méndez,rubén.méndez234@pitstech.com,+34 676626784,Full Stack Developer,Data,Data Engineer,72,57,11520,9120,Mid-Level,Portuguese,Employee
+Mercedes,Romero,mercedes.romero235@pitstech.com,+34 652627507,DevOps Engineer,Security,Cloud Specialist,75,60,12000,9600,Senior,Italian;Portuguese,Employee
+Paula,Méndez,paula.méndez236@pitstech.com,+34 610324375,DevOps Engineer,Engineering,Data Engineer,36,28,5760,4480,Junior,Spanish,Employee
+Natalia,López,natalia.lópez237@pitstech.com,+34 663326534,Business Analyst,Quality Assurance,Software Architect,87,69,13920,11040,Senior,Spanish;German,Employee
+Rafael,Ruiz,rafael.ruiz238@pitstech.com,+34 670986128,Data Scientist,Business,Mobile Developer,41,32,6560,5120,Junior,German;Portuguese;French,Employee
+Irene,Cruz,irene.cruz239@pitstech.com,+34 638971042,iOS Developer,Product,ML Engineer,42,33,6720,5280,Junior,Italian,Employee
+Enrique,Mora,enrique.mora240@pitstech.com,+34 658719469,Security Engineer,Design,Software Architect,67,53,10720,8480,Mid-Level,Italian;French;Portuguese,Employee
+Mateo,Herrera,mateo.herrera241@pitstech.com,+34 628406840,Mobile Developer,Business,Scrum Master,70,56,11200,8960,Mid-Level,French;English;Portuguese,Employee
+Andrea,Cortés,andrea.cortés242@pitstech.com,+34 650369597,UI Designer,Engineering,Security Specialist,47,37,7520,5920,Junior,Italian,Employee
+Beatriz,Aguilar,beatriz.aguilar243@pitstech.com,+34 624605565,Senior Developer,Security,DBA,39,31,6240,4960,Junior,English;French,Employee
+Beatriz,Lozano,beatriz.lozano244@pitstech.com,+34 668022942,Data Scientist,Engineering,DevOps,39,31,6240,4960,Junior,German;Italian;Portuguese,Employee
+Gonzalo,Medina,gonzalo.medina245@pitstech.com,+34 683278273,Mobile Developer,Security,Backend Developer,35,28,5600,4480,Junior,Spanish;German;French,Employee
+Sofía,Díaz,sofía.díaz246@pitstech.com,+34 632271949,Security Engineer,Design,Tech Lead,47,37,7520,5920,Junior,Spanish;Portuguese;German,Employee
+Leo,Herrera,leo.herrera247@pitstech.com,+34 611852425,iOS Developer,Security,Software Architect,91,72,14560,11520,Senior,German,Employee
+Jorge,Navarro,jorge.navarro248@pitstech.com,+34 694552687,Mobile Developer,Quality Assurance,QA Tester,47,37,7520,5920,Junior,English;Italian;Spanish,Employee
+Óscar,Torres,óscar.torres249@pitstech.com,+34 625798155,Data Scientist,Engineering,ML Engineer,59,47,9440,7520,Mid-Level,French;German,Employee
+Consuelo,Molina,consuelo.molina250@pitstech.com,+34 614920836,Business Analyst,Quality Assurance,Business Analyst,81,64,12960,10240,Senior,German,Employee
+Sergio,Álvarez,sergio.álvarez251@pitstech.com,+34 671639134,Data Scientist,Data,Software Architect,95,76,15200,12160,Senior,Portuguese;Spanish;Italian,Employee
+Consuelo,Benítez,consuelo.benítez252@pitstech.com,+34 660330231,ML Engineer,Business,Scrum Master,38,30,6080,4800,Junior,Italian;German,Employee
+Dolores,Ortiz,dolores.ortiz253@pitstech.com,+34 636697902,Project Manager,Product,Full Stack Developer,62,49,9920,7840,Mid-Level,Italian,Employee
+Ana,Fernández,ana.fernández254@pitstech.com,+34 654947051,Tech Lead,Engineering,UX/UI Designer,45,36,7200,5760,Junior,Spanish;Italian,Employee
+Andrea,Cano,andrea.cano255@pitstech.com,+34 648913822,UI Designer,Data,UX/UI Designer,66,52,10560,8320,Mid-Level,Italian;Portuguese,Employee
+Sara,Mora,sara.mora256@pitstech.com,+34 628606459,DevOps Engineer,Design,Project Manager,42,33,6720,5280,Junior,Spanish;French;Italian,Employee
+Lidia,León,lidia.león257@pitstech.com,+34 639578518,Junior Developer,Security,Data Engineer,75,60,12000,9600,Senior,English;French;Portuguese,Employee
+David,Ortega,david.ortega258@pitstech.com,+34 698145819,Business Analyst,Design,Backend Developer,76,60,12160,9600,Senior,English,Employee
+Miriam,Méndez,miriam.méndez259@pitstech.com,+34 615543842,Project Manager,Data,Software Architect,49,39,7840,6240,Junior,English;Spanish;Italian,Employee
+Antonio,Serrano,antonio.serrano260@pitstech.com,+34 697940123,QA Engineer,Security,Security Specialist,49,39,7840,6240,Junior,Spanish;English;German,Employee
+Antonio,Delgado,antonio.delgado261@pitstech.com,+34 641776887,Software Architect,Product,Backend Developer,49,39,7840,6240,Junior,Spanish;German;English,Employee
+Miriam,García,miriam.garcía262@pitstech.com,+34 697838026,QA Engineer,Product,DevOps,85,68,13600,10880,Senior,Portuguese;French,Employee
+Luis,Ramos,luis.ramos263@pitstech.com,+34 689700415,DevOps Engineer,Design,Tech Lead,37,29,5920,4640,Junior,German;Italian,Employee
+Victoria,Cortés,victoria.cortés264@pitstech.com,+34 649658122,Data Scientist,Product,Software Architect,96,76,15360,12160,Senior,Italian;French;English,Employee
+María,Sánchez,maría.sánchez265@pitstech.com,+34 611488856,Database Admin,Security,Business Analyst,75,60,12000,9600,Mid-Level,Italian;English;French,Employee
+Manuela,Méndez,manuela.méndez266@pitstech.com,+34 614372158,QA Engineer,Product,Tech Lead,47,37,7520,5920,Junior,English,Employee
+Ignacio,Pérez,ignacio.pérez267@pitstech.com,+34 661525558,Software Architect,Business,Project Manager,89,71,14240,11360,Senior,German;Italian,Employee
+Encarnación,Santos,encarnación.santos268@pitstech.com,+34 643733122,Full Stack Developer,Design,Scrum Master,56,44,8960,7040,Mid-Level,Portuguese;French,Employee
+José,Castro,josé.castro269@pitstech.com,+34 670300477,Data Engineer,Engineering,UX/UI Designer,66,52,10560,8320,Mid-Level,Portuguese;German,Employee
+Juana,Ortega,juana.ortega270@pitstech.com,+34 637429306,UX Designer,Engineering,Full Stack Developer,38,30,6080,4800,Junior,English;German;Spanish,Employee
+Rosa,Martínez,rosa.martínez271@pitstech.com,+34 616667108,Database Admin,Product,Business Analyst,48,38,7680,6080,Junior,French,Employee
+Jorge,Ortiz,jorge.ortiz272@pitstech.com,+34 661777590,Project Manager,Design,UX/UI Designer,59,47,9440,7520,Mid-Level,Portuguese;Spanish,Employee
+Lucía,Vargas,lucía.vargas273@pitstech.com,+34 623578102,Product Owner,Design,ML Engineer,77,61,12320,9760,Senior,Italian;French,Employee
+Juan,Méndez,juan.méndez274@pitstech.com,+34 664505852,Cloud Engineer,Design,Scrum Master,78,62,12480,9920,Senior,Spanish;Portuguese,Employee
+Consuelo,García,consuelo.garcía275@pitstech.com,+34 627010480,ML Engineer,Business,Tech Lead,65,52,10400,8320,Mid-Level,Portuguese;Spanish;Italian,Employee
+Sebastián,Campos,sebastián.campos276@pitstech.com,+34 667916452,DevOps Engineer,Product,Security Specialist,98,78,15680,12480,Senior,German;Portuguese,Employee
+Antonio,Suárez,antonio.suárez277@pitstech.com,+34 699659323,UI Designer,Engineering,ML Engineer,99,79,15840,12640,Senior,French;Italian,Employee
+Sara,López,sara.lópez278@pitstech.com,+34 672528939,Project Manager,Product,ML Engineer,81,64,12960,10240,Senior,Italian;French,Employee
+Miriam,León,miriam.león279@pitstech.com,+34 632644682,Data Scientist,Product,Scrum Master,35,28,5600,4480,Junior,English;Spanish,Employee
+Tomás,Cabrera,tomás.cabrera280@pitstech.com,+34 683311696,QA Tester,Product,Backend Developer,42,33,6720,5280,Junior,English;Portuguese;German,Employee
+Enrique,Gil,enrique.gil281@pitstech.com,+34 623044511,Software Architect,Design,DevOps,87,69,13920,11040,Senior,Italian;Spanish;English,Employee
+David,Mora,david.mora282@pitstech.com,+34 628185134,Product Owner,Business,Mobile Developer,73,58,11680,9280,Mid-Level,German,Employee
+Jorge,López,jorge.lópez283@pitstech.com,+34 636769887,UI Designer,Quality Assurance,DevOps,65,52,10400,8320,Mid-Level,Italian;French,Employee
+Concepción,Jiménez,concepción.jiménez284@pitstech.com,+34 679866980,Senior Developer,Quality Assurance,Data Engineer,48,38,7680,6080,Junior,German;Spanish,Employee
+Andrés,Romero,andrés.romero285@pitstech.com,+34 660204302,Data Engineer,Data,Product Owner,45,36,7200,5760,Junior,German;French,Employee
+Remedios,Castro,remedios.castro286@pitstech.com,+34 637671095,UI Designer,Engineering,UX/UI Designer,63,50,10080,8000,Mid-Level,Portuguese;Spanish,Employee
+Patricia,Rodríguez,patricia.rodríguez287@pitstech.com,+34 699970952,Tech Lead,Data,Product Owner,46,36,7360,5760,Junior,French;English,Employee
+Matías,Torres,matías.torres288@pitstech.com,+34 698357314,Database Admin,Design,Frontend Developer,40,32,6400,5120,Junior,Spanish;German,Employee
+Natalia,Méndez,natalia.méndez289@pitstech.com,+34 620922593,UX Designer,Quality Assurance,Data Engineer,35,28,5600,4480,Junior,English;Italian,Employee
+Óscar,Lozano,óscar.lozano290@pitstech.com,+34 690894823,DevOps Engineer,Engineering,Frontend Developer,68,54,10880,8640,Mid-Level,Italian;Spanish,Employee
+Teresa,García,teresa.garcía291@pitstech.com,+34 684597186,QA Engineer,Quality Assurance,Mobile Developer,90,72,14400,11520,Senior,French,Employee
+Rosa,Medina,rosa.medina292@pitstech.com,+34 615964216,Backend Developer,Design,Security Specialist,90,72,14400,11520,Senior,Portuguese;French,Employee
+Diego,Pérez,diego.pérez293@pitstech.com,+34 690114080,Database Admin,Security,Frontend Developer,35,28,5600,4480,Junior,Portuguese;French,Employee
+Victoria,Vargas,victoria.vargas294@pitstech.com,+34 635547269,Backend Developer,Quality Assurance,Frontend Developer,40,32,6400,5120,Junior,French,Employee
+Pedro,Ramírez,pedro.ramírez295@pitstech.com,+34 668268681,Cloud Engineer,Engineering,Mobile Developer,82,65,13120,10400,Senior,German;Portuguese;French,Employee
+Pilar,Prieto,pilar.prieto296@pitstech.com,+34 641100525,Software Architect,Product,DevOps,39,31,6240,4960,Junior,French;Portuguese,Employee
+Isabel,Reyes,isabel.reyes297@pitstech.com,+34 649622772,iOS Developer,Product,Full Stack Developer,38,30,6080,4800,Junior,French;Spanish;German,Employee
+Consuelo,Delgado,consuelo.delgado298@pitstech.com,+34 660757861,Software Architect,Security,Software Architect,74,59,11840,9440,Mid-Level,Spanish,Employee
+Diego,Sánchez,diego.sánchez299@pitstech.com,+34 635287584,Full Stack Developer,Product,Project Manager,87,69,13920,11040,Senior,German,Employee
+Luis,Castro,luis.castro300@pitstech.com,+34 618442140,Scrum Master,Engineering,Software Architect,75,60,12000,9600,Mid-Level,English;Italian,Employee
+Sebastián,Pascual,sebastián.pascual301@pitstech.com,+34 659406359,Data Engineer,Design,Product Owner,57,45,9120,7200,Mid-Level,Italian;English;Portuguese,Employee
+Adam,Blanco,adam.blanco302@pitstech.com,+34 621771411,Data Engineer,Data,Full Stack Developer,43,34,6880,5440,Junior,Portuguese;Spanish,Employee
+Iván,Delgado,iván.delgado303@pitstech.com,+34 681918993,Junior Developer,Engineering,Frontend Developer,66,52,10560,8320,Mid-Level,Spanish,Employee
+Leo,Vázquez,leo.vázquez304@pitstech.com,+34 662701314,DevOps Engineer,Quality Assurance,Data Scientist,55,44,8800,7040,Mid-Level,Portuguese;Spanish,Employee
+Pilar,Jiménez,pilar.jiménez305@pitstech.com,+34 693035876,QA Engineer,Quality Assurance,UX/UI Designer,95,76,15200,12160,Senior,Spanish;Portuguese,Employee
+Leo,González,leo.gonzález306@pitstech.com,+34 679408273,Data Engineer,Engineering,UX/UI Designer,35,28,5600,4480,Junior,Portuguese,Employee
+Mateo,Díaz,mateo.díaz307@pitstech.com,+34 641917121,Full Stack Developer,Engineering,Full Stack Developer,50,40,8000,6400,Junior,German;French,Employee
+Matías,Pascual,matías.pascual308@pitstech.com,+34 624896993,Data Engineer,Design,Frontend Developer,98,78,15680,12480,Senior,English;Spanish,Employee
+Raúl,Cano,raúl.cano309@pitstech.com,+34 652209885,Product Owner,Engineering,DBA,39,31,6240,4960,Junior,French;English;Italian,Employee
+Adrián,Prieto,adrián.prieto310@pitstech.com,+34 669604640,Junior Developer,Engineering,Full Stack Developer,40,32,6400,5120,Junior,German;Portuguese,Employee
+Josefa,Ortiz,josefa.ortiz311@pitstech.com,+34 662235521,QA Tester,Design,Tech Lead,96,76,15360,12160,Senior,Portuguese;Italian;English,Employee
+Susana,Santos,susana.santos312@pitstech.com,+34 683276920,ML Engineer,Design,DBA,43,34,6880,5440,Junior,French,Employee
+Dolores,Blanco,dolores.blanco313@pitstech.com,+34 653596393,Data Scientist,Engineering,DBA,59,47,9440,7520,Mid-Level,German;Italian;Spanish,Employee
+Dolores,Santos,dolores.santos314@pitstech.com,+34 615237467,Software Architect,Data,Project Manager,64,51,10240,8160,Mid-Level,German,Employee
+Isabel,Cruz,isabel.cruz315@pitstech.com,+34 616793184,Mobile Developer,Design,Backend Developer,64,51,10240,8160,Mid-Level,English,Employee
+Manuela,Molina,manuela.molina316@pitstech.com,+34 642064267,Business Analyst,Security,QA Tester,85,68,13600,10880,Senior,German;Italian,Employee
+Emilia,Vargas,emilia.vargas317@pitstech.com,+34 669076371,Frontend Developer,Engineering,Product Owner,67,53,10720,8480,Mid-Level,French;German,Employee
+María,Vega,maría.vega318@pitstech.com,+34 692145024,Project Manager,Data,Scrum Master,88,70,14080,11200,Senior,French,Employee
+Beatriz,Reyes,beatriz.reyes319@pitstech.com,+34 628096202,QA Engineer,Product,Product Owner,60,48,9600,7680,Mid-Level,German,Employee
+Martín,Rubio,martín.rubio320@pitstech.com,+34 657441833,Database Admin,Design,QA Tester,68,54,10880,8640,Mid-Level,German;Spanish,Employee
+Rodrigo,Delgado,rodrigo.delgado321@pitstech.com,+34 624554982,Frontend Developer,Data,DevOps,88,70,14080,11200,Senior,Spanish,Employee
+Ramón,García,ramón.garcía322@pitstech.com,+34 663969785,Business Analyst,Design,Software Architect,98,78,15680,12480,Senior,Spanish,Employee
+Pilar,Moreno,pilar.moreno323@pitstech.com,+34 635593941,ML Engineer,Quality Assurance,Tech Lead,82,65,13120,10400,Senior,English;Portuguese,Employee
+Sara,Cruz,sara.cruz324@pitstech.com,+34 622303085,Business Analyst,Design,Cloud Specialist,59,47,9440,7520,Mid-Level,German;Spanish;Portuguese,Employee
+Adam,Cano,adam.cano325@pitstech.com,+34 694160609,Cloud Engineer,Engineering,Mobile Developer,65,52,10400,8320,Mid-Level,French,Employee
+Ignacio,Fernández,ignacio.fernández326@pitstech.com,+34 631217865,ML Engineer,Security,Frontend Developer,44,35,7040,5600,Junior,German;Italian,Employee
+Rosa,Jiménez,rosa.jiménez327@pitstech.com,+34 690764869,Product Owner,Data,Scrum Master,55,44,8800,7040,Mid-Level,French,Employee
+Fernando,Ortega,fernando.ortega328@pitstech.com,+34 684478748,Scrum Master,Product,Software Architect,75,60,12000,9600,Mid-Level,German,Employee
+Enrique,Gil,enrique.gil329@pitstech.com,+34 692315977,Database Admin,Security,Full Stack Developer,63,50,10080,8000,Mid-Level,English;Italian,Employee
+Ramón,Molina,ramón.molina330@pitstech.com,+34 694099768,UX Designer,Engineering,Security Specialist,48,38,7680,6080,Junior,Portuguese;Italian,Employee
+Marina,Aguilar,marina.aguilar331@pitstech.com,+34 627156259,Project Manager,Engineering,Project Manager,97,77,15520,12320,Senior,Italian,Employee
+Ángel,Delgado,ángel.delgado332@pitstech.com,+34 658906015,UI Designer,Design,Software Architect,48,38,7680,6080,Junior,Italian,Employee
+Sofía,Ramos,sofía.ramos333@pitstech.com,+34 693198979,UI Designer,Security,Cloud Specialist,99,79,15840,12640,Senior,French;Portuguese;English,Employee
+Fernando,León,fernando.león334@pitstech.com,+34 648222173,Android Developer,Quality Assurance,UX/UI Designer,38,30,6080,4800,Junior,French,Employee
+Iván,Ortiz,iván.ortiz335@pitstech.com,+34 612104573,Product Owner,Business,Data Scientist,78,62,12480,9920,Senior,Italian;French,Employee
+Matías,Ruiz,matías.ruiz336@pitstech.com,+34 653837364,Cloud Engineer,Data,DBA,62,49,9920,7840,Mid-Level,Italian;French;Spanish,Employee
+Rosa,Jiménez,rosa.jiménez337@pitstech.com,+34 683537130,UX Designer,Data,Frontend Developer,88,70,14080,11200,Senior,English,Employee
+María,Pascual,maría.pascual338@pitstech.com,+34 696550722,Product Owner,Security,Scrum Master,76,60,12160,9600,Senior,English;Portuguese;French,Employee
+Juana,Serrano,juana.serrano339@pitstech.com,+34 689290385,Data Engineer,Business,Cloud Specialist,67,53,10720,8480,Mid-Level,English;German;Portuguese,Employee
+Dolores,Herrera,dolores.herrera340@pitstech.com,+34 658374587,Senior Developer,Product,Frontend Developer,86,68,13760,10880,Senior,Portuguese;German;English,Employee
+Emilia,Ortega,emilia.ortega341@pitstech.com,+34 696320441,Software Architect,Security,Data Scientist,35,28,5600,4480,Junior,French;Portuguese;German,Employee
+Montserrat,Ortiz,montserrat.ortiz342@pitstech.com,+34 629297835,Product Owner,Security,Full Stack Developer,56,44,8960,7040,Mid-Level,Portuguese,Employee
+Ramón,Jiménez,ramón.jiménez343@pitstech.com,+34 650539741,Backend Developer,Product,Mobile Developer,62,49,9920,7840,Mid-Level,English;Portuguese;Italian,Employee
+Ramón,Martínez,ramón.martínez344@pitstech.com,+34 672133649,QA Engineer,Data,Software Architect,63,50,10080,8000,Mid-Level,German;French,Employee
+Leo,Navarro,leo.navarro345@pitstech.com,+34 612427983,QA Tester,Design,Scrum Master,79,63,12640,10080,Senior,German;French,Employee
+Carmen,Torres,carmen.torres346@pitstech.com,+34 684443942,Android Developer,Data,Data Engineer,42,33,6720,5280,Junior,Italian,Employee
+Rafael,Aguilar,rafael.aguilar347@pitstech.com,+34 611023148,DevOps Engineer,Quality Assurance,Data Scientist,64,51,10240,8160,Mid-Level,Spanish;French;Portuguese,Employee
+Matías,Torres,matías.torres348@pitstech.com,+34 670304555,Senior Developer,Security,Scrum Master,68,54,10880,8640,Mid-Level,French,Employee
+Inmaculada,González,inmaculada.gonzález349@pitstech.com,+34 612655767,iOS Developer,Product,Data Engineer,84,67,13440,10720,Senior,Italian,Employee
+Daniel,Cabrera,daniel.cabrera350@pitstech.com,+34 629187961,Android Developer,Product,DevOps,41,32,6560,5120,Junior,Spanish,Employee
+Ana,Lozano,ana.lozano351@pitstech.com,+34 658486902,Data Scientist,Design,Data Engineer,62,49,9920,7840,Mid-Level,Portuguese,Employee
+Lucas,Cabrera,lucas.cabrera352@pitstech.com,+34 658467590,Frontend Developer,Data,Data Scientist,55,44,8800,7040,Mid-Level,Spanish;German;Italian,Employee
+Sergio,León,sergio.león353@pitstech.com,+34 627991717,Project Manager,Security,Scrum Master,84,67,13440,10720,Senior,Portuguese;English;Spanish,Employee
+Raúl,Medina,raúl.medina354@pitstech.com,+34 630741756,Data Scientist,Data,DevOps,70,56,11200,8960,Mid-Level,Spanish;Portuguese;English,Employee
+Sofía,García,sofía.garcía355@pitstech.com,+34 656806825,Scrum Master,Product,Mobile Developer,69,55,11040,8800,Mid-Level,German;English;French,Employee
+Andrea,Torres,andrea.torres356@pitstech.com,+34 614372378,Backend Developer,Security,Tech Lead,88,70,14080,11200,Senior,Portuguese;German;French,Employee
+Ignacio,Castro,ignacio.castro357@pitstech.com,+34 678594020,Data Scientist,Design,DevOps,45,36,7200,5760,Junior,German;Portuguese;Italian,Employee
+Rodrigo,Suárez,rodrigo.suárez358@pitstech.com,+34 635848079,Tech Lead,Quality Assurance,DBA,39,31,6240,4960,Junior,Italian;German,Employee
+Marcos,Ramírez,marcos.ramírez359@pitstech.com,+34 646015383,Senior Developer,Design,ML Engineer,88,70,14080,11200,Senior,Spanish;Portuguese;French,Employee
+Rafael,Cano,rafael.cano360@pitstech.com,+34 687184799,iOS Developer,Product,DevOps,61,48,9760,7680,Mid-Level,Italian;French,Employee
+Javier,Moreno,javier.moreno361@pitstech.com,+34 617374500,Cloud Engineer,Quality Assurance,DBA,40,32,6400,5120,Junior,English;German;French,Employee
+Hugo,Álvarez,hugo.álvarez362@pitstech.com,+34 657819152,Cloud Engineer,Data,Backend Developer,39,31,6240,4960,Junior,Portuguese,Employee
+Andrés,Vázquez,andrés.vázquez363@pitstech.com,+34 630540256,Frontend Developer,Quality Assurance,Software Architect,38,30,6080,4800,Junior,Portuguese;Italian,Employee
+José,García,josé.garcía364@pitstech.com,+34 695217951,Senior Developer,Design,Data Engineer,91,72,14560,11520,Senior,Portuguese;French;Spanish,Employee
+Andrea,Pérez,andrea.pérez365@pitstech.com,+34 694416914,Business Analyst,Security,Software Architect,85,68,13600,10880,Senior,Italian,Employee
+Remedios,Blanco,remedios.blanco366@pitstech.com,+34 692168730,Frontend Developer,Design,Business Analyst,65,52,10400,8320,Mid-Level,English;Spanish,Employee
+Nicolás,García,nicolás.garcía367@pitstech.com,+34 680147202,UI Designer,Engineering,Security Specialist,50,40,8000,6400,Junior,Spanish;English;French,Employee
+David,Benítez,david.benítez368@pitstech.com,+34 664537727,QA Tester,Design,Full Stack Developer,63,50,10080,8000,Mid-Level,Italian;Portuguese,Employee
+Sebastián,Gil,sebastián.gil369@pitstech.com,+34 688306465,UI Designer,Data,Product Owner,35,28,5600,4480,Junior,German,Employee
+Ángel,Ortiz,ángel.ortiz370@pitstech.com,+34 668455776,UX Designer,Business,Data Scientist,35,28,5600,4480,Junior,German;Portuguese;French,Employee
+Javier,Fernández,javier.fernández371@pitstech.com,+34 614825969,Database Admin,Security,Project Manager,60,48,9600,7680,Mid-Level,Portuguese;German;Italian,Employee
+Mateo,Mora,mateo.mora372@pitstech.com,+34 695567911,Mobile Developer,Quality Assurance,UX/UI Designer,72,57,11520,9120,Mid-Level,Italian;German,Employee
+Isabel,Ruiz,isabel.ruiz373@pitstech.com,+34 638761047,Business Analyst,Engineering,Scrum Master,79,63,12640,10080,Senior,Spanish;Italian;French,Employee
+Isabel,Reyes,isabel.reyes374@pitstech.com,+34 632720234,Security Engineer,Engineering,Software Architect,85,68,13600,10880,Senior,Italian;Spanish;French,Employee
+Alejandro,Cruz,alejandro.cruz375@pitstech.com,+34 657935547,Data Scientist,Quality Assurance,Scrum Master,84,67,13440,10720,Senior,German;Spanish;French,Employee
+Victoria,Mora,victoria.mora376@pitstech.com,+34 688491190,Cloud Engineer,Security,Data Engineer,67,53,10720,8480,Mid-Level,English;Portuguese,Employee
+Montserrat,Álvarez,montserrat.álvarez377@pitstech.com,+34 685444105,QA Engineer,Quality Assurance,Project Manager,74,59,11840,9440,Mid-Level,Portuguese;English;German,Employee
+Inmaculada,Serrano,inmaculada.serrano378@pitstech.com,+34 696161422,QA Engineer,Security,ML Engineer,80,64,12800,10240,Senior,Italian;German;Spanish,Employee
+Cristina,Rodríguez,cristina.rodríguez379@pitstech.com,+34 692587009,Android Developer,Business,DBA,90,72,14400,11520,Senior,Italian,Employee
+Juan,Serrano,juan.serrano380@pitstech.com,+34 621042899,DevOps Engineer,Quality Assurance,Business Analyst,44,35,7040,5600,Junior,French;Portuguese;Italian,Employee
+Ana,Pascual,ana.pascual381@pitstech.com,+34 672197868,Junior Developer,Data,Software Architect,71,56,11360,8960,Mid-Level,Portuguese;German;Italian,Employee
+Silvia,Vázquez,silvia.vázquez382@pitstech.com,+34 651917470,UI Designer,Business,Product Owner,62,49,9920,7840,Mid-Level,English;German;Spanish,Employee
+Carlos,Serrano,carlos.serrano383@pitstech.com,+34 631679728,Software Architect,Business,QA Tester,70,56,11200,8960,Mid-Level,Italian;German;English,Employee
+Lidia,Marín,lidia.marín384@pitstech.com,+34 671571526,Backend Developer,Security,Full Stack Developer,57,45,9120,7200,Mid-Level,German;French,Employee
+Hugo,Moreno,hugo.moreno385@pitstech.com,+34 617386418,Mobile Developer,Business,Full Stack Developer,42,33,6720,5280,Junior,French,Employee
+Jorge,Reyes,jorge.reyes386@pitstech.com,+34 639198170,DevOps Engineer,Data,Backend Developer,67,53,10720,8480,Mid-Level,English;German,Employee
+Marina,Pascual,marina.pascual387@pitstech.com,+34 674224211,Security Engineer,Design,Backend Developer,88,70,14080,11200,Senior,English;German,Employee
+David,Navarro,david.navarro388@pitstech.com,+34 636428119,Full Stack Developer,Data,Scrum Master,84,67,13440,10720,Senior,German,Employee
+Adrián,Fernández,adrián.fernández389@pitstech.com,+34 623719501,Mobile Developer,Engineering,Data Scientist,59,47,9440,7520,Mid-Level,German;Italian;Spanish,Employee
+Isabel,Castro,isabel.castro390@pitstech.com,+34 697186663,Database Admin,Product,UX/UI Designer,58,46,9280,7360,Mid-Level,French;Italian,Employee
+Javier,Suárez,javier.suárez391@pitstech.com,+34 651034449,Data Engineer,Design,QA Tester,69,55,11040,8800,Mid-Level,English;Spanish,Employee
+Andrés,Rodríguez,andrés.rodríguez392@pitstech.com,+34 693068396,Backend Developer,Product,Product Owner,35,28,5600,4480,Junior,English;Spanish;German,Employee
+Remedios,Moreno,remedios.moreno393@pitstech.com,+34 628757748,Software Architect,Quality Assurance,ML Engineer,84,67,13440,10720,Senior,French;German,Employee
+Sebastián,Cabrera,sebastián.cabrera394@pitstech.com,+34 650732733,Tech Lead,Engineering,Cloud Specialist,47,37,7520,5920,Junior,Spanish;Portuguese,Employee
+María,Aguilar,maría.aguilar395@pitstech.com,+34 617827136,Mobile Developer,Quality Assurance,Scrum Master,55,44,8800,7040,Mid-Level,Italian,Employee
+Sofía,Pérez,sofía.pérez396@pitstech.com,+34 618717970,UX Designer,Business,Data Scientist,62,49,9920,7840,Mid-Level,English;German,Employee
+Emilia,Vázquez,emilia.vázquez397@pitstech.com,+34 640549935,Frontend Developer,Security,Business Analyst,38,30,6080,4800,Junior,English;Italian;German,Employee
+Lidia,Ortiz,lidia.ortiz398@pitstech.com,+34 630670959,Junior Developer,Product,ML Engineer,43,34,6880,5440,Junior,German,Employee
+Mercedes,Vázquez,mercedes.vázquez399@pitstech.com,+34 613177736,QA Tester,Security,Product Owner,60,48,9600,7680,Mid-Level,Spanish;Italian,Employee
+Amparo,Fernández,amparo.fernández400@pitstech.com,+34 614338547,Full Stack Developer,Design,Tech Lead,60,48,9600,7680,Mid-Level,French;Portuguese;Italian,Employee
+Susana,Vega,susana.vega401@pitstech.com,+34 686005828,Data Scientist,Security,Frontend Developer,41,32,6560,5120,Junior,Spanish,Employee
+Patricia,Vázquez,patricia.vázquez402@pitstech.com,+34 678399303,Backend Developer,Data,Security Specialist,84,67,13440,10720,Senior,Spanish,Employee
+Ignacio,González,ignacio.gonzález403@pitstech.com,+34 680550353,QA Tester,Design,QA Tester,85,68,13600,10880,Senior,German;French,Employee
+Javier,Rubio,javier.rubio404@pitstech.com,+34 693245745,ML Engineer,Engineering,Mobile Developer,47,37,7520,5920,Junior,French;German;English,Employee
+Irene,Ortega,irene.ortega405@pitstech.com,+34 656393017,QA Tester,Security,Product Owner,35,28,5600,4480,Junior,English;Spanish;Italian,Employee
+Irene,Méndez,irene.méndez406@pitstech.com,+34 627507025,Android Developer,Design,Frontend Developer,64,51,10240,8160,Mid-Level,Portuguese;French;English,Employee
+Alejandro,Ruiz,alejandro.ruiz407@pitstech.com,+34 623724423,QA Engineer,Design,Full Stack Developer,80,64,12800,10240,Senior,Italian,Employee
+Cristina,Rodríguez,cristina.rodríguez408@pitstech.com,+34 649830079,QA Tester,Business,Project Manager,78,62,12480,9920,Senior,English,Employee
+Paula,Fernández,paula.fernández409@pitstech.com,+34 678882697,Mobile Developer,Security,Product Owner,84,67,13440,10720,Senior,Italian,Employee
+Manuel,Vargas,manuel.vargas410@pitstech.com,+34 669287710,Software Architect,Design,Scrum Master,63,50,10080,8000,Mid-Level,Portuguese;Spanish,Employee
+Julia,Santos,julia.santos411@pitstech.com,+34 683371411,Software Architect,Security,Tech Lead,38,30,6080,4800,Junior,German,Employee
+Tomás,Suárez,tomás.suárez412@pitstech.com,+34 627599889,Data Scientist,Product,Tech Lead,63,50,10080,8000,Mid-Level,English,Employee
+Cristina,Fernández,cristina.fernández413@pitstech.com,+34 671320220,Full Stack Developer,Product,Project Manager,79,63,12640,10080,Senior,English;German,Employee
+Dolores,Vega,dolores.vega414@pitstech.com,+34 617455828,Android Developer,Security,Backend Developer,73,58,11680,9280,Mid-Level,English;German;Spanish,Employee
+Enrique,Lozano,enrique.lozano415@pitstech.com,+34 614057211,DevOps Engineer,Product,DevOps,84,67,13440,10720,Senior,French,Employee
+Diego,Blanco,diego.blanco416@pitstech.com,+34 676644571,Senior Developer,Product,Cloud Specialist,48,38,7680,6080,Junior,English;Portuguese,Employee
+Gonzalo,Romero,gonzalo.romero417@pitstech.com,+34 686356529,Mobile Developer,Quality Assurance,Product Owner,61,48,9760,7680,Mid-Level,English,Employee
+Daniel,Mora,daniel.mora418@pitstech.com,+34 644512161,Mobile Developer,Data,Tech Lead,75,60,12000,9600,Senior,Spanish,Employee
+Hugo,Fernández,hugo.fernández419@pitstech.com,+34 664470222,Full Stack Developer,Engineering,Scrum Master,78,62,12480,9920,Senior,German,Employee
+Ángel,León,ángel.león420@pitstech.com,+34 683495128,Full Stack Developer,Data,Scrum Master,40,32,6400,5120,Junior,German;Italian;French,Employee
+Ignacio,León,ignacio.león421@pitstech.com,+34 674442959,Data Engineer,Design,Mobile Developer,45,36,7200,5760,Junior,French;English;German,Employee
+Hugo,Pascual,hugo.pascual422@pitstech.com,+34 684035299,Software Architect,Business,Data Engineer,58,46,9280,7360,Mid-Level,Portuguese;German,Employee
+Diego,Méndez,diego.méndez423@pitstech.com,+34 612143546,UI Designer,Business,Project Manager,63,50,10080,8000,Mid-Level,Italian,Employee
+Cristina,Castro,cristina.castro424@pitstech.com,+34 650017019,iOS Developer,Engineering,Software Architect,47,37,7520,5920,Junior,English;German;Spanish,Employee
+Jorge,Benítez,jorge.benítez425@pitstech.com,+34 689366997,UX Designer,Quality Assurance,DevOps,40,32,6400,5120,Junior,Italian,Employee
+Miriam,Ortiz,miriam.ortiz426@pitstech.com,+34 626091768,Mobile Developer,Security,Project Manager,66,52,10560,8320,Mid-Level,Spanish;Italian,Employee
+Pilar,Méndez,pilar.méndez427@pitstech.com,+34 696089296,Database Admin,Quality Assurance,DevOps,95,76,15200,12160,Senior,German,Employee
+Matías,Vázquez,matías.vázquez428@pitstech.com,+34 660581737,Android Developer,Business,Data Engineer,88,70,14080,11200,Senior,English;Italian;German,Employee
+Francisco,Marín,francisco.marín429@pitstech.com,+34 694127736,Senior Developer,Business,Data Engineer,40,32,6400,5120,Junior,English;Italian;French,Employee
+María,Lozano,maría.lozano430@pitstech.com,+34 660190456,QA Tester,Data,Data Engineer,69,55,11040,8800,Mid-Level,Portuguese,Employee
+Lidia,Cabrera,lidia.cabrera431@pitstech.com,+34 668412540,Software Architect,Product,ML Engineer,36,28,5760,4480,Junior,German;English;Italian,Employee
+Francisca,Ortega,francisca.ortega432@pitstech.com,+34 626726143,QA Tester,Product,QA Tester,67,53,10720,8480,Mid-Level,Spanish,Employee
+Carlos,Pérez,carlos.pérez433@pitstech.com,+34 628470723,ML Engineer,Quality Assurance,Project Manager,77,61,12320,9760,Senior,Spanish;English,Employee
+Guillermo,Castro,guillermo.castro434@pitstech.com,+34 680574677,Security Engineer,Product,Tech Lead,42,33,6720,5280,Junior,German,Employee
+Raquel,Torres,raquel.torres435@pitstech.com,+34 654714089,Scrum Master,Engineering,Backend Developer,81,64,12960,10240,Senior,Spanish,Employee
+Luis,Lozano,luis.lozano436@pitstech.com,+34 650927401,Product Owner,Security,Cloud Specialist,37,29,5920,4640,Junior,Spanish,Employee
+Natalia,Serrano,natalia.serrano437@pitstech.com,+34 620801550,Backend Developer,Product,Data Scientist,84,67,13440,10720,Senior,Portuguese;Italian,Employee
+Lucía,Gil,lucía.gil438@pitstech.com,+34 682589541,Frontend Developer,Engineering,ML Engineer,46,36,7360,5760,Junior,Italian;French,Employee
+Antonia,González,antonia.gonzález439@pitstech.com,+34 671329620,Software Architect,Design,DBA,47,37,7520,5920,Junior,English,Employee
+Ángel,Pascual,ángel.pascual440@pitstech.com,+34 613072777,Data Engineer,Business,Scrum Master,85,68,13600,10880,Senior,English;Spanish,Employee
+María,Castro,maría.castro441@pitstech.com,+34 619851260,Android Developer,Security,Product Owner,92,73,14720,11680,Senior,Italian,Employee
+Sergio,Álvarez,sergio.álvarez442@pitstech.com,+34 690048741,Android Developer,Quality Assurance,Full Stack Developer,100,80,16000,12800,Senior,French;German;Portuguese,Employee
+Beatriz,Rubio,beatriz.rubio443@pitstech.com,+34 644607229,Database Admin,Business,Cloud Specialist,100,80,16000,12800,Senior,French;German,Employee
+Antonia,Herrera,antonia.herrera444@pitstech.com,+34 639444942,Data Scientist,Data,Tech Lead,91,72,14560,11520,Senior,English;Spanish,Employee
+Matías,Iglesias,matías.iglesias445@pitstech.com,+34 628406935,Full Stack Developer,Design,Frontend Developer,80,64,12800,10240,Senior,German;French,Employee
+Matías,Prieto,matías.prieto446@pitstech.com,+34 670263778,Project Manager,Product,Data Engineer,61,48,9760,7680,Mid-Level,English;French;Spanish,Employee
+Luis,Álvarez,luis.álvarez447@pitstech.com,+34 669028973,UI Designer,Product,DevOps,84,67,13440,10720,Senior,German;English,Employee
+Enrique,Jiménez,enrique.jiménez448@pitstech.com,+34 659292170,Security Engineer,Product,Scrum Master,75,60,12000,9600,Mid-Level,French;Italian,Employee
+Víctor,Rubio,víctor.rubio449@pitstech.com,+34 630003905,Frontend Developer,Quality Assurance,Cloud Specialist,96,76,15360,12160,Senior,Spanish,Employee
+Miguel,Fernández,miguel.fernández450@pitstech.com,+34 673061967,Data Scientist,Security,Full Stack Developer,85,68,13600,10880,Senior,Spanish,Employee
+Isabel,Ortega,isabel.ortega451@pitstech.com,+34 650569338,QA Tester,Engineering,Cloud Specialist,41,32,6560,5120,Junior,English,Employee
+Irene,León,irene.león452@pitstech.com,+34 682362386,QA Tester,Business,ML Engineer,74,59,11840,9440,Mid-Level,French,Employee
+Diego,Cabrera,diego.cabrera453@pitstech.com,+34 693896532,UX Designer,Product,Software Architect,35,28,5600,4480,Junior,Spanish;English;Portuguese,Employee
+Sara,Castro,sara.castro454@pitstech.com,+34 692332108,Junior Developer,Business,QA Tester,68,54,10880,8640,Mid-Level,Portuguese;Spanish,Employee
+Óscar,Navarro,óscar.navarro455@pitstech.com,+34 635225470,Data Engineer,Quality Assurance,Product Owner,80,64,12800,10240,Senior,Spanish;English;French,Employee
+Clara,Prieto,clara.prieto456@pitstech.com,+34 664090015,Software Architect,Data,DevOps,62,49,9920,7840,Mid-Level,Italian,Employee
+Antonio,Delgado,antonio.delgado457@pitstech.com,+34 618659919,Tech Lead,Security,Software Architect,63,50,10080,8000,Mid-Level,English;French,Employee
+Raquel,López,raquel.lópez458@pitstech.com,+34 627858231,DevOps Engineer,Security,Product Owner,72,57,11520,9120,Mid-Level,Spanish,Employee
+David,Cortés,david.cortés459@pitstech.com,+34 659249045,Frontend Developer,Quality Assurance,DevOps,76,60,12160,9600,Senior,German;Italian;French,Employee
+Diego,Cruz,diego.cruz460@pitstech.com,+34 655028594,Senior Developer,Quality Assurance,Project Manager,75,60,12000,9600,Senior,Spanish;Portuguese;English,Employee
+Amparo,García,amparo.garcía461@pitstech.com,+34 658361795,Frontend Developer,Business,Project Manager,66,52,10560,8320,Mid-Level,Italian;German,Employee
+Adam,Iglesias,adam.iglesias462@pitstech.com,+34 665302271,Full Stack Developer,Data,Full Stack Developer,39,31,6240,4960,Junior,Italian;French,Employee
+Amparo,Marín,amparo.marín463@pitstech.com,+34 682469564,Cloud Engineer,Quality Assurance,Frontend Developer,61,48,9760,7680,Mid-Level,Portuguese,Employee
+Lucas,Iglesias,lucas.iglesias464@pitstech.com,+34 692714870,Business Analyst,Product,DBA,90,72,14400,11520,Senior,Italian,Employee
+Eva,Fernández,eva.fernández465@pitstech.com,+34 646980552,Data Scientist,Business,Scrum Master,94,75,15040,12000,Senior,French;Spanish;Italian,Employee
+Marcos,Cortés,marcos.cortés466@pitstech.com,+34 654091734,DevOps Engineer,Design,Product Owner,100,80,16000,12800,Senior,German,Employee
+Pedro,Navarro,pedro.navarro467@pitstech.com,+34 698876548,Data Scientist,Data,Mobile Developer,92,73,14720,11680,Senior,English;Italian;Spanish,Employee
+Elena,Moreno,elena.moreno468@pitstech.com,+34 676405868,Full Stack Developer,Business,Business Analyst,80,64,12800,10240,Senior,Italian,Employee
+Alba,Benítez,alba.benítez469@pitstech.com,+34 676135596,Data Scientist,Design,Data Scientist,96,76,15360,12160,Senior,German;French;Italian,Employee
+Gonzalo,Campos,gonzalo.campos470@pitstech.com,+34 652374529,Junior Developer,Product,Frontend Developer,93,74,14880,11840,Senior,Spanish;Italian;French,Employee
+Ignacio,Díaz,ignacio.díaz471@pitstech.com,+34 655634449,DevOps Engineer,Security,Scrum Master,82,65,13120,10400,Senior,Italian;Portuguese;Spanish,Employee
+Consuelo,Ruiz,consuelo.ruiz472@pitstech.com,+34 682692414,Business Analyst,Data,Tech Lead,44,35,7040,5600,Junior,Spanish;Italian,Employee
+José,Cortés,josé.cortés473@pitstech.com,+34 653960135,Android Developer,Business,Backend Developer,100,80,16000,12800,Senior,French,Employee
+Hugo,Delgado,hugo.delgado474@pitstech.com,+34 662628306,Data Engineer,Quality Assurance,ML Engineer,55,44,8800,7040,Mid-Level,French;Italian;English,Employee
+Carmen,Cortés,carmen.cortés475@pitstech.com,+34 628385173,QA Engineer,Data,Tech Lead,97,77,15520,12320,Senior,Portuguese,Employee
+Lorena,Cano,lorena.cano476@pitstech.com,+34 634656341,Tech Lead,Business,Cloud Specialist,40,32,6400,5120,Junior,German;Italian,Employee
+Isabel,Mora,isabel.mora477@pitstech.com,+34 642773860,Full Stack Developer,Data,Mobile Developer,36,28,5760,4480,Junior,English,Employee
+Eva,Campos,eva.campos478@pitstech.com,+34 622510797,Data Scientist,Design,ML Engineer,93,74,14880,11840,Senior,Portuguese,Employee
+Lidia,González,lidia.gonzález479@pitstech.com,+34 650944671,Mobile Developer,Design,DevOps,61,48,9760,7680,Mid-Level,English,Employee
+Andrés,Santos,andrés.santos480@pitstech.com,+34 678915819,Business Analyst,Product,Full Stack Developer,57,45,9120,7200,Mid-Level,French;English,Employee
+Marta,Rodríguez,marta.rodríguez481@pitstech.com,+34 647114765,Mobile Developer,Design,Mobile Developer,40,32,6400,5120,Junior,Portuguese;Spanish;Italian,Employee
+Gonzalo,Reyes,gonzalo.reyes482@pitstech.com,+34 636979802,Business Analyst,Engineering,DevOps,86,68,13760,10880,Senior,Portuguese;Spanish;English,Employee
+Sara,Blanco,sara.blanco483@pitstech.com,+34 641321443,Full Stack Developer,Data,Scrum Master,62,49,9920,7840,Mid-Level,French;Spanish;German,Employee
+Lorena,Álvarez,lorena.álvarez484@pitstech.com,+34 626759966,iOS Developer,Quality Assurance,DBA,62,49,9920,7840,Mid-Level,Spanish;Italian,Employee
+Silvia,Navarro,silvia.navarro485@pitstech.com,+34 641380916,UI Designer,Security,DBA,86,68,13760,10880,Senior,Portuguese,Employee
+Laura,Gil,laura.gil486@pitstech.com,+34 647417577,Product Owner,Security,Software Architect,37,29,5920,4640,Junior,Italian;French;German,Employee
+Rubén,García,rubén.garcía487@pitstech.com,+34 618435342,Data Scientist,Data,Business Analyst,76,60,12160,9600,Senior,Portuguese;English;German,Employee
+Teresa,Ramos,teresa.ramos488@pitstech.com,+34 687014133,Frontend Developer,Quality Assurance,Software Architect,69,55,11040,8800,Mid-Level,Portuguese;Italian,Employee
+Cristina,Cortés,cristina.cortés489@pitstech.com,+34 660385341,Data Scientist,Engineering,DBA,72,57,11520,9120,Mid-Level,German,Employee
+Mateo,Marín,mateo.marín490@pitstech.com,+34 696368214,Backend Developer,Design,Project Manager,38,30,6080,4800,Junior,German,Employee
+Lucas,Jiménez,lucas.jiménez491@pitstech.com,+34 621891355,Backend Developer,Product,Tech Lead,38,30,6080,4800,Junior,French;Spanish,Employee
+José,Pérez,josé.pérez492@pitstech.com,+34 647757727,ML Engineer,Design,DBA,66,52,10560,8320,Mid-Level,English;Italian;Spanish,Employee
+Manuel,Iglesias,manuel.iglesias493@pitstech.com,+34 625865557,QA Engineer,Security,Data Scientist,94,75,15040,12000,Senior,Spanish;French;English,Employee
+Lidia,Cruz,lidia.cruz494@pitstech.com,+34 694577596,Security Engineer,Design,Project Manager,38,30,6080,4800,Junior,Portuguese;German;Spanish,Employee
+Susana,Marín,susana.marín495@pitstech.com,+34 697609464,Senior Developer,Engineering,Data Engineer,38,30,6080,4800,Junior,French,Employee
+Pablo,García,pablo.garcía496@pitstech.com,+34 689931476,Tech Lead,Design,Tech Lead,46,36,7360,5760,Junior,Italian,Employee
+Manuel,Blanco,manuel.blanco497@pitstech.com,+34 645298674,Tech Lead,Product,DBA,59,47,9440,7520,Mid-Level,English;French,Employee
+Encarnación,Lozano,encarnación.lozano498@pitstech.com,+34 681796024,QA Engineer,Design,Backend Developer,39,31,6240,4960,Junior,German,Employee
+Concepción,Campos,concepción.campos499@pitstech.com,+34 699972595,Backend Developer,Product,Tech Lead,55,44,8800,7040,Mid-Level,Italian;English,Employee
+María,Cortés,maría.cortés500@pitstech.com,+34 625232270,Full Stack Developer,Product,DevOps,43,34,6880,5440,Junior,English;Portuguese,Employee
+Teresa,Santos,teresa.santos501@pitstech.com,+34 663467709,Project Manager,Design,Cloud Specialist,47,37,7520,5920,Junior,English,Employee
+Álvaro,Jiménez,álvaro.jiménez502@pitstech.com,+34 619200574,Software Architect,Security,QA Tester,61,48,9760,7680,Mid-Level,French;Spanish,Employee
+Rubén,Mora,rubén.mora503@pitstech.com,+34 669698235,DevOps Engineer,Product,Mobile Developer,96,76,15360,12160,Senior,German,Employee
+Lidia,Cabrera,lidia.cabrera504@pitstech.com,+34 643279542,Software Architect,Business,Backend Developer,46,36,7360,5760,Junior,English;French,Employee
+Pedro,Álvarez,pedro.álvarez505@pitstech.com,+34 698656731,Android Developer,Engineering,Data Engineer,63,50,10080,8000,Mid-Level,French;Portuguese;German,Employee
+Antonio,Lozano,antonio.lozano506@pitstech.com,+34 695909976,Software Architect,Engineering,Product Owner,44,35,7040,5600,Junior,Italian,Employee
+Eva,García,eva.garcía507@pitstech.com,+34 635860872,Senior Developer,Data,Business Analyst,86,68,13760,10880,Senior,Spanish;Italian;English,Employee
+Consuelo,Marín,consuelo.marín508@pitstech.com,+34 675556773,Frontend Developer,Security,Project Manager,75,60,12000,9600,Mid-Level,French,Employee
+Elena,Benítez,elena.benítez509@pitstech.com,+34 668466393,Android Developer,Engineering,DBA,38,30,6080,4800,Junior,French;Spanish;Portuguese,Employee
+Natalia,González,natalia.gonzález510@pitstech.com,+34 690190663,DevOps Engineer,Business,DevOps,47,37,7520,5920,Junior,German,Employee
+Gonzalo,Santos,gonzalo.santos511@pitstech.com,+34 667396106,Database Admin,Data,Project Manager,39,31,6240,4960,Junior,Spanish,Employee
+Óscar,Mora,óscar.mora512@pitstech.com,+34 688349443,Software Architect,Product,DevOps,47,37,7520,5920,Junior,Portuguese;German;Italian,Employee
+Miriam,Mora,miriam.mora513@pitstech.com,+34 652428660,Database Admin,Data,UX/UI Designer,83,66,13280,10560,Senior,Italian,Employee
+Marta,Jiménez,marta.jiménez514@pitstech.com,+34 652897485,Data Scientist,Design,ML Engineer,40,32,6400,5120,Junior,German,Employee
+Andrés,Molina,andrés.molina515@pitstech.com,+34 672077432,Database Admin,Data,Tech Lead,40,32,6400,5120,Junior,Spanish;Italian,Employee
+Rubén,Cruz,rubén.cruz516@pitstech.com,+34 628088509,Junior Developer,Business,DevOps,80,64,12800,10240,Senior,Spanish;French,Employee
+Enrique,Aguilar,enrique.aguilar517@pitstech.com,+34 645251920,UI Designer,Product,Backend Developer,71,56,11360,8960,Mid-Level,German,Employee
+Amparo,Díaz,amparo.díaz518@pitstech.com,+34 692985294,QA Tester,Security,Data Engineer,68,54,10880,8640,Mid-Level,German;Spanish,Employee
+Lorena,Molina,lorena.molina519@pitstech.com,+34 660904867,QA Engineer,Business,Full Stack Developer,44,35,7040,5600,Junior,Portuguese;English;French,Employee
+Elena,Cortés,elena.cortés520@pitstech.com,+34 626520617,Junior Developer,Quality Assurance,Cloud Specialist,94,75,15040,12000,Senior,English;Portuguese,Employee
+Antonio,Campos,antonio.campos521@pitstech.com,+34 665284312,iOS Developer,Quality Assurance,ML Engineer,56,44,8960,7040,Mid-Level,French,Employee
+Rosa,Ortega,rosa.ortega522@pitstech.com,+34 659381971,Product Owner,Quality Assurance,Product Owner,39,31,6240,4960,Junior,Italian;Portuguese;German,Employee
+Jorge,Blanco,jorge.blanco523@pitstech.com,+34 699781858,Tech Lead,Engineering,Full Stack Developer,96,76,15360,12160,Senior,Portuguese;German,Employee
+Lucía,Ruiz,lucía.ruiz524@pitstech.com,+34 641221477,Mobile Developer,Design,Mobile Developer,75,60,12000,9600,Mid-Level,German;Portuguese,Employee
+Manuela,Lozano,manuela.lozano525@pitstech.com,+34 652477364,iOS Developer,Business,Mobile Developer,46,36,7360,5760,Junior,Spanish;Portuguese;English,Employee
+Ángel,Ortega,ángel.ortega526@pitstech.com,+34 675174219,Data Engineer,Business,Mobile Developer,70,56,11200,8960,Mid-Level,Italian;Spanish,Employee
+Francisca,Suárez,francisca.suárez527@pitstech.com,+34 625266093,Backend Developer,Design,Data Scientist,59,47,9440,7520,Mid-Level,English;French,Employee
+Inmaculada,Cruz,inmaculada.cruz528@pitstech.com,+34 660315582,Data Engineer,Design,Project Manager,85,68,13600,10880,Senior,Portuguese;Italian;German,Employee
+Raquel,Serrano,raquel.serrano529@pitstech.com,+34 695330522,UI Designer,Engineering,UX/UI Designer,93,74,14880,11840,Senior,English;Italian,Employee
+Hugo,Pascual,hugo.pascual530@pitstech.com,+34 658811751,Tech Lead,Design,QA Tester,66,52,10560,8320,Mid-Level,Spanish,Employee
+Raúl,Iglesias,raúl.iglesias531@pitstech.com,+34 673447557,Cloud Engineer,Quality Assurance,DevOps,84,67,13440,10720,Senior,German,Employee
+Ana,Díaz,ana.díaz532@pitstech.com,+34 635390052,ML Engineer,Product,Tech Lead,98,78,15680,12480,Senior,Italian;English;French,Employee
+Eva,Santos,eva.santos533@pitstech.com,+34 654979696,UI Designer,Engineering,QA Tester,41,32,6560,5120,Junior,Spanish;Portuguese,Employee
+Laura,Campos,laura.campos534@pitstech.com,+34 697195842,Backend Developer,Data,DBA,50,40,8000,6400,Junior,Spanish;German;French,Employee
+Lucía,Medina,lucía.medina535@pitstech.com,+34 643678847,Full Stack Developer,Security,DevOps,41,32,6560,5120,Junior,French,Employee
+Susana,Ramírez,susana.ramírez536@pitstech.com,+34 679233812,QA Engineer,Data,Project Manager,65,52,10400,8320,Mid-Level,German,Employee
+Francisca,López,francisca.lópez537@pitstech.com,+34 649129031,iOS Developer,Design,Data Scientist,42,33,6720,5280,Junior,French;German;Spanish,Employee
+Consuelo,Díaz,consuelo.díaz538@pitstech.com,+34 673034492,Frontend Developer,Security,Backend Developer,69,55,11040,8800,Mid-Level,Portuguese;English,Employee
+Ignacio,García,ignacio.garcía539@pitstech.com,+34 656388891,Frontend Developer,Quality Assurance,Business Analyst,96,76,15360,12160,Senior,Spanish,Employee
+Andrés,Jiménez,andrés.jiménez540@pitstech.com,+34 685927994,Android Developer,Engineering,ML Engineer,75,60,12000,9600,Mid-Level,English,Employee
+Cristina,Ramos,cristina.ramos541@pitstech.com,+34 691485730,Software Architect,Security,Business Analyst,97,77,15520,12320,Senior,English,Employee
+Ana,Vargas,ana.vargas542@pitstech.com,+34 633274612,UI Designer,Design,UX/UI Designer,35,28,5600,4480,Junior,Italian,Employee
+Isabel,Álvarez,isabel.álvarez543@pitstech.com,+34 693103942,UX Designer,Quality Assurance,Mobile Developer,93,74,14880,11840,Senior,Italian;French;English,Employee
+José,Herrera,josé.herrera544@pitstech.com,+34 676859119,Security Engineer,Product,UX/UI Designer,100,80,16000,12800,Senior,English;Italian,Employee
+Sergio,López,sergio.lópez545@pitstech.com,+34 694180664,Junior Developer,Data,Backend Developer,61,48,9760,7680,Mid-Level,Spanish;Portuguese,Employee
+Marta,López,marta.lópez546@pitstech.com,+34 673573721,Full Stack Developer,Quality Assurance,Backend Developer,94,75,15040,12000,Senior,German;English,Employee
+Sergio,Romero,sergio.romero547@pitstech.com,+34 633394229,Junior Developer,Quality Assurance,Scrum Master,39,31,6240,4960,Junior,Spanish;Portuguese,Employee
+Juana,Pascual,juana.pascual548@pitstech.com,+34 682637936,Mobile Developer,Quality Assurance,DevOps,67,53,10720,8480,Mid-Level,Italian;French;German,Employee
+Inmaculada,León,inmaculada.león549@pitstech.com,+34 698406472,Junior Developer,Quality Assurance,Security Specialist,71,56,11360,8960,Mid-Level,German,Employee
+Lucas,Pérez,lucas.pérez550@pitstech.com,+34 684033236,Data Engineer,Quality Assurance,Tech Lead,99,79,15840,12640,Senior,Italian;Spanish;French,Employee
+Miguel,Santos,miguel.santos551@pitstech.com,+34 648565738,Android Developer,Quality Assurance,Business Analyst,40,32,6400,5120,Junior,English;Portuguese,Employee
+Victoria,Cruz,victoria.cruz552@pitstech.com,+34 685169764,Backend Developer,Quality Assurance,UX/UI Designer,97,77,15520,12320,Senior,Spanish;Portuguese;Italian,Employee
+Adam,Vázquez,adam.vázquez553@pitstech.com,+34 653359193,QA Engineer,Business,DevOps,78,62,12480,9920,Senior,English;German;Portuguese,Employee
+Rafael,Cortés,rafael.cortés554@pitstech.com,+34 631079187,Senior Developer,Design,Cloud Specialist,50,40,8000,6400,Junior,Italian;Spanish,Employee
+Susana,Herrera,susana.herrera555@pitstech.com,+34 647092995,Frontend Developer,Design,Data Engineer,68,54,10880,8640,Mid-Level,French;Spanish,Employee
+Julia,Rodríguez,julia.rodríguez556@pitstech.com,+34 641491326,UI Designer,Security,Frontend Developer,89,71,14240,11360,Senior,Portuguese;English;Italian,Employee
+Luis,Ramírez,luis.ramírez557@pitstech.com,+34 642368049,iOS Developer,Data,Tech Lead,75,60,12000,9600,Mid-Level,English;Spanish,Employee
+Montserrat,León,montserrat.león558@pitstech.com,+34 659192283,Product Owner,Security,DBA,83,66,13280,10560,Senior,French;Italian;English,Employee
+Eva,Santos,eva.santos559@pitstech.com,+34 642228231,QA Tester,Quality Assurance,Backend Developer,47,37,7520,5920,Junior,Portuguese;English;Italian,Employee
+Sara,Iglesias,sara.iglesias560@pitstech.com,+34 654251704,Cloud Engineer,Engineering,Data Engineer,98,78,15680,12480,Senior,German;French;Italian,Employee
+Diego,Suárez,diego.suárez561@pitstech.com,+34 656813279,Cloud Engineer,Design,DevOps,77,61,12320,9760,Senior,Italian;Portuguese,Employee
+Patricia,Cano,patricia.cano562@pitstech.com,+34 659783638,UX Designer,Quality Assurance,Tech Lead,36,28,5760,4480,Junior,French,Employee
+Javier,Cruz,javier.cruz563@pitstech.com,+34 639689253,Backend Developer,Business,Frontend Developer,79,63,12640,10080,Senior,French;Italian;German,Employee
+Raquel,Martínez,raquel.martínez564@pitstech.com,+34 657858215,QA Tester,Design,DBA,46,36,7360,5760,Junior,English,Employee
+Gabriel,Ramos,gabriel.ramos565@pitstech.com,+34 621431130,QA Engineer,Quality Assurance,Project Manager,77,61,12320,9760,Senior,English;Spanish,Employee
+Rubén,Medina,rubén.medina566@pitstech.com,+34 699828281,Backend Developer,Engineering,Data Engineer,73,58,11680,9280,Mid-Level,French;Italian;English,Employee
+Concepción,Vargas,concepción.vargas567@pitstech.com,+34 629189711,Backend Developer,Data,Data Scientist,48,38,7680,6080,Junior,German;Italian,Employee
+José,Ortega,josé.ortega568@pitstech.com,+34 653208472,Project Manager,Security,Data Engineer,42,33,6720,5280,Junior,German,Employee
+Andrea,Mora,andrea.mora569@pitstech.com,+34 651260891,Database Admin,Product,ML Engineer,45,36,7200,5760,Junior,French;Portuguese,Employee
+Adam,Ruiz,adam.ruiz570@pitstech.com,+34 688165757,Data Engineer,Product,DBA,45,36,7200,5760,Junior,Italian;German,Employee
+Miriam,Torres,miriam.torres571@pitstech.com,+34 660306810,Mobile Developer,Product,Tech Lead,60,48,9600,7680,Mid-Level,French;English;Portuguese,Employee
+Lorena,Suárez,lorena.suárez572@pitstech.com,+34 668054302,UI Designer,Design,Scrum Master,46,36,7360,5760,Junior,Spanish,Employee
+Hugo,Romero,hugo.romero573@pitstech.com,+34 633181297,ML Engineer,Product,Product Owner,56,44,8960,7040,Mid-Level,German;English;Spanish,Employee
+Remedios,Ortega,remedios.ortega574@pitstech.com,+34 622061453,Product Owner,Security,Software Architect,64,51,10240,8160,Mid-Level,Italian,Employee
+Iván,Reyes,iván.reyes575@pitstech.com,+34 648926258,QA Engineer,Quality Assurance,DevOps,80,64,12800,10240,Senior,Italian;English,Employee
+Amparo,Pérez,amparo.pérez576@pitstech.com,+34 671593051,UX Designer,Security,Data Engineer,98,78,15680,12480,Senior,Portuguese;Italian;German,Employee
+Raquel,Mora,raquel.mora577@pitstech.com,+34 674960403,Mobile Developer,Design,ML Engineer,86,68,13760,10880,Senior,English;Portuguese;Spanish,Employee
+Adam,Blanco,adam.blanco578@pitstech.com,+34 643680686,Backend Developer,Product,UX/UI Designer,49,39,7840,6240,Junior,English,Employee
+Javier,León,javier.león579@pitstech.com,+34 638461629,Business Analyst,Design,Mobile Developer,59,47,9440,7520,Mid-Level,German;French,Employee
+Emilia,Herrera,emilia.herrera580@pitstech.com,+34 664939363,DevOps Engineer,Quality Assurance,Scrum Master,58,46,9280,7360,Mid-Level,Spanish;French,Employee
+Nuria,Rodríguez,nuria.rodríguez581@pitstech.com,+34 690750377,Security Engineer,Business,Software Architect,42,33,6720,5280,Junior,English;Spanish;French,Employee
+Cristina,Cortés,cristina.cortés582@pitstech.com,+34 648167980,Tech Lead,Quality Assurance,Frontend Developer,46,36,7360,5760,Junior,English;Spanish;Italian,Employee
+Álvaro,Vázquez,álvaro.vázquez583@pitstech.com,+34 618377453,Database Admin,Engineering,Software Architect,84,67,13440,10720,Senior,Portuguese;German;English,Employee
+Marina,Jiménez,marina.jiménez584@pitstech.com,+34 673259929,Senior Developer,Quality Assurance,Business Analyst,90,72,14400,11520,Senior,Portuguese;English;German,Employee
+Josefa,Molina,josefa.molina585@pitstech.com,+34 694940664,Product Owner,Data,DBA,63,50,10080,8000,Mid-Level,Portuguese,Employee
+Samuel,Ruiz,samuel.ruiz586@pitstech.com,+34 643053832,Android Developer,Quality Assurance,QA Tester,72,57,11520,9120,Mid-Level,Italian;Spanish,Employee
+Irene,Herrera,irene.herrera587@pitstech.com,+34 684022496,QA Engineer,Business,Business Analyst,36,28,5760,4480,Junior,English;Portuguese;German,Employee
+Marta,Moreno,marta.moreno588@pitstech.com,+34 654638771,ML Engineer,Security,DBA,41,32,6560,5120,Junior,English;Spanish;French,Employee
+Leo,Pascual,leo.pascual589@pitstech.com,+34 698576909,Full Stack Developer,Engineering,Business Analyst,50,40,8000,6400,Junior,Portuguese,Employee
+Isabel,García,isabel.garcía590@pitstech.com,+34 646731844,UX Designer,Security,DevOps,47,37,7520,5920,Junior,German;Spanish,Employee
+Jorge,Sánchez,jorge.sánchez591@pitstech.com,+34 621308515,QA Tester,Security,Data Engineer,38,30,6080,4800,Junior,Spanish;English;Portuguese,Employee
+Gonzalo,Martínez,gonzalo.martínez592@pitstech.com,+34 688770673,DevOps Engineer,Data,DBA,90,72,14400,11520,Senior,English;French,Employee
+Clara,Cabrera,clara.cabrera593@pitstech.com,+34 612435732,Mobile Developer,Design,ML Engineer,45,36,7200,5760,Junior,Italian,Employee
+Tomás,Torres,tomás.torres594@pitstech.com,+34 646196162,Database Admin,Design,Scrum Master,46,36,7360,5760,Junior,Portuguese;Italian;English,Employee
+Paula,García,paula.garcía595@pitstech.com,+34 627539987,DevOps Engineer,Business,Security Specialist,67,53,10720,8480,Mid-Level,Italian;Spanish;French,Employee
+Lucas,Blanco,lucas.blanco596@pitstech.com,+34 693185043,Mobile Developer,Engineering,Software Architect,69,55,11040,8800,Mid-Level,Spanish,Employee
+Rocío,Sánchez,rocío.sánchez597@pitstech.com,+34 664387728,Project Manager,Business,Mobile Developer,62,49,9920,7840,Mid-Level,Spanish;English,Employee
+Juan,Rodríguez,juan.rodríguez598@pitstech.com,+34 647583536,Frontend Developer,Quality Assurance,Security Specialist,58,46,9280,7360,Mid-Level,Italian;German;Spanish,Employee
+Gonzalo,Molina,gonzalo.molina599@pitstech.com,+34 689914366,UX Designer,Engineering,Scrum Master,89,71,14240,11360,Senior,English;German;Italian,Employee
+Rocío,Cano,rocío.cano600@pitstech.com,+34 667891278,Mobile Developer,Data,Scrum Master,50,40,8000,6400,Junior,English;French,Employee
+Juana,Campos,juana.campos601@pitstech.com,+34 662961628,Scrum Master,Data,QA Tester,57,45,9120,7200,Mid-Level,Spanish;Portuguese;French,Employee
+Lidia,Pascual,lidia.pascual602@pitstech.com,+34 618969312,UI Designer,Design,Data Scientist,92,73,14720,11680,Senior,English;Spanish;German,Employee
+Teresa,Campos,teresa.campos603@pitstech.com,+34 644456681,Project Manager,Engineering,Mobile Developer,38,30,6080,4800,Junior,German,Employee
+Alberto,Cruz,alberto.cruz604@pitstech.com,+34 651060669,Junior Developer,Quality Assurance,Mobile Developer,75,60,12000,9600,Senior,Italian;Portuguese,Employee
+Silvia,Romero,silvia.romero605@pitstech.com,+34 684759451,Database Admin,Security,Data Engineer,60,48,9600,7680,Mid-Level,English,Employee
+Andrea,Herrera,andrea.herrera606@pitstech.com,+34 656267192,Software Architect,Business,ML Engineer,75,60,12000,9600,Senior,English;Italian,Employee
+Emilia,Torres,emilia.torres607@pitstech.com,+34 690469663,ML Engineer,Product,QA Tester,97,77,15520,12320,Senior,German;English;Spanish,Employee
+Silvia,Moreno,silvia.moreno608@pitstech.com,+34 615429003,Tech Lead,Engineering,Software Architect,93,74,14880,11840,Senior,Italian;English;Portuguese,Employee
+Manuel,Rubio,manuel.rubio609@pitstech.com,+34 624248990,Tech Lead,Quality Assurance,DBA,69,55,11040,8800,Mid-Level,English;Portuguese;Spanish,Employee
+Susana,Ramírez,susana.ramírez610@pitstech.com,+34 626859618,QA Engineer,Security,Tech Lead,82,65,13120,10400,Senior,Portuguese;Italian;French,Employee
+Víctor,León,víctor.león611@pitstech.com,+34 652469118,QA Tester,Design,QA Tester,57,45,9120,7200,Mid-Level,English;German;Italian,Employee
+Carlos,Ramírez,carlos.ramírez612@pitstech.com,+34 696439776,Frontend Developer,Business,Full Stack Developer,82,65,13120,10400,Senior,Spanish;English;German,Employee
+José,Aguilar,josé.aguilar613@pitstech.com,+34 636077903,Android Developer,Quality Assurance,Frontend Developer,65,52,10400,8320,Mid-Level,French;English;Italian,Employee
+Alba,Ortiz,alba.ortiz614@pitstech.com,+34 694748560,Backend Developer,Security,Security Specialist,44,35,7040,5600,Junior,French;German;Portuguese,Employee
+José,González,josé.gonzález615@pitstech.com,+34 621755217,UX Designer,Design,Security Specialist,75,60,12000,9600,Mid-Level,English,Employee
+Marcos,López,marcos.lópez616@pitstech.com,+34 621465758,Cloud Engineer,Engineering,Data Scientist,85,68,13600,10880,Senior,English;German;French,Employee
+Sebastián,León,sebastián.león617@pitstech.com,+34 690939279,Database Admin,Security,QA Tester,91,72,14560,11520,Senior,Italian,Employee
+Ángel,Pascual,ángel.pascual618@pitstech.com,+34 675556252,Data Engineer,Quality Assurance,Cloud Specialist,61,48,9760,7680,Mid-Level,German;Portuguese,Employee
+Rafael,Vargas,rafael.vargas619@pitstech.com,+34 613607699,QA Engineer,Business,DevOps,61,48,9760,7680,Mid-Level,English;French;Spanish,Employee
+Josefa,Moreno,josefa.moreno620@pitstech.com,+34 638592107,Database Admin,Data,DevOps,48,38,7680,6080,Junior,German;Portuguese;French,Employee
+Sofía,Ramírez,sofía.ramírez621@pitstech.com,+34 683739749,Mobile Developer,Business,QA Tester,92,73,14720,11680,Senior,Italian;English,Employee
+Lidia,Ramírez,lidia.ramírez622@pitstech.com,+34 641454676,Backend Developer,Data,Scrum Master,67,53,10720,8480,Mid-Level,English,Employee
+Nuria,Cano,nuria.cano623@pitstech.com,+34 633456437,Scrum Master,Design,Backend Developer,64,51,10240,8160,Mid-Level,English;German;Spanish,Employee
+Clara,Fernández,clara.fernández624@pitstech.com,+34 656568142,QA Tester,Design,ML Engineer,71,56,11360,8960,Mid-Level,Portuguese;Spanish;Italian,Employee
+Carmen,Gil,carmen.gil625@pitstech.com,+34 666544327,UX Designer,Security,ML Engineer,86,68,13760,10880,Senior,Spanish,Employee
+Laura,González,laura.gonzález626@pitstech.com,+34 679360314,Full Stack Developer,Security,Data Scientist,48,38,7680,6080,Junior,German;French,Employee
+Mateo,Rodríguez,mateo.rodríguez627@pitstech.com,+34 688008859,Senior Developer,Design,Data Engineer,73,58,11680,9280,Mid-Level,German,Employee
+Francisco,Ortega,francisco.ortega628@pitstech.com,+34 675201180,Cloud Engineer,Product,DevOps,60,48,9600,7680,Mid-Level,German,Employee
+Silvia,Rubio,silvia.rubio629@pitstech.com,+34 694551959,Junior Developer,Engineering,Scrum Master,43,34,6880,5440,Junior,German,Employee
+Remedios,Díaz,remedios.díaz630@pitstech.com,+34 689770572,DevOps Engineer,Engineering,Business Analyst,79,63,12640,10080,Senior,German;English;Italian,Employee
+Matías,Ramos,matías.ramos631@pitstech.com,+34 656046089,QA Tester,Business,ML Engineer,36,28,5760,4480,Junior,German,Employee
+Luis,Ramos,luis.ramos632@pitstech.com,+34 630133274,Full Stack Developer,Security,Project Manager,55,44,8800,7040,Mid-Level,Italian;Spanish;German,Employee
+María,García,maría.garcía633@pitstech.com,+34 686158110,UX Designer,Security,Full Stack Developer,41,32,6560,5120,Junior,Italian,Employee
+Marta,Ortiz,marta.ortiz634@pitstech.com,+34 617529260,Business Analyst,Quality Assurance,Frontend Developer,99,79,15840,12640,Senior,Spanish;Italian,Employee
+Consuelo,Navarro,consuelo.navarro635@pitstech.com,+34 614224637,Cloud Engineer,Product,Software Architect,35,28,5600,4480,Junior,German;Spanish,Employee
+Natalia,Martínez,natalia.martínez636@pitstech.com,+34 644827905,DevOps Engineer,Data,QA Tester,96,76,15360,12160,Senior,German;French;English,Employee
+Manuel,Cano,manuel.cano637@pitstech.com,+34 666967063,QA Tester,Design,Full Stack Developer,77,61,12320,9760,Senior,Spanish,Employee
+Sergio,Rodríguez,sergio.rodríguez638@pitstech.com,+34 658468715,Junior Developer,Design,Cloud Specialist,43,34,6880,5440,Junior,Portuguese;English,Employee
+Josefa,León,josefa.león639@pitstech.com,+34 697523448,Data Scientist,Quality Assurance,DBA,98,78,15680,12480,Senior,French;Portuguese;German,Employee
+Carlos,Castro,carlos.castro640@pitstech.com,+34 643798921,Backend Developer,Quality Assurance,Data Scientist,75,60,12000,9600,Senior,German;Portuguese;English,Employee
+Álvaro,Benítez,álvaro.benítez641@pitstech.com,+34 652266700,Full Stack Developer,Business,ML Engineer,60,48,9600,7680,Mid-Level,Portuguese;French;English,Employee
+Fernando,Navarro,fernando.navarro642@pitstech.com,+34 667082033,UI Designer,Data,Data Engineer,50,40,8000,6400,Junior,English;Portuguese,Employee
+Marina,Ramírez,marina.ramírez643@pitstech.com,+34 651162703,Tech Lead,Engineering,DevOps,78,62,12480,9920,Senior,Portuguese;Italian,Employee
+Diego,Díaz,diego.díaz644@pitstech.com,+34 673079360,ML Engineer,Design,Product Owner,81,64,12960,10240,Senior,English,Employee
+Antonio,Herrera,antonio.herrera645@pitstech.com,+34 658899368,Cloud Engineer,Design,Data Engineer,87,69,13920,11040,Senior,Portuguese;English;Spanish,Employee
+Irene,Navarro,irene.navarro646@pitstech.com,+34 682763598,UI Designer,Design,Business Analyst,40,32,6400,5120,Junior,English;Spanish;Portuguese,Employee
+Clara,Álvarez,clara.álvarez647@pitstech.com,+34 684716353,Business Analyst,Data,Scrum Master,60,48,9600,7680,Mid-Level,German;English;Spanish,Employee
+Rodrigo,Aguilar,rodrigo.aguilar648@pitstech.com,+34 668058233,Backend Developer,Product,Data Scientist,90,72,14400,11520,Senior,Italian;French;German,Employee
+Josefa,Moreno,josefa.moreno649@pitstech.com,+34 620951805,Junior Developer,Quality Assurance,Tech Lead,43,34,6880,5440,Junior,English,Employee
+Carmen,López,carmen.lópez650@pitstech.com,+34 689622577,QA Engineer,Design,ML Engineer,37,29,5920,4640,Junior,English;Spanish,Employee
+Víctor,Ortiz,víctor.ortiz651@pitstech.com,+34 654064273,Full Stack Developer,Product,UX/UI Designer,92,73,14720,11680,Senior,Italian;Spanish,Employee
+Enrique,Sánchez,enrique.sánchez652@pitstech.com,+34 622428220,DevOps Engineer,Business,Backend Developer,73,58,11680,9280,Mid-Level,English,Employee
+Marcos,Herrera,marcos.herrera653@pitstech.com,+34 626208506,Product Owner,Data,Project Manager,66,52,10560,8320,Mid-Level,Italian;Portuguese,Employee
+Rubén,Méndez,rubén.méndez654@pitstech.com,+34 643696849,Database Admin,Quality Assurance,DevOps,88,70,14080,11200,Senior,French;Italian;Spanish,Employee
+Víctor,Álvarez,víctor.álvarez655@pitstech.com,+34 629307649,QA Engineer,Product,Data Engineer,35,28,5600,4480,Junior,Portuguese;German;Italian,Employee
+Rubén,Reyes,rubén.reyes656@pitstech.com,+34 675424409,UI Designer,Data,Full Stack Developer,77,61,12320,9760,Senior,English,Employee
+Silvia,Ramos,silvia.ramos657@pitstech.com,+34 630671468,Junior Developer,Data,DBA,39,31,6240,4960,Junior,English;French;Portuguese,Employee
+Elena,López,elena.lópez658@pitstech.com,+34 612895643,Frontend Developer,Product,Data Scientist,43,34,6880,5440,Junior,German,Employee
+Sebastián,García,sebastián.garcía659@pitstech.com,+34 695694316,Cloud Engineer,Product,QA Tester,86,68,13760,10880,Senior,English,Employee
+Pablo,León,pablo.león660@pitstech.com,+34 667772899,Mobile Developer,Engineering,QA Tester,74,59,11840,9440,Mid-Level,English,Employee
+Nicolás,Fernández,nicolás.fernández661@pitstech.com,+34 659791752,Backend Developer,Design,Cloud Specialist,82,65,13120,10400,Senior,German,Employee
+Ana,Sánchez,ana.sánchez662@pitstech.com,+34 676264355,Senior Developer,Security,DBA,63,50,10080,8000,Mid-Level,French,Employee
+Carlos,Campos,carlos.campos663@pitstech.com,+34 679870784,QA Engineer,Data,Scrum Master,97,77,15520,12320,Senior,French;Italian;Portuguese,Employee
+Nuria,García,nuria.garcía664@pitstech.com,+34 632544794,Backend Developer,Data,Tech Lead,99,79,15840,12640,Senior,Italian,Employee
+Alba,Ramírez,alba.ramírez665@pitstech.com,+34 610610591,Database Admin,Quality Assurance,Tech Lead,45,36,7200,5760,Junior,Portuguese;Spanish;Italian,Employee
+Laura,Torres,laura.torres666@pitstech.com,+34 676717602,Scrum Master,Quality Assurance,Product Owner,39,31,6240,4960,Junior,Spanish,Employee
+Natalia,Navarro,natalia.navarro667@pitstech.com,+34 690485785,Data Scientist,Design,Backend Developer,43,34,6880,5440,Junior,German,Employee
+Ángel,Romero,ángel.romero668@pitstech.com,+34 663140328,Data Engineer,Quality Assurance,QA Tester,75,60,12000,9600,Senior,Portuguese;German;English,Employee
+Samuel,Pascual,samuel.pascual669@pitstech.com,+34 625069064,Android Developer,Engineering,Software Architect,72,57,11520,9120,Mid-Level,German;Portuguese,Employee
+Ángel,Torres,ángel.torres670@pitstech.com,+34 628057186,Security Engineer,Design,Full Stack Developer,63,50,10080,8000,Mid-Level,German;Spanish;English,Employee
+Miguel,Fernández,miguel.fernández671@pitstech.com,+34 617541029,Product Owner,Data,Product Owner,85,68,13600,10880,Senior,Portuguese;English,Employee
+Alba,Romero,alba.romero672@pitstech.com,+34 689125841,Backend Developer,Business,Tech Lead,61,48,9760,7680,Mid-Level,Portuguese;German;Spanish,Employee
+Juana,Suárez,juana.suárez673@pitstech.com,+34 664464928,Database Admin,Data,Cloud Specialist,82,65,13120,10400,Senior,French;Portuguese;Italian,Employee
+Paula,Gil,paula.gil674@pitstech.com,+34 652178242,Data Scientist,Data,Frontend Developer,62,49,9920,7840,Mid-Level,Portuguese;English,Employee
+Andrés,Aguilar,andrés.aguilar675@pitstech.com,+34 632069442,Software Architect,Quality Assurance,Software Architect,67,53,10720,8480,Mid-Level,Italian;Spanish,Employee
+Iván,Ramos,iván.ramos676@pitstech.com,+34 618455621,Data Engineer,Business,Project Manager,44,35,7040,5600,Junior,Spanish;Italian;French,Employee
+Rodrigo,Castro,rodrigo.castro677@pitstech.com,+34 633721770,Database Admin,Data,Scrum Master,58,46,9280,7360,Mid-Level,German;Spanish,Employee
+Concepción,Rubio,concepción.rubio678@pitstech.com,+34 680962487,QA Engineer,Quality Assurance,UX/UI Designer,64,51,10240,8160,Mid-Level,English;German;French,Employee
+David,Ortega,david.ortega679@pitstech.com,+34 699626782,Cloud Engineer,Quality Assurance,Frontend Developer,76,60,12160,9600,Senior,Spanish;Italian,Employee
+Ramón,Prieto,ramón.prieto680@pitstech.com,+34 624070240,Security Engineer,Security,Cloud Specialist,50,40,8000,6400,Junior,Italian;English,Employee
+Lidia,Blanco,lidia.blanco681@pitstech.com,+34 653193289,Data Engineer,Quality Assurance,Data Scientist,79,63,12640,10080,Senior,Italian,Employee
+Tomás,Álvarez,tomás.álvarez682@pitstech.com,+34 677456908,Frontend Developer,Design,DevOps,36,28,5760,4480,Junior,English;Spanish,Employee
+Matías,Molina,matías.molina683@pitstech.com,+34 688540085,Full Stack Developer,Quality Assurance,ML Engineer,72,57,11520,9120,Mid-Level,English;Italian;Portuguese,Employee
+Andrea,González,andrea.gonzález684@pitstech.com,+34 620405164,QA Tester,Data,Product Owner,37,29,5920,4640,Junior,German;Portuguese;English,Employee
+Natalia,García,natalia.garcía685@pitstech.com,+34 687744734,Security Engineer,Data,Full Stack Developer,56,44,8960,7040,Mid-Level,German;Spanish;French,Employee
+Antonio,Sánchez,antonio.sánchez686@pitstech.com,+34 613343689,Security Engineer,Quality Assurance,Scrum Master,71,56,11360,8960,Mid-Level,French,Employee
+Clara,Gil,clara.gil687@pitstech.com,+34 637877130,Project Manager,Product,Project Manager,62,49,9920,7840,Mid-Level,French;English;Portuguese,Employee
+Juan,Lozano,juan.lozano688@pitstech.com,+34 625477147,UX Designer,Design,Scrum Master,50,40,8000,6400,Junior,Portuguese;English,Employee
+Pilar,Gil,pilar.gil689@pitstech.com,+34 632879328,Product Owner,Design,Business Analyst,47,37,7520,5920,Junior,Portuguese,Employee
+Rubén,Cabrera,rubén.cabrera690@pitstech.com,+34 617675565,Cloud Engineer,Design,Project Manager,88,70,14080,11200,Senior,Spanish;Portuguese,Employee
+Pablo,Cortés,pablo.cortés691@pitstech.com,+34 612712699,UX Designer,Security,Business Analyst,84,67,13440,10720,Senior,German;French,Employee
+Leo,Díaz,leo.díaz692@pitstech.com,+34 656052472,QA Engineer,Security,Security Specialist,48,38,7680,6080,Junior,Italian;Spanish,Employee
+Marcos,Santos,marcos.santos693@pitstech.com,+34 684327069,Full Stack Developer,Data,Business Analyst,41,32,6560,5120,Junior,English,Employee
+Carlos,Serrano,carlos.serrano694@pitstech.com,+34 641805807,Scrum Master,Quality Assurance,DevOps,99,79,15840,12640,Senior,Spanish,Employee
+Amparo,Rodríguez,amparo.rodríguez695@pitstech.com,+34 663395343,Mobile Developer,Design,Frontend Developer,41,32,6560,5120,Junior,Spanish;German,Employee
+Víctor,Ortega,víctor.ortega696@pitstech.com,+34 615987421,Full Stack Developer,Data,Full Stack Developer,50,40,8000,6400,Junior,Spanish;German,Employee
+Inmaculada,Martínez,inmaculada.martínez697@pitstech.com,+34 613780920,Project Manager,Design,Scrum Master,65,52,10400,8320,Mid-Level,French;Italian,Employee
+Cristina,Díaz,cristina.díaz698@pitstech.com,+34 639697989,Scrum Master,Business,QA Tester,75,60,12000,9600,Senior,English;Spanish;French,Employee
+Víctor,Ortega,víctor.ortega699@pitstech.com,+34 628568627,QA Tester,Engineering,ML Engineer,56,44,8960,7040,Mid-Level,German,Employee
+Alejandro,Romero,alejandro.romero700@pitstech.com,+34 664940246,Product Owner,Quality Assurance,Data Engineer,86,68,13760,10880,Senior,English;Italian,Employee
+Mercedes,León,mercedes.león701@pitstech.com,+34 617098654,Database Admin,Security,QA Tester,83,66,13280,10560,Senior,German;Spanish;Portuguese,Employee
+Rosa,Rubio,rosa.rubio702@pitstech.com,+34 663417000,Software Architect,Quality Assurance,QA Tester,64,51,10240,8160,Mid-Level,Spanish;Portuguese,Employee
+Javier,Ruiz,javier.ruiz703@pitstech.com,+34 649217313,QA Engineer,Design,Product Owner,47,37,7520,5920,Junior,English;Italian;Portuguese,Employee
+Francisco,Cabrera,francisco.cabrera704@pitstech.com,+34 699541953,ML Engineer,Business,Scrum Master,70,56,11200,8960,Mid-Level,German;Spanish,Employee
+Guillermo,Gil,guillermo.gil705@pitstech.com,+34 629515250,Backend Developer,Quality Assurance,Cloud Specialist,85,68,13600,10880,Senior,German;English;Italian,Employee
+Javier,Serrano,javier.serrano706@pitstech.com,+34 696071046,Business Analyst,Design,Scrum Master,80,64,12800,10240,Senior,French;Portuguese;German,Employee
+Luis,Cortés,luis.cortés707@pitstech.com,+34 689398863,Senior Developer,Security,DBA,42,33,6720,5280,Junior,Spanish;German,Employee
+Lucas,Ortiz,lucas.ortiz708@pitstech.com,+34 673735102,Business Analyst,Security,DevOps,73,58,11680,9280,Mid-Level,English,Employee
+Clara,Ramírez,clara.ramírez709@pitstech.com,+34 634608523,Backend Developer,Business,Security Specialist,37,29,5920,4640,Junior,German;Italian,Employee
+Consuelo,Santos,consuelo.santos710@pitstech.com,+34 628677607,Cloud Engineer,Data,Scrum Master,95,76,15200,12160,Senior,Portuguese,Employee
+Encarnación,Torres,encarnación.torres711@pitstech.com,+34 612629659,Senior Developer,Design,Business Analyst,99,79,15840,12640,Senior,Spanish,Employee
+Miriam,Cruz,miriam.cruz712@pitstech.com,+34 655056630,QA Tester,Engineering,Tech Lead,73,58,11680,9280,Mid-Level,English,Employee
+Concepción,Cano,concepción.cano713@pitstech.com,+34 613497564,Database Admin,Security,Data Engineer,97,77,15520,12320,Senior,Portuguese;French;German,Employee
+Gabriel,Vargas,gabriel.vargas714@pitstech.com,+34 638829086,Frontend Developer,Quality Assurance,Tech Lead,35,28,5600,4480,Junior,Spanish,Employee
+Tomás,Fernández,tomás.fernández715@pitstech.com,+34 697021513,Data Scientist,Engineering,Scrum Master,75,60,12000,9600,Mid-Level,English,Employee
+Remedios,González,remedios.gonzález716@pitstech.com,+34 612780571,UI Designer,Security,Full Stack Developer,63,50,10080,8000,Mid-Level,German;Spanish,Employee
+Jesús,Medina,jesús.medina717@pitstech.com,+34 626383088,Frontend Developer,Business,Software Architect,76,60,12160,9600,Senior,Italian,Employee
+Rodrigo,Prieto,rodrigo.prieto718@pitstech.com,+34 616474271,Security Engineer,Business,Frontend Developer,97,77,15520,12320,Senior,German,Employee
+Gonzalo,López,gonzalo.lópez719@pitstech.com,+34 655981244,Project Manager,Engineering,Scrum Master,91,72,14560,11520,Senior,English,Employee
+Elena,Campos,elena.campos720@pitstech.com,+34 634725190,Junior Developer,Product,Cloud Specialist,96,76,15360,12160,Senior,German;Spanish;Italian,Employee
+Juana,Méndez,juana.méndez721@pitstech.com,+34 653431794,Junior Developer,Design,Business Analyst,59,47,9440,7520,Mid-Level,German,Employee
+Julia,Delgado,julia.delgado722@pitstech.com,+34 678946680,Data Engineer,Quality Assurance,DevOps,84,67,13440,10720,Senior,Italian;Portuguese;English,Employee
+Eva,González,eva.gonzález723@pitstech.com,+34 629548442,Tech Lead,Product,Mobile Developer,62,49,9920,7840,Mid-Level,Portuguese;Italian,Employee
+Antonia,Fernández,antonia.fernández724@pitstech.com,+34 662778523,DevOps Engineer,Product,Backend Developer,36,28,5760,4480,Junior,Portuguese;Italian,Employee
+Raúl,Vega,raúl.vega725@pitstech.com,+34 690536329,UX Designer,Data,Product Owner,39,31,6240,4960,Junior,Italian,Employee
+Victoria,Ramos,victoria.ramos726@pitstech.com,+34 620916239,Junior Developer,Engineering,DevOps,87,69,13920,11040,Senior,Italian;German,Employee
+Susana,Romero,susana.romero727@pitstech.com,+34 655722038,Software Architect,Data,Software Architect,72,57,11520,9120,Mid-Level,Spanish;French;German,Employee
+Jesús,Méndez,jesús.méndez728@pitstech.com,+34 637695716,iOS Developer,Business,Frontend Developer,45,36,7200,5760,Junior,Italian,Employee
+José,Jiménez,josé.jiménez729@pitstech.com,+34 661920340,Business Analyst,Design,Business Analyst,58,46,9280,7360,Mid-Level,French,Employee
+Rubén,Ortega,rubén.ortega730@pitstech.com,+34 667378256,UX Designer,Quality Assurance,ML Engineer,70,56,11200,8960,Mid-Level,German,Employee
+Javier,Serrano,javier.serrano731@pitstech.com,+34 665925432,Mobile Developer,Product,Frontend Developer,57,45,9120,7200,Mid-Level,English;French,Employee
+María,Díaz,maría.díaz732@pitstech.com,+34 628373338,Software Architect,Design,Frontend Developer,57,45,9120,7200,Mid-Level,Portuguese;German,Employee
+Emilia,Pérez,emilia.pérez733@pitstech.com,+34 655374896,Database Admin,Data,Full Stack Developer,60,48,9600,7680,Mid-Level,Spanish,Employee
+Silvia,González,silvia.gonzález734@pitstech.com,+34 663082614,ML Engineer,Product,Data Engineer,43,34,6880,5440,Junior,Spanish;Italian;Portuguese,Employee
+Dolores,Jiménez,dolores.jiménez735@pitstech.com,+34 639704812,Senior Developer,Data,Software Architect,68,54,10880,8640,Mid-Level,Spanish,Employee
+Sara,Reyes,sara.reyes736@pitstech.com,+34 699490679,iOS Developer,Product,Data Scientist,35,28,5600,4480,Junior,Portuguese;Italian,Employee
+Pablo,Herrera,pablo.herrera737@pitstech.com,+34 661240580,Data Scientist,Quality Assurance,UX/UI Designer,60,48,9600,7680,Mid-Level,Italian;Spanish,Employee
+María,Blanco,maría.blanco738@pitstech.com,+34 684202860,Junior Developer,Data,Project Manager,86,68,13760,10880,Senior,Portuguese,Employee
+Inmaculada,Pascual,inmaculada.pascual739@pitstech.com,+34 655097066,Scrum Master,Quality Assurance,Data Engineer,48,38,7680,6080,Junior,German;English;Spanish,Employee
+Pedro,Molina,pedro.molina740@pitstech.com,+34 661718372,Backend Developer,Security,Frontend Developer,41,32,6560,5120,Junior,Portuguese;German,Employee
+Leo,Gil,leo.gil741@pitstech.com,+34 620318166,Junior Developer,Engineering,Cloud Specialist,100,80,16000,12800,Senior,Spanish,Employee
+Remedios,Romero,remedios.romero742@pitstech.com,+34 635527716,QA Tester,Quality Assurance,Full Stack Developer,40,32,6400,5120,Junior,French;Spanish;English,Employee
+Diego,Ramos,diego.ramos743@pitstech.com,+34 642676936,UI Designer,Design,UX/UI Designer,42,33,6720,5280,Junior,Italian;German,Employee
+Clara,Serrano,clara.serrano744@pitstech.com,+34 674796371,Software Architect,Data,UX/UI Designer,97,77,15520,12320,Senior,French;English,Employee
+Antonio,Rodríguez,antonio.rodríguez745@pitstech.com,+34 653063283,Data Engineer,Product,DBA,72,57,11520,9120,Mid-Level,German,Employee
+Hugo,Jiménez,hugo.jiménez746@pitstech.com,+34 618266643,Data Engineer,Security,Business Analyst,87,69,13920,11040,Senior,Italian;Portuguese,Employee
+Dolores,Díaz,dolores.díaz747@pitstech.com,+34 642917294,Data Engineer,Quality Assurance,Scrum Master,56,44,8960,7040,Mid-Level,French,Employee
+Juana,Vargas,juana.vargas748@pitstech.com,+34 687146259,Cloud Engineer,Security,DBA,36,28,5760,4480,Junior,German;Spanish,Employee
+Rafael,Reyes,rafael.reyes749@pitstech.com,+34 670544108,UX Designer,Business,Software Architect,81,64,12960,10240,Senior,Italian;German,Employee
+Miguel,Cortés,miguel.cortés750@pitstech.com,+34 612494507,Android Developer,Security,Security Specialist,63,50,10080,8000,Mid-Level,English,Employee
+Carmen,Ramos,carmen.ramos751@pitstech.com,+34 620544991,Software Architect,Quality Assurance,Data Engineer,86,68,13760,10880,Senior,English;French,Employee
+Adam,Blanco,adam.blanco752@pitstech.com,+34 667928992,UX Designer,Product,DevOps,41,32,6560,5120,Junior,English,Employee
+Nicolás,Navarro,nicolás.navarro753@pitstech.com,+34 677727689,UI Designer,Security,Tech Lead,59,47,9440,7520,Mid-Level,English;Spanish,Employee
+Teresa,Ortiz,teresa.ortiz754@pitstech.com,+34 654699435,Frontend Developer,Data,Backend Developer,70,56,11200,8960,Mid-Level,Italian,Employee
+Adam,Romero,adam.romero755@pitstech.com,+34 620112420,UI Designer,Business,UX/UI Designer,97,77,15520,12320,Senior,English;French;Spanish,Employee
+Lidia,Pérez,lidia.pérez756@pitstech.com,+34 625104154,Security Engineer,Design,Data Scientist,45,36,7200,5760,Junior,English,Employee
+Inmaculada,Cruz,inmaculada.cruz757@pitstech.com,+34 631039877,QA Tester,Engineering,Business Analyst,92,73,14720,11680,Senior,Spanish,Employee
+Rubén,Aguilar,rubén.aguilar758@pitstech.com,+34 636920371,ML Engineer,Quality Assurance,Tech Lead,69,55,11040,8800,Mid-Level,German;Italian;Spanish,Employee
+Victoria,Gil,victoria.gil759@pitstech.com,+34 696870792,Scrum Master,Security,Cloud Specialist,49,39,7840,6240,Junior,English,Employee
+Cristina,Mora,cristina.mora760@pitstech.com,+34 656201167,Software Architect,Business,ML Engineer,88,70,14080,11200,Senior,Portuguese,Employee
+Raquel,Pérez,raquel.pérez761@pitstech.com,+34 618167738,Backend Developer,Design,Project Manager,40,32,6400,5120,Junior,Italian,Employee
+Inmaculada,Jiménez,inmaculada.jiménez762@pitstech.com,+34 645174984,iOS Developer,Product,Project Manager,79,63,12640,10080,Senior,Portuguese;Spanish,Employee
+Enrique,López,enrique.lópez763@pitstech.com,+34 679730495,Frontend Developer,Product,QA Tester,41,32,6560,5120,Junior,Italian;Spanish;German,Employee
+Antonio,Vega,antonio.vega764@pitstech.com,+34 673175718,Cloud Engineer,Product,Full Stack Developer,88,70,14080,11200,Senior,German,Employee
+Álvaro,Cabrera,álvaro.cabrera765@pitstech.com,+34 629844543,Mobile Developer,Engineering,Security Specialist,48,38,7680,6080,Junior,French,Employee
+Montserrat,Marín,montserrat.marín766@pitstech.com,+34 626986694,iOS Developer,Security,Data Engineer,99,79,15840,12640,Senior,German;French;Italian,Employee
+Irene,Ortega,irene.ortega767@pitstech.com,+34 627397653,Backend Developer,Data,Software Architect,75,60,12000,9600,Senior,English,Employee
+Pilar,Molina,pilar.molina768@pitstech.com,+34 650655597,Full Stack Developer,Data,Backend Developer,58,46,9280,7360,Mid-Level,Spanish;Portuguese;English,Employee
+Manuela,Cabrera,manuela.cabrera769@pitstech.com,+34 667944461,QA Engineer,Engineering,Security Specialist,94,75,15040,12000,Senior,Italian,Employee
+Marcos,Vargas,marcos.vargas770@pitstech.com,+34 648510785,DevOps Engineer,Engineering,Cloud Specialist,77,61,12320,9760,Senior,French;German;Italian,Employee
+Antonia,García,antonia.garcía771@pitstech.com,+34 612153730,Scrum Master,Data,Cloud Specialist,39,31,6240,4960,Junior,English;Spanish,Employee
+Laura,Vargas,laura.vargas772@pitstech.com,+34 689868681,Project Manager,Security,Data Scientist,63,50,10080,8000,Mid-Level,Spanish;German,Employee
+Remedios,Iglesias,remedios.iglesias773@pitstech.com,+34 655393549,DevOps Engineer,Quality Assurance,Business Analyst,49,39,7840,6240,Junior,German;English,Employee
+Víctor,Iglesias,víctor.iglesias774@pitstech.com,+34 680924715,Security Engineer,Security,Project Manager,70,56,11200,8960,Mid-Level,English;Portuguese,Employee
+Ignacio,Sánchez,ignacio.sánchez775@pitstech.com,+34 664237333,Data Scientist,Product,Backend Developer,42,33,6720,5280,Junior,Portuguese,Employee
+Ángel,Pérez,ángel.pérez776@pitstech.com,+34 678536075,DevOps Engineer,Engineering,UX/UI Designer,40,32,6400,5120,Junior,German;Portuguese;English,Employee
+Concepción,Lozano,concepción.lozano777@pitstech.com,+34 664801048,Android Developer,Security,Frontend Developer,100,80,16000,12800,Senior,French;English;Spanish,Employee
+Jesús,Delgado,jesús.delgado778@pitstech.com,+34 620704605,Scrum Master,Security,Full Stack Developer,48,38,7680,6080,Junior,French;Spanish,Employee
+Rodrigo,López,rodrigo.lópez779@pitstech.com,+34 632463505,Mobile Developer,Product,Backend Developer,67,53,10720,8480,Mid-Level,Portuguese,Employee
+Dolores,Gil,dolores.gil780@pitstech.com,+34 627385657,Project Manager,Business,Project Manager,50,40,8000,6400,Junior,English,Employee
+Francisco,Delgado,francisco.delgado781@pitstech.com,+34 681138749,DevOps Engineer,Business,Business Analyst,88,70,14080,11200,Senior,Portuguese,Employee
+María,León,maría.león782@pitstech.com,+34 677048464,iOS Developer,Design,UX/UI Designer,70,56,11200,8960,Mid-Level,English,Employee
+Rodrigo,Ortega,rodrigo.ortega783@pitstech.com,+34 622298504,Project Manager,Quality Assurance,Software Architect,87,69,13920,11040,Senior,Italian,Employee
+Raúl,Díaz,raúl.díaz784@pitstech.com,+34 658213457,Backend Developer,Security,Scrum Master,35,28,5600,4480,Junior,Spanish;French;German,Employee
+Andrea,Suárez,andrea.suárez785@pitstech.com,+34 617533537,Backend Developer,Business,Business Analyst,69,55,11040,8800,Mid-Level,Italian,Employee
+Remedios,Campos,remedios.campos786@pitstech.com,+34 628828744,UI Designer,Quality Assurance,Software Architect,95,76,15200,12160,Senior,English,Employee
+Marcos,Ortiz,marcos.ortiz787@pitstech.com,+34 699524080,Frontend Developer,Quality Assurance,Mobile Developer,72,57,11520,9120,Mid-Level,Portuguese;French,Employee
+Elena,Ortiz,elena.ortiz788@pitstech.com,+34 613362734,Product Owner,Engineering,Cloud Specialist,35,28,5600,4480,Junior,German;English;Italian,Employee
+Raúl,Ramos,raúl.ramos789@pitstech.com,+34 619968147,Cloud Engineer,Engineering,Frontend Developer,38,30,6080,4800,Junior,Italian,Employee
+Eva,López,eva.lópez790@pitstech.com,+34 661252083,Mobile Developer,Product,Business Analyst,68,54,10880,8640,Mid-Level,German;French;Italian,Employee
+Raúl,González,raúl.gonzález791@pitstech.com,+34 632965254,Full Stack Developer,Business,DBA,86,68,13760,10880,Senior,English;Portuguese;Spanish,Employee
+Carmen,Lozano,carmen.lozano792@pitstech.com,+34 652489381,Project Manager,Data,Security Specialist,58,46,9280,7360,Mid-Level,German;French;Portuguese,Employee
+Nicolás,Cruz,nicolás.cruz793@pitstech.com,+34 659064169,Security Engineer,Data,Project Manager,57,45,9120,7200,Mid-Level,French;German,Employee
+Mercedes,López,mercedes.lópez794@pitstech.com,+34 656658113,Scrum Master,Business,Business Analyst,38,30,6080,4800,Junior,English,Employee
+Ignacio,Castro,ignacio.castro795@pitstech.com,+34 611982702,Database Admin,Quality Assurance,Business Analyst,42,33,6720,5280,Junior,French;English,Employee
+Jesús,Molina,jesús.molina796@pitstech.com,+34 627695857,Product Owner,Quality Assurance,Scrum Master,50,40,8000,6400,Junior,Italian,Employee
+Andrea,Benítez,andrea.benítez797@pitstech.com,+34 610944671,Backend Developer,Data,Data Engineer,37,29,5920,4640,Junior,German;Portuguese;Italian,Employee
+Javier,Gil,javier.gil798@pitstech.com,+34 642693907,iOS Developer,Quality Assurance,Security Specialist,79,63,12640,10080,Senior,German,Employee
+Gabriel,Fernández,gabriel.fernández799@pitstech.com,+34 698022337,Cloud Engineer,Design,Data Scientist,57,45,9120,7200,Mid-Level,French,Employee
+Miriam,Pascual,miriam.pascual800@pitstech.com,+34 641676384,Tech Lead,Engineering,Security Specialist,65,52,10400,8320,Mid-Level,English;French,Employee
+Javier,Jiménez,javier.jiménez801@pitstech.com,+34 669893309,Android Developer,Quality Assurance,QA Tester,41,32,6560,5120,Junior,French;German;Italian,Employee
+Adam,Martínez,adam.martínez802@pitstech.com,+34 625680911,Database Admin,Security,Product Owner,82,65,13120,10400,Senior,French;English;Italian,Employee
+Hugo,Pérez,hugo.pérez803@pitstech.com,+34 619440482,Junior Developer,Data,Data Scientist,63,50,10080,8000,Mid-Level,Portuguese,Employee
+Elena,Méndez,elena.méndez804@pitstech.com,+34 681975383,Senior Developer,Engineering,DBA,42,33,6720,5280,Junior,German,Employee
+Cristina,Navarro,cristina.navarro805@pitstech.com,+34 636334829,Android Developer,Business,DBA,66,52,10560,8320,Mid-Level,English;Italian;French,Employee
+Rodrigo,Cano,rodrigo.cano806@pitstech.com,+34 655390292,QA Engineer,Quality Assurance,Software Architect,70,56,11200,8960,Mid-Level,Portuguese;Spanish;French,Employee
+Rocío,Navarro,rocío.navarro807@pitstech.com,+34 618170058,DevOps Engineer,Data,Scrum Master,92,73,14720,11680,Senior,German;Portuguese;French,Employee
+Marta,Ramos,marta.ramos808@pitstech.com,+34 692772253,Product Owner,Data,Full Stack Developer,97,77,15520,12320,Senior,German;Spanish;English,Employee
+Juana,Fernández,juana.fernández809@pitstech.com,+34 618074273,Tech Lead,Security,QA Tester,94,75,15040,12000,Senior,Portuguese;French,Employee
+Mercedes,León,mercedes.león810@pitstech.com,+34 667397499,Security Engineer,Product,DevOps,72,57,11520,9120,Mid-Level,Portuguese;Spanish;German,Employee
+Rafael,Suárez,rafael.suárez811@pitstech.com,+34 656052787,Data Engineer,Data,Software Architect,75,60,12000,9600,Senior,French,Employee
+Martín,Lozano,martín.lozano812@pitstech.com,+34 619456715,Database Admin,Data,DBA,44,35,7040,5600,Junior,German,Employee
+Álvaro,Cano,álvaro.cano813@pitstech.com,+34 644643457,Cloud Engineer,Design,ML Engineer,59,47,9440,7520,Mid-Level,Italian;English,Employee
+Andrea,Prieto,andrea.prieto814@pitstech.com,+34 635860778,Junior Developer,Business,Frontend Developer,64,51,10240,8160,Mid-Level,Portuguese;Italian,Employee
+Julia,García,julia.garcía815@pitstech.com,+34 677177370,iOS Developer,Quality Assurance,Software Architect,58,46,9280,7360,Mid-Level,Italian;German;English,Employee
+Montserrat,Vázquez,montserrat.vázquez816@pitstech.com,+34 637879494,Project Manager,Quality Assurance,Backend Developer,42,33,6720,5280,Junior,German;Spanish,Employee
+Ana,Ortega,ana.ortega817@pitstech.com,+34 666895106,Cloud Engineer,Product,Software Architect,47,37,7520,5920,Junior,Portuguese;French,Employee
+Nuria,Blanco,nuria.blanco818@pitstech.com,+34 674757144,UX Designer,Data,Tech Lead,75,60,12000,9600,Senior,Spanish;Portuguese,Employee
+Manuela,Moreno,manuela.moreno819@pitstech.com,+34 654934957,Data Scientist,Quality Assurance,Security Specialist,96,76,15360,12160,Senior,French;German;Spanish,Employee
+Luis,Ortiz,luis.ortiz820@pitstech.com,+34 617939040,iOS Developer,Business,Scrum Master,80,64,12800,10240,Senior,Spanish;German;English,Employee
+Sara,Martínez,sara.martínez821@pitstech.com,+34 686679250,Cloud Engineer,Design,Data Engineer,60,48,9600,7680,Mid-Level,German;English;Italian,Employee
+Irene,Rodríguez,irene.rodríguez822@pitstech.com,+34 636694955,QA Engineer,Business,Product Owner,85,68,13600,10880,Senior,Italian;French;Spanish,Employee
+Sara,Delgado,sara.delgado823@pitstech.com,+34 698876236,Database Admin,Business,Software Architect,98,78,15680,12480,Senior,Spanish;Portuguese,Employee
+María,Torres,maría.torres824@pitstech.com,+34 670592715,Product Owner,Business,Backend Developer,45,36,7200,5760,Junior,Spanish,Employee
+Miriam,Romero,miriam.romero825@pitstech.com,+34 674845271,Project Manager,Security,Frontend Developer,58,46,9280,7360,Mid-Level,Italian,Employee
+Raquel,Torres,raquel.torres826@pitstech.com,+34 646153233,Android Developer,Data,Business Analyst,35,28,5600,4480,Junior,English;German,Employee
+Lorena,Blanco,lorena.blanco827@pitstech.com,+34 696041194,QA Tester,Data,Backend Developer,36,28,5760,4480,Junior,French;Italian;German,Employee
+Andrea,Ramos,andrea.ramos828@pitstech.com,+34 695570394,Senior Developer,Data,Product Owner,64,51,10240,8160,Mid-Level,Spanish,Employee
+Hugo,Castro,hugo.castro829@pitstech.com,+34 650331858,Data Engineer,Business,Backend Developer,36,28,5760,4480,Junior,German;French,Employee
+Elena,Méndez,elena.méndez830@pitstech.com,+34 658447791,iOS Developer,Quality Assurance,Security Specialist,44,35,7040,5600,Junior,English;Spanish;French,Employee
+Carmen,Marín,carmen.marín831@pitstech.com,+34 625139495,QA Engineer,Quality Assurance,Tech Lead,89,71,14240,11360,Senior,Portuguese;Spanish;English,Employee
+Rafael,Vargas,rafael.vargas832@pitstech.com,+34 673997647,Data Engineer,Product,QA Tester,85,68,13600,10880,Senior,Spanish;German;Italian,Employee
+Sergio,Molina,sergio.molina833@pitstech.com,+34 682438889,Android Developer,Quality Assurance,Frontend Developer,56,44,8960,7040,Mid-Level,Italian;English;German,Employee
+Manuela,Ortiz,manuela.ortiz834@pitstech.com,+34 635541273,Senior Developer,Business,DBA,68,54,10880,8640,Mid-Level,English,Employee
+Marina,Vázquez,marina.vázquez835@pitstech.com,+34 660445911,Android Developer,Business,ML Engineer,83,66,13280,10560,Senior,English;Portuguese,Employee
+Fernando,García,fernando.garcía836@pitstech.com,+34 611428326,Full Stack Developer,Quality Assurance,Security Specialist,46,36,7360,5760,Junior,Spanish,Employee
+Silvia,Herrera,silvia.herrera837@pitstech.com,+34 630208010,Senior Developer,Security,Security Specialist,63,50,10080,8000,Mid-Level,Italian,Employee
+Adam,Marín,adam.marín838@pitstech.com,+34 692258274,Security Engineer,Quality Assurance,Backend Developer,76,60,12160,9600,Senior,Portuguese;Spanish;French,Employee
+Dolores,Pérez,dolores.pérez839@pitstech.com,+34 622903154,Backend Developer,Engineering,DBA,84,67,13440,10720,Senior,Italian,Employee
+Raquel,Ramírez,raquel.ramírez840@pitstech.com,+34 697782231,UX Designer,Product,QA Tester,63,50,10080,8000,Mid-Level,Spanish;German,Employee
+Eva,Rodríguez,eva.rodríguez841@pitstech.com,+34 661349068,Mobile Developer,Engineering,Backend Developer,81,64,12960,10240,Senior,English,Employee
+Miguel,Sánchez,miguel.sánchez842@pitstech.com,+34 690799296,Cloud Engineer,Product,UX/UI Designer,70,56,11200,8960,Mid-Level,Italian;Portuguese;English,Employee
+Samuel,Cortés,samuel.cortés843@pitstech.com,+34 665750393,Cloud Engineer,Quality Assurance,Project Manager,41,32,6560,5120,Junior,Spanish;English,Employee
+Alba,Vega,alba.vega844@pitstech.com,+34 631838607,DevOps Engineer,Data,Backend Developer,35,28,5600,4480,Junior,English,Employee
+Emilia,Díaz,emilia.díaz845@pitstech.com,+34 690704154,Mobile Developer,Design,Software Architect,69,55,11040,8800,Mid-Level,English,Employee
+José,Fernández,josé.fernández846@pitstech.com,+34 644884930,Full Stack Developer,Business,Scrum Master,72,57,11520,9120,Mid-Level,French;English,Employee
+Sergio,Romero,sergio.romero847@pitstech.com,+34 623308244,Product Owner,Quality Assurance,Business Analyst,38,30,6080,4800,Junior,English;Portuguese,Employee
+Antonia,Cano,antonia.cano848@pitstech.com,+34 626904833,Mobile Developer,Product,Data Engineer,90,72,14400,11520,Senior,Portuguese;Spanish,Employee
+Marina,Marín,marina.marín849@pitstech.com,+34 657284234,Junior Developer,Security,QA Tester,62,49,9920,7840,Mid-Level,Portuguese,Employee
+Marina,Mora,marina.mora850@pitstech.com,+34 668650774,Security Engineer,Product,Tech Lead,56,44,8960,7040,Mid-Level,Spanish;English,Employee
+Eva,Vega,eva.vega851@pitstech.com,+34 613142697,UX Designer,Quality Assurance,Scrum Master,96,76,15360,12160,Senior,French,Employee
+Alejandro,Gil,alejandro.gil852@pitstech.com,+34 681284585,UI Designer,Security,Software Architect,91,72,14560,11520,Senior,Italian;Spanish,Employee
+Encarnación,Blanco,encarnación.blanco853@pitstech.com,+34 673721643,Software Architect,Quality Assurance,Mobile Developer,67,53,10720,8480,Mid-Level,Portuguese;Italian,Employee
+Eva,Díaz,eva.díaz854@pitstech.com,+34 644080095,DevOps Engineer,Quality Assurance,Software Architect,77,61,12320,9760,Senior,Spanish;English,Employee
+Antonio,Navarro,antonio.navarro855@pitstech.com,+34 692769022,Backend Developer,Design,Mobile Developer,39,31,6240,4960,Junior,Italian;Spanish,Employee
+Gabriel,Ortega,gabriel.ortega856@pitstech.com,+34 633997597,Data Engineer,Engineering,Mobile Developer,43,34,6880,5440,Junior,French;German;Spanish,Employee
+Miriam,González,miriam.gonzález857@pitstech.com,+34 699130970,Software Architect,Quality Assurance,Mobile Developer,42,33,6720,5280,Junior,Spanish;Portuguese;German,Employee
+Carmen,Ortega,carmen.ortega858@pitstech.com,+34 636492846,Backend Developer,Security,Cloud Specialist,91,72,14560,11520,Senior,English;French,Employee
+Nuria,Ortiz,nuria.ortiz859@pitstech.com,+34 617252819,UX Designer,Business,UX/UI Designer,73,58,11680,9280,Mid-Level,Italian,Employee
+Daniel,Lozano,daniel.lozano860@pitstech.com,+34 629343742,Database Admin,Business,Tech Lead,91,72,14560,11520,Senior,French;Spanish;English,Employee
+Hugo,Pérez,hugo.pérez861@pitstech.com,+34 685509091,Software Architect,Business,Scrum Master,96,76,15360,12160,Senior,French,Employee
+Cristina,Pascual,cristina.pascual862@pitstech.com,+34 696865696,Mobile Developer,Security,QA Tester,73,58,11680,9280,Mid-Level,German;English,Employee
+Lucía,Pérez,lucía.pérez863@pitstech.com,+34 680395061,Tech Lead,Business,DBA,36,28,5760,4480,Junior,Spanish;German;Portuguese,Employee
+Miriam,Benítez,miriam.benítez864@pitstech.com,+34 696892139,Security Engineer,Design,Full Stack Developer,64,51,10240,8160,Mid-Level,German;Spanish;French,Employee
+Carmen,Cabrera,carmen.cabrera865@pitstech.com,+34 648862022,Junior Developer,Design,DBA,38,30,6080,4800,Junior,French;Spanish,Employee
+Laura,Fernández,laura.fernández866@pitstech.com,+34 660192609,Data Scientist,Product,Scrum Master,82,65,13120,10400,Senior,English;German,Employee
+Teresa,Cabrera,teresa.cabrera867@pitstech.com,+34 654252920,Android Developer,Engineering,Business Analyst,62,49,9920,7840,Mid-Level,Spanish;English,Employee
+Alberto,Serrano,alberto.serrano868@pitstech.com,+34 640572058,iOS Developer,Security,Scrum Master,37,29,5920,4640,Junior,Spanish;Portuguese;Italian,Employee
+Isabel,Herrera,isabel.herrera869@pitstech.com,+34 676713554,Full Stack Developer,Engineering,Data Scientist,90,72,14400,11520,Senior,Portuguese;German,Employee
+Beatriz,Martínez,beatriz.martínez870@pitstech.com,+34 674801646,Tech Lead,Quality Assurance,Product Owner,46,36,7360,5760,Junior,Italian;English,Employee
+Nuria,García,nuria.garcía871@pitstech.com,+34 646551638,Cloud Engineer,Security,Project Manager,94,75,15040,12000,Senior,French;Spanish;Portuguese,Employee
+Ana,Pascual,ana.pascual872@pitstech.com,+34 666509618,Mobile Developer,Quality Assurance,Project Manager,65,52,10400,8320,Mid-Level,Spanish,Employee
+Adam,Cano,adam.cano873@pitstech.com,+34 690708489,Database Admin,Quality Assurance,DBA,47,37,7520,5920,Junior,Spanish;English,Employee
+Pablo,Martínez,pablo.martínez874@pitstech.com,+34 677121117,Mobile Developer,Data,Software Architect,60,48,9600,7680,Mid-Level,English,Employee
+Raquel,León,raquel.león875@pitstech.com,+34 668497153,Android Developer,Business,Business Analyst,77,61,12320,9760,Senior,English;Spanish,Employee
+Guillermo,Ruiz,guillermo.ruiz876@pitstech.com,+34 616449094,Android Developer,Security,Software Architect,64,51,10240,8160,Mid-Level,Spanish,Employee
+Mateo,Cano,mateo.cano877@pitstech.com,+34 619189898,Product Owner,Security,Product Owner,85,68,13600,10880,Senior,Italian,Employee
+Remedios,Molina,remedios.molina878@pitstech.com,+34 647789218,Software Architect,Business,Business Analyst,57,45,9120,7200,Mid-Level,Italian;English,Employee
+Amparo,Pérez,amparo.pérez879@pitstech.com,+34 610965569,iOS Developer,Data,Tech Lead,60,48,9600,7680,Mid-Level,French;Italian,Employee
+Nicolás,Rubio,nicolás.rubio880@pitstech.com,+34 654597435,Senior Developer,Data,QA Tester,82,65,13120,10400,Senior,Spanish;English,Employee
+Raquel,Torres,raquel.torres881@pitstech.com,+34 699981707,Security Engineer,Design,Data Scientist,41,32,6560,5120,Junior,French,Employee
+Antonio,Benítez,antonio.benítez882@pitstech.com,+34 663713277,UI Designer,Quality Assurance,Data Scientist,84,67,13440,10720,Senior,Italian;German;English,Employee
+Victoria,Marín,victoria.marín883@pitstech.com,+34 624903716,Senior Developer,Security,DevOps,73,58,11680,9280,Mid-Level,Italian;Spanish,Employee
+Ángel,Delgado,ángel.delgado884@pitstech.com,+34 646838275,Software Architect,Business,Frontend Developer,98,78,15680,12480,Senior,French,Employee
+Matías,Aguilar,matías.aguilar885@pitstech.com,+34 656041331,Data Scientist,Security,ML Engineer,67,53,10720,8480,Mid-Level,French;English,Employee
+Francisca,Prieto,francisca.prieto886@pitstech.com,+34 640422006,Tech Lead,Quality Assurance,Backend Developer,83,66,13280,10560,Senior,French,Employee
+Lucas,Castro,lucas.castro887@pitstech.com,+34 686240446,Mobile Developer,Security,Software Architect,73,58,11680,9280,Mid-Level,Portuguese;French;Spanish,Employee
+Gabriel,Moreno,gabriel.moreno888@pitstech.com,+34 648345565,Junior Developer,Product,Project Manager,57,45,9120,7200,Mid-Level,German,Employee
+Álvaro,Castro,álvaro.castro889@pitstech.com,+34 613436636,DevOps Engineer,Quality Assurance,Tech Lead,42,33,6720,5280,Junior,English;French,Employee
+Marina,Ortiz,marina.ortiz890@pitstech.com,+34 699033734,Tech Lead,Engineering,Data Engineer,93,74,14880,11840,Senior,German;Italian;English,Employee
+María,Iglesias,maría.iglesias891@pitstech.com,+34 633758036,Database Admin,Engineering,DBA,83,66,13280,10560,Senior,German;Spanish;French,Employee
+Andrea,León,andrea.león892@pitstech.com,+34 613055513,Security Engineer,Design,UX/UI Designer,49,39,7840,6240,Junior,German;Italian;Portuguese,Employee
+Andrés,Prieto,andrés.prieto893@pitstech.com,+34 680593609,Software Architect,Data,Mobile Developer,87,69,13920,11040,Senior,Spanish;English;Portuguese,Employee
+Miriam,Prieto,miriam.prieto894@pitstech.com,+34 651160130,Database Admin,Product,Data Engineer,41,32,6560,5120,Junior,Portuguese,Employee
+Raúl,García,raúl.garcía895@pitstech.com,+34 675405310,Android Developer,Data,Scrum Master,55,44,8800,7040,Mid-Level,German,Employee
+Paula,Prieto,paula.prieto896@pitstech.com,+34 653462736,Tech Lead,Product,Project Manager,72,57,11520,9120,Mid-Level,Italian;Spanish,Employee
+Nuria,García,nuria.garcía897@pitstech.com,+34 610820194,Software Architect,Business,Backend Developer,80,64,12800,10240,Senior,Portuguese,Employee
+Francisco,Vega,francisco.vega898@pitstech.com,+34 654919833,UI Designer,Quality Assurance,ML Engineer,59,47,9440,7520,Mid-Level,French;Spanish,Employee
+Amparo,Blanco,amparo.blanco899@pitstech.com,+34 673517890,iOS Developer,Engineering,ML Engineer,58,46,9280,7360,Mid-Level,French;Italian;Spanish,Employee
+Manuela,Moreno,manuela.moreno900@pitstech.com,+34 640697218,Junior Developer,Product,QA Tester,96,76,15360,12160,Senior,German;Spanish,Employee
+Laura,Fernández,laura.fernández901@pitstech.com,+34 670775073,Database Admin,Data,DBA,56,44,8960,7040,Mid-Level,Italian;Spanish;German,Employee
+Lidia,Ramos,lidia.ramos902@pitstech.com,+34 635783356,DevOps Engineer,Business,Scrum Master,39,31,6240,4960,Junior,Portuguese;German,Employee
+Montserrat,Vargas,montserrat.vargas903@pitstech.com,+34 650940423,UX Designer,Data,Product Owner,95,76,15200,12160,Senior,German;English;Spanish,Employee
+Leo,Castro,leo.castro904@pitstech.com,+34 662926807,Mobile Developer,Product,Frontend Developer,88,70,14080,11200,Senior,Spanish;French,Employee
+Concepción,Moreno,concepción.moreno905@pitstech.com,+34 645400400,Product Owner,Data,QA Tester,66,52,10560,8320,Mid-Level,French;Spanish,Employee
+Rosa,Jiménez,rosa.jiménez906@pitstech.com,+34 627999924,Project Manager,Business,Data Engineer,71,56,11360,8960,Mid-Level,Spanish;French,Employee
+Iván,Vargas,iván.vargas907@pitstech.com,+34 677702171,Business Analyst,Business,Tech Lead,74,59,11840,9440,Mid-Level,French;German,Employee
+Concepción,Ortega,concepción.ortega908@pitstech.com,+34 665843258,Backend Developer,Quality Assurance,Scrum Master,75,60,12000,9600,Senior,French;Italian;English,Employee
+Encarnación,Gil,encarnación.gil909@pitstech.com,+34 633818062,Product Owner,Design,Full Stack Developer,66,52,10560,8320,Mid-Level,Portuguese;Italian;English,Employee
+Marina,Méndez,marina.méndez910@pitstech.com,+34 620967422,Senior Developer,Data,Frontend Developer,65,52,10400,8320,Mid-Level,French,Employee
+Ángel,Cabrera,ángel.cabrera911@pitstech.com,+34 655066540,Security Engineer,Data,DevOps,47,37,7520,5920,Junior,Spanish;English,Employee
+Pedro,Lozano,pedro.lozano912@pitstech.com,+34 662519617,Senior Developer,Quality Assurance,DevOps,96,76,15360,12160,Senior,Italian;German,Employee
+Sebastián,Moreno,sebastián.moreno913@pitstech.com,+34 621347642,Project Manager,Product,Project Manager,78,62,12480,9920,Senior,English,Employee
+Rubén,Jiménez,rubén.jiménez914@pitstech.com,+34 661434595,QA Engineer,Engineering,Data Engineer,45,36,7200,5760,Junior,German,Employee
+Pedro,Martínez,pedro.martínez915@pitstech.com,+34 648102705,Senior Developer,Engineering,Data Scientist,72,57,11520,9120,Mid-Level,Portuguese;German;Spanish,Employee
+Fernando,Aguilar,fernando.aguilar916@pitstech.com,+34 629078111,Scrum Master,Data,Frontend Developer,60,48,9600,7680,Mid-Level,German;French,Employee
+Isabel,Reyes,isabel.reyes917@pitstech.com,+34 626554363,Data Scientist,Engineering,ML Engineer,42,33,6720,5280,Junior,French;Italian;German,Employee
+Miriam,Cano,miriam.cano918@pitstech.com,+34 674021737,UX Designer,Security,DBA,86,68,13760,10880,Senior,Italian;French,Employee
+Javier,Aguilar,javier.aguilar919@pitstech.com,+34 633861869,Backend Developer,Security,Product Owner,37,29,5920,4640,Junior,Spanish;Portuguese;French,Employee
+Antonia,Moreno,antonia.moreno920@pitstech.com,+34 631797868,Product Owner,Quality Assurance,Product Owner,98,78,15680,12480,Senior,Portuguese,Employee
+Juana,Navarro,juana.navarro921@pitstech.com,+34 649021331,Senior Developer,Data,Scrum Master,43,34,6880,5440,Junior,French;Portuguese;Spanish,Employee
+María,Vargas,maría.vargas922@pitstech.com,+34 616536028,QA Engineer,Engineering,Product Owner,66,52,10560,8320,Mid-Level,French;Portuguese,Employee
+Consuelo,Medina,consuelo.medina923@pitstech.com,+34 620242469,Data Scientist,Data,Full Stack Developer,97,77,15520,12320,Senior,Italian,Employee
+Álvaro,Mora,álvaro.mora924@pitstech.com,+34 630719083,Database Admin,Quality Assurance,DevOps,96,76,15360,12160,Senior,Spanish;Italian,Employee
+Francisco,Díaz,francisco.díaz925@pitstech.com,+34 663589929,Project Manager,Data,Backend Developer,46,36,7360,5760,Junior,German;Portuguese;English,Employee
+Lucas,Vargas,lucas.vargas926@pitstech.com,+34 666188717,Product Owner,Business,Mobile Developer,59,47,9440,7520,Mid-Level,Spanish;English;Portuguese,Employee
+Dolores,Serrano,dolores.serrano927@pitstech.com,+34 630041359,Security Engineer,Engineering,Tech Lead,85,68,13600,10880,Senior,Portuguese;Spanish,Employee
+Diego,García,diego.garcía928@pitstech.com,+34 658416066,Android Developer,Design,Business Analyst,100,80,16000,12800,Senior,Portuguese;French,Employee
+Martín,Blanco,martín.blanco929@pitstech.com,+34 658883759,QA Tester,Security,Frontend Developer,46,36,7360,5760,Junior,English,Employee
+Alejandro,Cruz,alejandro.cruz930@pitstech.com,+34 614771641,Android Developer,Product,Software Architect,99,79,15840,12640,Senior,Spanish;German;French,Employee
+Mateo,Jiménez,mateo.jiménez931@pitstech.com,+34 667626146,Data Engineer,Data,DevOps,72,57,11520,9120,Mid-Level,French,Employee
+Sofía,Méndez,sofía.méndez932@pitstech.com,+34 685347457,UX Designer,Design,Software Architect,68,54,10880,8640,Mid-Level,Italian,Employee
+Miguel,Vargas,miguel.vargas933@pitstech.com,+34 693263899,Data Engineer,Design,Product Owner,36,28,5760,4480,Junior,German,Employee
+Ramón,Molina,ramón.molina934@pitstech.com,+34 623789011,iOS Developer,Product,Scrum Master,48,38,7680,6080,Junior,French;English,Employee
+Nuria,Jiménez,nuria.jiménez935@pitstech.com,+34 611034454,Data Engineer,Security,DBA,61,48,9760,7680,Mid-Level,English;German,Employee
+Diego,Herrera,diego.herrera936@pitstech.com,+34 692057285,Full Stack Developer,Business,Mobile Developer,68,54,10880,8640,Mid-Level,German;Spanish,Employee
+Mateo,Álvarez,mateo.álvarez937@pitstech.com,+34 691917450,Tech Lead,Security,Cloud Specialist,87,69,13920,11040,Senior,French;English,Employee
+Raúl,Blanco,raúl.blanco938@pitstech.com,+34 684574619,Tech Lead,Design,Business Analyst,62,49,9920,7840,Mid-Level,Spanish;Italian;Portuguese,Employee
+Jorge,López,jorge.lópez939@pitstech.com,+34 653877644,Tech Lead,Product,Backend Developer,35,28,5600,4480,Junior,English,Employee
+Matías,Rodríguez,matías.rodríguez940@pitstech.com,+34 690189586,Junior Developer,Business,Frontend Developer,91,72,14560,11520,Senior,Italian;Spanish,Employee
+Martín,Santos,martín.santos941@pitstech.com,+34 667690086,Mobile Developer,Product,Data Scientist,75,60,12000,9600,Mid-Level,German;English,Employee
+Rosa,Álvarez,rosa.álvarez942@pitstech.com,+34 628698095,UX Designer,Engineering,Scrum Master,67,53,10720,8480,Mid-Level,Portuguese;German;Italian,Employee
+Pilar,Ruiz,pilar.ruiz943@pitstech.com,+34 655907717,Senior Developer,Security,ML Engineer,63,50,10080,8000,Mid-Level,English;French,Employee
+Clara,Pérez,clara.pérez944@pitstech.com,+34 629353921,Senior Developer,Engineering,QA Tester,50,40,8000,6400,Junior,Spanish;English,Employee
+Rocío,Ramos,rocío.ramos945@pitstech.com,+34 680030016,DevOps Engineer,Data,Security Specialist,82,65,13120,10400,Senior,Portuguese;Italian;French,Employee
+Encarnación,Jiménez,encarnación.jiménez946@pitstech.com,+34 629098844,UX Designer,Data,Security Specialist,44,35,7040,5600,Junior,Spanish,Employee
+Cristina,Torres,cristina.torres947@pitstech.com,+34 624429058,DevOps Engineer,Security,ML Engineer,42,33,6720,5280,Junior,Portuguese;English,Employee
+Remedios,Rodríguez,remedios.rodríguez948@pitstech.com,+34 621848589,Product Owner,Product,Backend Developer,81,64,12960,10240,Senior,German;Italian,Employee
+Raúl,Navarro,raúl.navarro949@pitstech.com,+34 633495525,Mobile Developer,Business,UX/UI Designer,95,76,15200,12160,Senior,Italian,Employee
+Isabel,Ruiz,isabel.ruiz950@pitstech.com,+34 626081815,QA Tester,Quality Assurance,Software Architect,96,76,15360,12160,Senior,Spanish;Portuguese;Italian,Employee
+Clara,Méndez,clara.méndez951@pitstech.com,+34 619942943,ML Engineer,Data,Data Engineer,69,55,11040,8800,Mid-Level,French,Employee
+Laura,Cruz,laura.cruz952@pitstech.com,+34 625465108,Security Engineer,Security,Frontend Developer,82,65,13120,10400,Senior,Italian,Employee
+Raquel,Pérez,raquel.pérez953@pitstech.com,+34 677351283,ML Engineer,Design,Data Engineer,60,48,9600,7680,Mid-Level,German,Employee
+Rodrigo,Pascual,rodrigo.pascual954@pitstech.com,+34 646582107,Security Engineer,Design,Product Owner,49,39,7840,6240,Junior,Spanish;English;Portuguese,Employee
+Montserrat,Ramírez,montserrat.ramírez955@pitstech.com,+34 660599089,Data Engineer,Quality Assurance,DBA,72,57,11520,9120,Mid-Level,Portuguese;Italian,Employee
+Óscar,Ruiz,óscar.ruiz956@pitstech.com,+34 699732704,QA Tester,Data,Scrum Master,59,47,9440,7520,Mid-Level,French;Portuguese,Employee
+Juana,Medina,juana.medina957@pitstech.com,+34 631911898,UI Designer,Design,Software Architect,67,53,10720,8480,Mid-Level,Italian;English;Spanish,Employee
+Rubén,Ortega,rubén.ortega958@pitstech.com,+34 694184564,Mobile Developer,Security,DevOps,79,63,12640,10080,Senior,German,Employee
+Luis,Pérez,luis.pérez959@pitstech.com,+34 665469539,Full Stack Developer,Engineering,UX/UI Designer,78,62,12480,9920,Senior,Italian;Portuguese;German,Employee
+Juana,Torres,juana.torres960@pitstech.com,+34 668218546,Project Manager,Quality Assurance,Data Engineer,59,47,9440,7520,Mid-Level,Portuguese;Italian;Spanish,Employee
+Isabel,Vargas,isabel.vargas961@pitstech.com,+34 622151151,Cloud Engineer,Engineering,Mobile Developer,95,76,15200,12160,Senior,English;Italian;Spanish,Employee
+Jorge,Molina,jorge.molina962@pitstech.com,+34 677879446,Software Architect,Product,Backend Developer,92,73,14720,11680,Senior,German,Employee
+Víctor,Marín,víctor.marín963@pitstech.com,+34 646702893,Mobile Developer,Quality Assurance,Mobile Developer,69,55,11040,8800,Mid-Level,Italian,Employee
+Encarnación,García,encarnación.garcía964@pitstech.com,+34 642651204,Backend Developer,Business,UX/UI Designer,98,78,15680,12480,Senior,English;Italian;Portuguese,Employee
+Rafael,Pérez,rafael.pérez965@pitstech.com,+34 673301548,Software Architect,Data,Backend Developer,35,28,5600,4480,Junior,Italian;French;English,Employee
+Francisco,Álvarez,francisco.álvarez966@pitstech.com,+34 625822994,Security Engineer,Business,Security Specialist,71,56,11360,8960,Mid-Level,English,Employee
+Javier,Campos,javier.campos967@pitstech.com,+34 654204225,Product Owner,Product,Full Stack Developer,46,36,7360,5760,Junior,Portuguese;French;Italian,Employee
+Eva,Suárez,eva.suárez968@pitstech.com,+34 685910328,Business Analyst,Product,DevOps,45,36,7200,5760,Junior,Italian;Portuguese,Employee
+Leo,Delgado,leo.delgado969@pitstech.com,+34 628751526,Android Developer,Business,ML Engineer,46,36,7360,5760,Junior,Italian;German,Employee
+Julia,Rubio,julia.rubio970@pitstech.com,+34 646236628,Data Scientist,Data,QA Tester,100,80,16000,12800,Senior,French,Employee
+Eva,Vázquez,eva.vázquez971@pitstech.com,+34 614320699,Data Scientist,Design,Security Specialist,72,57,11520,9120,Mid-Level,Portuguese;German;French,Employee
+Rafael,Ortega,rafael.ortega972@pitstech.com,+34 620329230,Product Owner,Design,ML Engineer,55,44,8800,7040,Mid-Level,Spanish;Portuguese;German,Employee
+Beatriz,Romero,beatriz.romero973@pitstech.com,+34 676621197,Data Scientist,Design,Scrum Master,83,66,13280,10560,Senior,French;Italian;German,Employee
+Enrique,Blanco,enrique.blanco974@pitstech.com,+34 660066621,Business Analyst,Business,Product Owner,55,44,8800,7040,Mid-Level,English;Portuguese;German,Employee
+Adam,López,adam.lópez975@pitstech.com,+34 626460672,Scrum Master,Security,Full Stack Developer,65,52,10400,8320,Mid-Level,English;Portuguese,Employee
+Iván,Reyes,iván.reyes976@pitstech.com,+34 692204647,Business Analyst,Data,QA Tester,35,28,5600,4480,Junior,English,Employee
+Irene,Marín,irene.marín977@pitstech.com,+34 627257962,Frontend Developer,Quality Assurance,Project Manager,45,36,7200,5760,Junior,Spanish,Employee
+Remedios,Santos,remedios.santos978@pitstech.com,+34 668420558,Product Owner,Design,QA Tester,44,35,7040,5600,Junior,English;German;Spanish,Employee
+Rubén,Ramírez,rubén.ramírez979@pitstech.com,+34 663415927,Full Stack Developer,Engineering,Backend Developer,69,55,11040,8800,Mid-Level,Italian,Employee
+Manuel,Serrano,manuel.serrano980@pitstech.com,+34 630743356,Business Analyst,Engineering,ML Engineer,85,68,13600,10880,Senior,Portuguese;Spanish;English,Employee
+Ramón,Álvarez,ramón.álvarez981@pitstech.com,+34 632257542,Business Analyst,Engineering,UX/UI Designer,70,56,11200,8960,Mid-Level,French;Spanish;Italian,Employee
+Antonia,Romero,antonia.romero982@pitstech.com,+34 630471056,Cloud Engineer,Business,ML Engineer,97,77,15520,12320,Senior,Spanish;French;Portuguese,Employee
+Mateo,Prieto,mateo.prieto983@pitstech.com,+34 672707413,QA Tester,Design,DevOps,100,80,16000,12800,Senior,French,Employee
+Lucía,Suárez,lucía.suárez984@pitstech.com,+34 684239342,iOS Developer,Design,Data Engineer,98,78,15680,12480,Senior,French;Spanish,Employee
+Rubén,Navarro,rubén.navarro985@pitstech.com,+34 656888382,UX Designer,Design,Data Engineer,76,60,12160,9600,Senior,Portuguese,Employee
+Cristina,López,cristina.lópez986@pitstech.com,+34 678159531,Senior Developer,Design,ML Engineer,65,52,10400,8320,Mid-Level,German,Employee
+Elena,Vázquez,elena.vázquez987@pitstech.com,+34 682745577,Scrum Master,Product,QA Tester,95,76,15200,12160,Senior,English,Employee
+Concepción,Blanco,concepción.blanco988@pitstech.com,+34 622351055,Android Developer,Quality Assurance,ML Engineer,67,53,10720,8480,Mid-Level,English;French;German,Employee
+Montserrat,Castro,montserrat.castro989@pitstech.com,+34 697957025,iOS Developer,Security,Security Specialist,85,68,13600,10880,Senior,Italian;Spanish,Employee
+Paula,Reyes,paula.reyes990@pitstech.com,+34 693762322,Cloud Engineer,Engineering,Data Scientist,68,54,10880,8640,Mid-Level,English,Employee
+Victoria,Sánchez,victoria.sánchez991@pitstech.com,+34 619820363,Business Analyst,Engineering,DBA,80,64,12800,10240,Senior,German;Italian;Portuguese,Employee
+Sara,Cortés,sara.cortés992@pitstech.com,+34 616391686,Tech Lead,Engineering,Data Scientist,84,67,13440,10720,Senior,French;German;English,Employee
+Francisco,Vázquez,francisco.vázquez993@pitstech.com,+34 675344719,Data Engineer,Engineering,DevOps,75,60,12000,9600,Mid-Level,French;Spanish,Employee
+Pedro,Aguilar,pedro.aguilar994@pitstech.com,+34 668149012,iOS Developer,Design,DBA,45,36,7200,5760,Junior,Italian;French,Employee
+Rocío,Iglesias,rocío.iglesias995@pitstech.com,+34 688479490,Senior Developer,Security,Product Owner,70,56,11200,8960,Mid-Level,German;Portuguese,Employee
+Pablo,Rubio,pablo.rubio996@pitstech.com,+34 645852750,Junior Developer,Security,Cloud Specialist,80,64,12800,10240,Senior,Spanish,Employee
+Susana,López,susana.lópez997@pitstech.com,+34 677105409,DevOps Engineer,Data,QA Tester,81,64,12960,10240,Senior,Spanish,Employee
+Ramón,Fernández,ramón.fernández998@pitstech.com,+34 627725695,Database Admin,Design,Data Scientist,87,69,13920,11040,Senior,English;Italian;Spanish,Employee
+Andrés,Reyes,andrés.reyes999@pitstech.com,+34 654432432,Product Owner,Design,Cloud Specialist,50,40,8000,6400,Junior,Spanish;Portuguese,Employee
+Victoria,Campos,victoria.campos1000@pitstech.com,+34 614812982,QA Engineer,Security,ML Engineer,40,32,6400,5120,Junior,German;Portuguese,Employee

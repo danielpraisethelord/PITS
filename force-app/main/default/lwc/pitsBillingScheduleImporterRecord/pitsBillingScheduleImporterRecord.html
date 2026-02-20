@@ -1,0 +1,157 @@
+<template>
+    <lightning-card 
+        title="Import Billing Schedules" 
+        icon-name="custom:custom63">
+        
+        <div class="slds-var-p-around_medium">
+            
+            <!-- Instructions -->
+            <div class="slds-box slds-box_small slds-theme_shade slds-var-m-bottom_medium">
+                <p class="slds-text-body_small">
+                    <lightning-icon icon-name="utility:info" size="x-small" class="slds-var-m-right_x-small"></lightning-icon>
+                    <strong>CSV Format:</strong> Employee Name, Month, Start Date, End Date, Hours, Bill Rate, Record Type
+                </p>
+                <!-- <p class="slds-text-body_small slds-var-m-top_x-small">
+                    <lightning-icon icon-name="utility:download" size="x-small" class="slds-var-m-right_x-small"></lightning-icon>
+                    <a href="/sfc/servlet.shepherd/document/download/YOUR_TEMPLATE_ID" target="_blank">Download CSV Template</a>
+                </p> -->
+            </div>
+
+            <!-- File Upload Area -->
+            <template if:false={isProcessing}>
+                <div class="slds-grid slds-grid_vertical-align-center slds-var-m-bottom_medium">
+                    <div class="slds-col slds-size_1-of-1">
+                        <lightning-input
+                            type="file"
+                            label="Select CSV File"
+                            accept=".csv"
+                            onchange={handleFileUpload}
+                            disabled={isProcessing}>
+                        </lightning-input>
+                    </div>
+                </div>
+
+                <!-- File Info -->
+                <template if:true={fileName}>
+                    <div class="slds-box slds-var-m-bottom_medium">
+                        <div class="slds-grid slds-grid_align-spread">
+                            <div class="slds-col">
+                                <p class="slds-text-body_small">
+                                    <lightning-icon icon-name="doctype:csv" size="x-small" class="slds-var-m-right_x-small"></lightning-icon>
+                                    <strong>{fileName}</strong> ({fileSize})
+                                </p>
+                            </div>
+                            <div class="slds-col slds-no-flex">
+                                <lightning-button 
+                                    label="Clear" 
+                                    onclick={handleClear}
+                                    variant="destructive-text">
+                                </lightning-button>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Import Button -->
+                <template if:true={fileName}>
+                    <div class="slds-align_absolute-center slds-var-m-bottom_medium">
+                        <lightning-button
+                            variant="brand"
+                            label="Import Billing Schedules"
+                            icon-name="utility:upload"
+                            onclick={handleImport}
+                            disabled={isProcessing}>
+                        </lightning-button>
+                    </div>
+                </template>
+            </template>
+
+            <!-- Processing Spinner -->
+            <template if:true={isProcessing}>
+                <div class="slds-align_absolute-center slds-var-m-vertical_large">
+                    <lightning-spinner 
+                        alternative-text="Processing..." 
+                        size="medium">
+                    </lightning-spinner>
+                    <p class="slds-text-heading_small slds-var-m-top_medium">Processing CSV file...</p>
+                </div>
+            </template>
+
+            <!-- Results Summary -->
+            <template if:true={showResults}>
+                <div class="slds-var-m-top_large">
+                    <div class={resultBoxClass}>
+                        <div class="slds-grid slds-grid_align-spread slds-var-m-bottom_small">
+                            <div class="slds-col">
+                                <h3 class="slds-text-heading_small">
+                                    <lightning-icon icon-name={resultIcon} size="small" class="slds-var-m-right_x-small"></lightning-icon>
+                                    Import Results
+                                </h3>
+                            </div>
+                        </div>
+                        
+                        <p class="slds-text-body_regular slds-var-m-bottom_small">{resultMessage}</p>
+                        
+                        <div class="slds-grid slds-wrap slds-gutters_small">
+                            <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                                <div class="stat-box">
+                                    <p class="stat-label">Total Rows</p>
+                                    <p class="stat-value">{totalRows}</p>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                                <div class="stat-box stat-success">
+                                    <p class="stat-label">Created</p>
+                                    <p class="stat-value">{createdCount}</p>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                                <div class="stat-box stat-info">
+                                    <p class="stat-label">Updated</p>
+                                    <p class="stat-value">{updatedCount}</p>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                                <div class="stat-box stat-error">
+                                    <p class="stat-label">Failed</p>
+                                    <p class="stat-value">{failedCount}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Error Details -->
+                        <template if:true={hasErrors}>
+                            <div class="slds-var-m-top_medium">
+                                <lightning-accordion active-section-name="errors">
+                                    <lightning-accordion-section name="errors" label={errorSectionLabel}>
+                                        <div class="error-list">
+                                            <template for:each={errors} for:item="error">
+                                                <div key={error.rowNumber} class="error-item slds-var-p-around_small slds-var-m-bottom_x-small">
+                                                    <p class="slds-text-body_small">
+                                                        <strong>Row {error.rowNumber}:</strong> {error.errorMessage}
+                                                    </p>
+                                                    <template if:true={error.rowData}>
+                                                        <p class="slds-text-color_weak slds-text-body_small">{error.rowData}</p>
+                                                    </template>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </lightning-accordion-section>
+                                </lightning-accordion>
+                            </div>
+                        </template>
+
+                        <!-- Actions -->
+                        <div class="slds-align_absolute-center slds-var-m-top_medium">
+                            <lightning-button
+                                label="Import Another File"
+                                onclick={handleReset}
+                                variant="neutral">
+                            </lightning-button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,59 @@
+<template>
+    <lightning-card 
+        title="Billing Schedules" 
+        icon-name="standard:contract_line_item">
+        
+        <div slot="actions">
+            <lightning-button 
+                label="Refresh" 
+                icon-name="utility:refresh" 
+                onclick={handleRefresh}
+                variant="neutral">
+            </lightning-button>
+        </div>
+
+        <div class="slds-var-p-around_medium">
+            <!-- Loading Spinner -->
+            <template if:true={isLoading}>
+                <lightning-spinner 
+                    alternative-text="Loading" 
+                    size="medium">
+                </lightning-spinner>
+            </template>
+
+            <!-- Error Message -->
+            <template if:true={error}>
+                <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                    <span class="slds-assistive-text">Error</span>
+                    <h2>{error}</h2>
+                </div>
+            </template>
+
+            <!-- Data Table -->
+            <template if:true={billingSchedules}>
+                <template if:true={hasRecords}>
+                    <lightning-datatable
+                        key-field="Id"
+                        data={billingSchedules}
+                        columns={columns}
+                        draft-values={draftValues}
+                        onsave={handleSave}
+                        onrowaction={handleRowAction}
+                        hide-checkbox-column
+                        show-row-number-column>
+                    </lightning-datatable>
+                </template>
+
+                <!-- No Records Message -->
+                <template if:false={hasRecords}>
+                    <div class="slds-illustration slds-illustration_small slds-var-p-around_large">
+                        <div class="slds-text-align_center">
+                            <h3 class="slds-text-heading_medium">No Billing Schedules Found</h3>
+                            <p class="slds-var-p-top_small">There are no billing schedules associated with this project/contract yet.</p>
+                        </div>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

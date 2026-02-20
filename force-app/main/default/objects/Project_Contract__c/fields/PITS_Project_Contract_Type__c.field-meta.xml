@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PITS_Project_Contract_Type__c</fullName>
+    <label>Project/Contract Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Staff Augmentation</fullName>
+                <default>false</default>
+                <label>Staff Augmentation</label>
+            </value>
+            <value>
+                <fullName>Times &amp; Materials</fullName>
+                <default>false</default>
+                <label>Times &amp; Materials</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

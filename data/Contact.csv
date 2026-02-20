@@ -1,0 +1,21 @@
+FirstName,LastName,Email,Phone,Title,Department,Role__c,PITS_Hourly_rate__c,PITS_Hourly_Cost_to_Company__c,PITS_Monthly_Rate__c,PITS_Monthly_Cost_to_Company__c,Level__c,Languages__c,RecordType
+Juan,García,juan.garcia@example.com,+34 612345001,Senior Developer,Engineering,Full Stack Developer,75,60,12000,9600,Senior,Spanish;English,Employee
+María,Rodríguez,maria.rodriguez@example.com,+34 612345002,Project Manager,Engineering,Project Manager,85,68,13600,10880,Senior,Spanish;English,Employee
+Carlos,López,carlos.lopez@example.com,+34 612345003,Frontend Developer,Engineering,Frontend Developer,65,52,10400,8320,Mid-Level,Spanish,Employee
+Ana,Martínez,ana.martinez@example.com,+34 612345004,Backend Developer,Engineering,Backend Developer,70,56,11200,8960,Senior,Spanish;English,Employee
+Luis,González,luis.gonzalez@example.com,+34 612345005,DevOps Engineer,Engineering,DevOps,80,64,12800,10240,Senior,Spanish;English;German,Employee
+Carmen,Fernández,carmen.fernandez@example.com,+34 612345006,QA Engineer,Quality Assurance,QA Tester,60,48,9600,7680,Mid-Level,Spanish,Employee
+José,Sánchez,jose.sanchez@example.com,+34 612345007,UX Designer,Design,UX/UI Designer,70,56,11200,8960,Senior,Spanish;English,Employee
+Isabel,Pérez,isabel.perez@example.com,+34 612345008,Scrum Master,Engineering,Scrum Master,75,60,12000,9600,Senior,Spanish;English,Employee
+Miguel,Ruiz,miguel.ruiz@example.com,+34 612345009,Junior Developer,Engineering,Backend Developer,45,36,7200,5760,Junior,Spanish,Employee
+Laura,Díaz,laura.diaz@example.com,+34 612345010,Senior Architect,Engineering,Software Architect,95,76,15200,12160,Senior,Spanish;English;French,Employee
+Pablo,Moreno,pablo.moreno@example.com,+34 612345011,Mobile Developer,Engineering,Mobile Developer,68,54,10880,8704,Mid-Level,Spanish;English,Employee
+Sara,Jiménez,sara.jimenez@example.com,+34 612345012,Data Engineer,Data,Data Engineer,72,58,11520,9216,Senior,Spanish,Employee
+Alberto,Álvarez,alberto.alvarez@example.com,+34 612345013,Security Engineer,Security,Security Specialist,78,62,12480,9984,Senior,Spanish;English,Employee
+Sofía,Romero,sofia.romero@example.com,+34 612345014,Junior Frontend,Engineering,Frontend Developer,42,34,6720,5376,Junior,Spanish,Employee
+Daniel,Torres,daniel.torres@example.com,+34 612345015,Tech Lead,Engineering,Tech Lead,88,70,14080,11264,Senior,Spanish;English,Employee
+Elena,Navarro,elena.navarro@example.com,+34 612345016,Business Analyst,Business,Business Analyst,65,52,10400,8320,Mid-Level,Spanish;English,Employee
+Javier,Ramírez,javier.ramirez@example.com,+34 612345017,Database Admin,Engineering,DBA,70,56,11200,8960,Senior,Spanish,Employee
+Raquel,Gil,raquel.gil@example.com,+34 612345018,Product Owner,Product,Product Owner,80,64,12800,10240,Senior,Spanish;English,Employee
+Francisco,Serrano,francisco.serrano@example.com,+34 612345019,Cloud Engineer,Engineering,Cloud Specialist,75,60,12000,9600,Senior,Spanish;English,Employee
+Beatriz,Blanco,beatriz.blanco@example.com,+34 612345020,Junior QA,Quality Assurance,QA Tester,40,32,6400,5120,Junior,Spanish,Employee

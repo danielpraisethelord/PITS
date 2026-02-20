@@ -1,0 +1,5 @@
+Employee Name,Month,Start Date,End Date,Hours,Bill Rate,Record Type
+Juan García,Jan,2026-01-01,2026-01-31,160,75,Monthly_Fixed_Priced
+María Rodríguez,Jan,2026-01-01,2026-01-31,160,85,Monthly_Fixed_Priced
+Carlos López,Feb,2026-02-01,2026-02-28,140,65,Hourly
+Ana Martínez,Feb,2026-02-01,2026-02-28,160,70,Hourly

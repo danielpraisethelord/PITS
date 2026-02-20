@@ -1,0 +1,21 @@
+Name,AccountId,Status,StartDate,ContractTerm,PITS_Project_Contract_Type__c,PITS_Project_Term_months__c,PITS_Project_Billing__c,Description,RecordType
+Proyecto E-Commerce Platform,EXT_ACC_001,Draft,2026-01-15,12,Monthly Fixed Priced,12,150000,Desarrollo de plataforma e-commerce completa,Project
+Proyecto Mobile Banking App,EXT_ACC_002,Draft,2026-02-01,18,Hourly,18,280000,Aplicación móvil para banca digital,Project
+Proyecto ERP Integration,EXT_ACC_003,Draft,2026-01-20,24,Monthly Fixed Priced,24,450000,Integración de sistema ERP empresarial,Project
+Proyecto Cloud Migration,EXT_ACC_004,Draft,2026-02-10,12,Hourly,12,180000,Migración de infraestructura a la nube,Project
+Proyecto Data Analytics,EXT_ACC_005,Draft,2026-01-25,15,Monthly Fixed Priced,15,225000,Sistema de análisis de datos,Project
+Proyecto CRM Customization,EXT_ACC_006,Draft,2026-02-05,9,Hourly,9,135000,Personalización de CRM Salesforce,Project
+Proyecto IoT Dashboard,EXT_ACC_007,Draft,2026-01-18,12,Monthly Fixed Priced,12,165000,Dashboard para dispositivos IoT,Project
+Proyecto API Gateway,EXT_ACC_008,Draft,2026-02-12,6,Hourly,6,90000,Desarrollo de API Gateway,Project
+Proyecto Security Audit,EXT_ACC_009,Draft,2026-01-22,3,Monthly Fixed Priced,3,60000,Auditoría de seguridad completa,Project
+Proyecto Marketing Automation,EXT_ACC_010,Draft,2026-02-08,12,Hourly,12,195000,Sistema de automatización de marketing,Project
+Proyecto Blockchain Integration,EXT_ACC_011,Draft,2026-01-28,18,Monthly Fixed Priced,18,320000,Integración de tecnología blockchain,Project
+Proyecto AI Chatbot,EXT_ACC_012,Draft,2026-02-14,9,Hourly,9,140000,Desarrollo de chatbot con IA,Project
+Proyecto Legacy Modernization,EXT_ACC_013,Draft,2026-01-30,24,Monthly Fixed Priced,24,480000,Modernización de sistema legacy,Project
+Proyecto Social Media App,EXT_ACC_014,Draft,2026-02-03,15,Hourly,15,240000,Aplicación de redes sociales,Project
+Proyecto Inventory Management,EXT_ACC_015,Draft,2026-01-16,12,Monthly Fixed Priced,12,175000,Sistema de gestión de inventario,Project
+Proyecto BI Dashboard,EXT_ACC_016,Draft,2026-02-11,12,Hourly,12,200000,Dashboard de Business Intelligence,Project
+Proyecto DevOps Automation,EXT_ACC_017,Draft,2026-01-24,9,Monthly Fixed Priced,9,145000,Automatización de procesos DevOps,Project
+Proyecto Customer Portal,EXT_ACC_018,Draft,2026-02-06,12,Hourly,12,185000,Portal de clientes web,Project
+Proyecto Microservices,EXT_ACC_019,Draft,2026-01-19,18,Monthly Fixed Priced,18,310000,Arquitectura de microservicios,Project
+Proyecto Payment Gateway,EXT_ACC_020,Draft,2026-02-13,12,Hourly,12,210000,Pasarela de pagos integrada,Project

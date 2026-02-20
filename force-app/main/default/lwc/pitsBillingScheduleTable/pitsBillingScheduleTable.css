@@ -1,0 +1,9 @@
+/* Billing Schedule Table Styles */
+
+.slds-var-p-around_medium {
+    position: relative;
+}
+
+lightning-datatable {
+    font-size: 0.875rem;
+}
