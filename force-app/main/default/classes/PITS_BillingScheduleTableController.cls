@@ -24,6 +24,7 @@ public with sharing class PITS_BillingScheduleTableController {
                     End_Date__c,
                     Hours__c,
                     Months__c,
+                    Month_Number__c,
                     Quantity__c,
                     Employee_Bill_Rate__c,
                     Amount__c,
@@ -32,7 +33,7 @@ public with sharing class PITS_BillingScheduleTableController {
                 FROM Billing_Schedule__c
                 WHERE Project_Contract__c = :recordId
                 WITH SECURITY_ENFORCED
-                ORDER BY Start_Date__c DESC, Name ASC
+                ORDER BY Month_Number__c ASC NULLS LAST, Start_Date__c ASC, Name ASC
             ];
         } catch (Exception e) {
             throw new AuraHandledException('Error retrieving Billing Schedules: ' + e.getMessage());

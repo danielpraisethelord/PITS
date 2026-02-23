@@ -20,6 +20,7 @@ export default class PitsBillingScheduleImporterRecord extends LightningElement 
     @track errors = [];
     @track resultMessage = '';
     @track isSuccess = false;
+    @track showExampleModal = false;
 
     get hasErrors() {
         return this.errors && this.errors.length > 0;
@@ -217,6 +218,20 @@ export default class PitsBillingScheduleImporterRecord extends LightningElement 
         this.errors = [];
         this.resultMessage = '';
         this.isSuccess = false;
+    }
+
+    /**
+     * Open example modal
+     */
+    handleOpenExample() {
+        this.showExampleModal = true;
+    }
+
+    /**
+     * Close example modal
+     */
+    handleCloseExample() {
+        this.showExampleModal = false;
     }
 
     /**

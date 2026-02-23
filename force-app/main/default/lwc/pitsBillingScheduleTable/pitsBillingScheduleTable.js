@@ -8,24 +8,44 @@ import deleteBillingSchedule from '@salesforce/apex/PITS_BillingScheduleTableCon
 const COLUMNS = [
     {
         label: 'Name',
-        fieldName: 'Name',
-        type: 'text',
+        fieldName: 'NameUrl',
+        type: 'url',
         editable: false,
-        sortable: true
+        sortable: true,
+        typeAttributes: {
+            label: { fieldName: 'Name' },
+            target: '_blank'
+        }
     },
     {
         label: 'Employee',
-        fieldName: 'EmployeeName',
-        type: 'text',
+        fieldName: 'EmployeeUrl',
+        type: 'url',
         editable: false,
-        sortable: true
+        sortable: true,
+        typeAttributes: {
+            label: { fieldName: 'EmployeeName' },
+            target: '_blank'
+        }
     },
     {
         label: 'Account',
-        fieldName: 'AccountName',
-        type: 'text',
+        fieldName: 'AccountUrl',
+        type: 'url',
         editable: false,
-        sortable: true
+        sortable: true,
+        typeAttributes: {
+            label: { fieldName: 'AccountName' },
+            target: '_blank'
+        }
+    },
+    {
+        label: 'Month Number',
+        fieldName: 'Month_Number__c',
+        type: 'number',
+        editable: false,
+        sortable: true,
+        cellAttributes: { alignment: 'left' }
     },
     {
         label: 'Start Date',
@@ -40,22 +60,6 @@ const COLUMNS = [
         type: 'date',
         editable: true,
         sortable: true
-    },
-    {
-        label: 'Hours',
-        fieldName: 'Hours__c',
-        type: 'number',
-        editable: true,
-        sortable: true,
-        cellAttributes: { alignment: 'left' }
-    },
-    {
-        label: 'Months',
-        fieldName: 'Months__c',
-        type: 'number',
-        editable: true,
-        sortable: true,
-        cellAttributes: { alignment: 'left' }
     },
     {
         label: 'Quantity',
@@ -119,13 +123,25 @@ export default class PitsBillingScheduleTable extends LightningElement {
         const { data, error } = result;
 
         if (data) {
-            // Transform data to include related field names
-            this.billingSchedules = data.map(record => ({
+            // Transform data to include related field names and URLs
+            let transformedData = data.map(record => ({
                 ...record,
                 EmployeeName: record.Employee__r ? record.Employee__r.Name : '',
                 AccountName: record.Account__r ? record.Account__r.Name : '',
-                RecordTypeName: record.RecordType ? record.RecordType.Name : ''
+                RecordTypeName: record.RecordType ? record.RecordType.Name : '',
+                NameUrl: `/${record.Id}`,
+                EmployeeUrl: record.Employee__c ? `/${record.Employee__c}` : null,
+                AccountUrl: record.Account__c ? `/${record.Account__c}` : null
             }));
+
+            // Sort by Month_Number__c
+            transformedData.sort((a, b) => {
+                const monthsA = a.Month_Number__c || 0;
+                const monthsB = b.Month_Number__c || 0;
+                return monthsA - monthsB;
+            });
+
+            this.billingSchedules = transformedData;
             this.error = undefined;
         } else if (error) {
             this.error = error.body?.message || 'Unknown error occurred';

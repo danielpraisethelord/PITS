@@ -1,0 +1,10 @@
+Employee Name,Month,Start Date,End Date,Hours,Bill Rate,Record Type
+Abigael Leydon,Apr,2026-04-01,2026-04-30,160,85,Hourly
+Abigael Leydon,May,2026-05-01,2026-05-31,168,85,Hourly
+Abigael Leydon,Jun,2026-06-01,2026-06-30,176,85,Hourly
+Abdul Mordan,Apr,2026-04-01,2026-04-30,144,92,Hourly
+Abdul Mordan,May,2026-05-01,2026-05-31,160,92,Hourly
+Abram Holby,Apr,2026-04-01,2026-04-30,1,5900,Monthly_Fixed_Priced
+Abram Holby,May,2026-05-01,2026-05-31,1,5900,Monthly_Fixed_Priced
+Adair Campes,Apr,2026-04-01,2026-04-30,120,105,Hourly
+Adaline Ibbotson,Apr,2026-04-01,2026-04-30,1,10100,Monthly_Fixed_Priced

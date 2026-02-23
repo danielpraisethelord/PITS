@@ -9,12 +9,17 @@
             <div class="slds-box slds-box_small slds-theme_shade slds-var-m-bottom_medium">
                 <p class="slds-text-body_small">
                     <lightning-icon icon-name="utility:info" size="x-small" class="slds-var-m-right_x-small"></lightning-icon>
-                    <strong>CSV Format:</strong> Employee Name, Month, Start Date, End Date, Hours, Bill Rate, Record Type
+                    <strong>CSV Format:</strong> Employee Name, Month (Jan-Dec), Start Date, End Date, Hours, Bill Rate, Record Type
                 </p>
-                <!-- <p class="slds-text-body_small slds-var-m-top_x-small">
-                    <lightning-icon icon-name="utility:download" size="x-small" class="slds-var-m-right_x-small"></lightning-icon>
-                    <a href="/sfc/servlet.shepherd/document/download/YOUR_TEMPLATE_ID" target="_blank">Download CSV Template</a>
-                </p> -->
+                <p class="slds-text-body_small slds-var-m-top_x-small">
+                    <lightning-icon icon-name="utility:preview" size="x-small" class="slds-var-m-right_x-small"></lightning-icon>
+                    <lightning-button 
+                        label="View CSV Example" 
+                        onclick={handleOpenExample}
+                        variant="base"
+                        class="example-button">
+                    </lightning-button>
+                </p>
             </div>
 
             <!-- File Upload Area -->
@@ -152,6 +157,123 @@
                     </div>
                 </div>
             </template>
+
+            <!-- Example Modal -->
+            <template if:true={showExampleModal}>
+                <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container">
+                        <!-- Modal Header -->
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" 
+                                    title="Close" 
+                                    onclick={handleCloseExample}>
+                                <lightning-icon icon-name="utility:close" size="small" alternative-text="close"></lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                            <h2 class="slds-modal__title slds-hyphenate">CSV File Example</h2>
+                        </header>
+                        
+                        <!-- Modal Body -->
+                        <div class="slds-modal__content slds-var-p-around_medium">
+                            <div class="slds-box">
+                                <h3 class="slds-text-heading_small slds-var-m-bottom_small">
+                                    <lightning-icon icon-name="doctype:csv" size="small" class="slds-var-m-right_x-small"></lightning-icon>
+                                    Valid CSV Format
+                                </h3>
+                                
+                                <!-- CSV Example Table -->
+                                <div class="csv-example-container">
+                                    <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                                        <thead>
+                                            <tr class="slds-line-height_reset">
+                                                <th scope="col" class="csv-header-cell">
+                                                    <div class="slds-truncate" title="Employee Name">Employee Name</div>
+                                                </th>
+                                                <th scope="col" class="csv-header-cell">
+                                                    <div class="slds-truncate" title="Month">Month</div>
+                                                </th>
+                                                <th scope="col" class="csv-header-cell">
+                                                    <div class="slds-truncate" title="Start Date">Start Date</div>
+                                                </th>
+                                                <th scope="col" class="csv-header-cell">
+                                                    <div class="slds-truncate" title="End Date">End Date</div>
+                                                </th>
+                                                <th scope="col" class="csv-header-cell">
+                                                    <div class="slds-truncate" title="Hours">Hours</div>
+                                                </th>
+                                                <th scope="col" class="csv-header-cell">
+                                                    <div class="slds-truncate" title="Bill Rate">Bill Rate</div>
+                                                </th>
+                                                <th scope="col" class="csv-header-cell">
+                                                    <div class="slds-truncate" title="Record Type">Record Type</div>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="slds-hint-parent">
+                                                <td class="csv-cell">John Doe</td>
+                                                <td class="csv-cell">Jan</td>
+                                                <td class="csv-cell">2026-01-01</td>
+                                                <td class="csv-cell">2026-01-31</td>
+                                                <td class="csv-cell">160</td>
+                                                <td class="csv-cell">150.00</td>
+                                                <td class="csv-cell">Hourly</td>
+                                            </tr>
+                                            <tr class="slds-hint-parent">
+                                                <td class="csv-cell">Jane Smith</td>
+                                                <td class="csv-cell">Jan</td>
+                                                <td class="csv-cell">2026-01-01</td>
+                                                <td class="csv-cell">2026-01-31</td>
+                                                <td class="csv-cell">1</td>
+                                                <td class="csv-cell">12500.00</td>
+                                                <td class="csv-cell">Monthly_Fixed_Priced</td>
+                                            </tr>
+                                            <tr class="slds-hint-parent">
+                                                <td class="csv-cell">John Doe</td>
+                                                <td class="csv-cell">Feb</td>
+                                                <td class="csv-cell">2026-02-01</td>
+                                                <td class="csv-cell">2026-02-28</td>
+                                                <td class="csv-cell">144</td>
+                                                <td class="csv-cell">150.00</td>
+                                                <td class="csv-cell">Hourly</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Important Notes -->
+                                <div class="slds-var-m-top_medium">
+                                    <h4 class="slds-text-heading_small slds-var-m-bottom_small">
+                                        <lightning-icon icon-name="utility:info" size="x-small" class="slds-var-m-right_x-small"></lightning-icon>
+                                        Important Notes:
+                                    </h4>
+                                    <ul class="slds-list_dotted slds-text-body_small">
+                                        <li><strong>Employee Name:</strong> Must match an existing Contact name exactly (First Name + Last Name)</li>
+                                        <li><strong>Month:</strong> Use 3-letter abbreviation: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec</li>
+                                        <li><strong>Dates:</strong> Use format YYYY-MM-DD (e.g., 2026-01-15)</li>
+                                        <li><strong>Hours:</strong> Numeric value for hours worked (e.g., 160 for Hourly, 1 for Monthly)</li>
+                                        <li><strong>Bill Rate:</strong> Numeric value for billing rate (use decimal point, not comma)</li>
+                                        <li><strong>Record Type:</strong> Must be either "Hourly" or "Monthly_Fixed_Priced"</li>
+                                        <li>The first row must contain headers (will be skipped during import)</li>
+                                        <li>Do not include any extra columns or special characters</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal Footer -->
+                        <footer class="slds-modal__footer">
+                            <lightning-button 
+                                variant="brand" 
+                                label="Close" 
+                                onclick={handleCloseExample}>
+                            </lightning-button>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </template>
+
         </div>
     </lightning-card>
 </template>

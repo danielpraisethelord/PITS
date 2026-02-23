@@ -269,6 +269,24 @@ public with sharing class PITS_BillingScheduleImportController {
      * Perform all necessary lookups
      */
     private static void performLookups(List<PITS_BillingScheduleImportWrapper> rows, Id projectId) {
+        // If importing at record level, get Account from Project Contract
+        Id projectAccountId = null;
+        if (projectId != null) {
+            try {
+                Project_Contract__c project = [
+                    SELECT Id, PITS_Customer_Account__c
+                    FROM Project_Contract__c
+                    WHERE Id = :projectId
+                    WITH SECURITY_ENFORCED
+                    LIMIT 1
+                ];
+                projectAccountId = project.PITS_Customer_Account__c;
+            } catch (Exception e) {
+                // If project not found or no access, continue without account
+                System.debug('Could not fetch Project Account: ' + e.getMessage());
+            }
+        }
+        
         // Collect unique names
         Set<String> companyNames = new Set<String>();
         Set<String> projectNames = new Set<String>();
@@ -303,6 +321,7 @@ public with sharing class PITS_BillingScheduleImportController {
             if (!row.isValid) continue;
             
             if (projectId == null) {
+                // General import - lookup Account and Project
                 row.accountId = accountMap.get(row.companyName);
                 row.projectId = projectMap.get(row.projectName);
                 
@@ -316,6 +335,10 @@ public with sharing class PITS_BillingScheduleImportController {
                     row.errorMessage = 'Project "' + row.projectName + '" not found';
                     continue;
                 }
+            } else {
+                // Record-level import - use provided projectId and its Account
+                row.projectId = projectId;
+                row.accountId = projectAccountId;
             }
             
             row.employeeId = employeeMap.get(row.employeeName);
@@ -533,12 +556,12 @@ public with sharing class PITS_BillingScheduleImportController {
                 bs = new Billing_Schedule__c();
                 bs.Employee__c = row.employeeId;
                 bs.Project_Contract__c = row.projectId;
-                bs.Account__c = row.accountId;
                 bs.Month__c = row.month;
                 result.createdCount++;
             }
             
-            // Set/Update fields
+            // Set/Update fields (applies to both insert and update)
+            bs.Account__c = row.accountId;
             bs.Start_Date__c = row.startDate;
             bs.End_Date__c = row.endDate;
             bs.Hours__c = row.hours;
