@@ -21,6 +21,7 @@ export default class PitsBillingScheduleImporter extends LightningElement {
     failedCount = 0;
     errors = [];
     isAsync = false;
+    showExampleModal = false;
 
     // Computed properties
     get disableImport() {
@@ -228,6 +229,20 @@ export default class PitsBillingScheduleImporter extends LightningElement {
             }
         }
         return error.message || 'An unknown error occurred';
+    }
+
+    /**
+     * Open example modal
+     */
+    handleOpenExample() {
+        this.showExampleModal = true;
+    }
+
+    /**
+     * Close example modal
+     */
+    handleCloseExample() {
+        this.showExampleModal = false;
     }
 
     /**

@@ -1,0 +1,11 @@
+Company Name,Project Name,Employee Name,Month,Start Date,End Date,Hours,Bill Rate,Record Type
+CompanyOnePlus,AI implementation,Abdul Mordan,Mar,2026-03-01,2026-03-31,160,92,Hourly
+CompanyOnePlus,AI implementation,Abigael Leydon,Mar,2026-03-01,2026-03-31,168,79,Hourly
+CompanyOnePlus,AI implementation,Abdul Mordan,Apr,2026-04-01,2026-04-30,152,92,Hourly
+CompanyOnePlus,SAP Implementation 1,Adair Campes,Mar,2026-03-01,2026-03-31,1,10500,Monthly_Fixed_Priced
+CompanyOnePlus,SAP Implementation 1,Adair Campes,Apr,2026-04-01,2026-04-30,1,10500,Monthly_Fixed_Priced
+CompanyOnePlus,SAP Implementation 1,Adaline Ibbotson,Mar,2026-03-01,2026-03-31,144,101,Hourly
+Dynava,ExampleOne,Adams Brennenstuhl,Mar,2026-03-01,2026-03-31,160,79,Hourly
+Dynava,ExampleOne,Adams Brennenstuhl,Apr,2026-04-01,2026-04-30,160,79,Hourly
+GenePoint,CompanyOnePlus Project/Contracts,Abram Holby,Mar,2026-03-01,2026-03-31,120,59,Hourly
+GenePoint,CompanyOnePlus Project/Contracts,Adaline Ibbotson,Mar,2026-03-01,2026-03-31,1,10100,Monthly_Fixed_Priced
