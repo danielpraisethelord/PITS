@@ -4,20 +4,43 @@
             <!-- Instructions -->
             <div class="slds-m-bottom_medium">
                 <lightning-icon icon-name="utility:info" size="x-small" class="slds-m-right_x-small"></lightning-icon>
-                <strong>Upload a CSV file with billing schedule data</strong>
+                <strong>Upload a CSV or Excel file with billing schedule data</strong>
                 <div class="slds-text-color_weak slds-m-top_x-small">
                     Required columns: Company Name, Project Name, Employee Name, Month (Jan-Dec), Start Date, End Date, Hours, Bill Rate, Record Type
                 </div>
                 <div class="slds-text-color_weak slds-m-top_x-small">
-                    Max file size: 5MB | Max rows: 2000
+                    Accepted formats: .csv, .xlsx, .xls &nbsp;|&nbsp; Max file size: 5MB | Max rows: 2000
                 </div>
                 <div class="slds-m-top_x-small">
                     <lightning-icon icon-name="utility:preview" size="x-small" class="slds-m-right_x-small"></lightning-icon>
                     <lightning-button 
-                        label="View CSV Example" 
+                        label="View Format Example" 
                         onclick={handleOpenExample}
                         variant="base"
                         class="example-button">
+                    </lightning-button>
+                </div>
+            </div>
+
+            <!-- Download Template -->
+            <div class="download-template-section slds-m-bottom_medium">
+                <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_x-small">
+                    <lightning-icon icon-name="utility:download" size="x-small" class="slds-m-right_x-small"></lightning-icon>
+                    <strong>Download Template:</strong>
+                </p>
+                <div class="slds-button-group">
+                    <lightning-button
+                        label="Template CSV"
+                        icon-name="doctype:csv"
+                        onclick={handleDownloadCSV}
+                        variant="neutral"
+                        class="slds-m-right_x-small">
+                    </lightning-button>
+                    <lightning-button
+                        label="Template Excel"
+                        icon-name="doctype:excel"
+                        onclick={handleDownloadExcel}
+                        variant="neutral">
                     </lightning-button>
                 </div>
             </div>
@@ -26,8 +49,8 @@
             <template if:false={isProcessing}>
                 <lightning-input
                     type="file"
-                    label="Select CSV File"
-                    accept=".csv"
+                    label="Select CSV or Excel File"
+                    accept=".csv,.xlsx,.xls"
                     onchange={handleFileUpload}
                     disabled={isProcessing}>
                 </lightning-input>
@@ -143,7 +166,7 @@
                                 <lightning-icon icon-name="utility:close" size="small" alternative-text="close"></lightning-icon>
                                 <span class="slds-assistive-text">Close</span>
                             </button>
-                            <h2 class="slds-modal__title slds-hyphenate">CSV File Example - Global Import</h2>
+                            <h2 class="slds-modal__title slds-hyphenate">File Format Example - Global Import</h2>
                         </header>
                         
                         <!-- Modal Body -->
@@ -151,7 +174,7 @@
                             <div class="slds-box">
                                 <h3 class="slds-text-heading_small slds-var-m-bottom_small">
                                     <lightning-icon icon-name="doctype:csv" size="small" class="slds-var-m-right_x-small"></lightning-icon>
-                                    Valid CSV Format
+                                    Valid File Format (CSV &amp; Excel)
                                 </h3>
                                 
                                 <!-- CSV Example Table -->

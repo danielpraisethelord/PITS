@@ -1,8 +1,18 @@
 import { LightningElement } from 'lwc';
+import { loadScript } from 'lightning/platformResourceLoader';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import importBillingSchedules from '@salesforce/apex/PITS_BillingScheduleImportController.importBillingSchedules';
+import XLSX_LIB from '@salesforce/resourceUrl/PITS_SheetJS';
 
 const MAX_FILE_SIZE = 5242880; // 5MB in bytes
+
+// Template data for downloadable sample files
+const TEMPLATE_HEADERS = ['Company Name', 'Project Name', 'Employee Name', 'Month', 'Start Date', 'End Date', 'Hours', 'Bill Rate', 'Record Type'];
+const TEMPLATE_ROWS = [
+    ['CompanyOnePlus', 'AI implementation',     'John Doe',   'Jan', '2026-01-01', '2026-01-31', 160, 150.00,    'Hourly'],
+    ['CompanyOnePlus', 'SAP Implementation 1',  'Jane Smith', 'Jan', '2026-01-01', '2026-01-31', 1,   12500.00,  'Monthly_Fixed_Priced'],
+    ['Dynava',         'ExampleOne',             'John Doe',   'Feb', '2026-02-01', '2026-02-28', 144, 150.00,   'Hourly']
+];
 
 export default class PitsBillingScheduleImporter extends LightningElement {
     // File state
@@ -22,6 +32,19 @@ export default class PitsBillingScheduleImporter extends LightningElement {
     errors = [];
     isAsync = false;
     showExampleModal = false;
+
+    xlsxLibraryLoaded = false;
+
+    connectedCallback() {
+        loadScript(this, XLSX_LIB + '/build/xlsx.full.min.js')
+            .then(() => {
+                this.xlsxLibraryLoaded = true;
+            })
+            .catch(error => {
+                console.error('SheetJS library failed to load:', error);
+                this.showToast('Warning', 'Excel support unavailable. Only CSV files can be processed.', 'warning');
+            });
+    }
 
     // Computed properties
     get disableImport() {
@@ -57,18 +80,23 @@ export default class PitsBillingScheduleImporter extends LightningElement {
     }
 
     /**
-     * Handle file upload
+     * Handle file upload — supports CSV and Excel (.xlsx / .xls)
      */
     handleFileUpload(event) {
         const file = event.target.files[0];
-        
-        if (!file) {
+
+        if (!file) return;
+
+        const isCSV   = file.name.toLowerCase().endsWith('.csv');
+        const isExcel = file.name.toLowerCase().endsWith('.xlsx') || file.name.toLowerCase().endsWith('.xls');
+
+        if (!isCSV && !isExcel) {
+            this.showToast('Invalid File', 'Please select a valid file (.csv, .xlsx or .xls)', 'error');
             return;
         }
 
-        // Validate file type
-        if (!file.name.endsWith('.csv')) {
-            this.showToast('Invalid File', 'Please select a CSV file', 'error');
+        if (isExcel && !this.xlsxLibraryLoaded) {
+            this.showToast('Error', 'Excel library is still loading. Please wait a moment and try again, or use a CSV file.', 'error');
             return;
         }
 
@@ -85,15 +113,62 @@ export default class PitsBillingScheduleImporter extends LightningElement {
         this.fileName = file.name;
         this.fileSize = this.formatFileSize(file.size);
 
-        // Read file content
         const reader = new FileReader();
-        reader.onload = () => {
-            this.fileContent = reader.result;
-        };
-        reader.onerror = () => {
-            this.showToast('Error', 'Failed to read file', 'error');
-        };
-        reader.readAsText(file);
+
+        if (isCSV) {
+            reader.onload = () => {
+                this.fileContent = reader.result;
+            };
+            reader.onerror = () => {
+                this.showToast('Error', 'Failed to read CSV file', 'error');
+            };
+            reader.readAsText(file);
+        } else {
+            // Excel: read as ArrayBuffer and convert to CSV via SheetJS
+            reader.onload = (e) => {
+                try {
+                    // eslint-disable-next-line no-undef
+                    const XLSX = window.XLSX;
+                    const data     = new Uint8Array(e.target.result);
+                    // cellDates:true so Date cells become JS Date objects
+                    const workbook = XLSX.read(data, { type: 'array', cellDates: true });
+                    const sheet    = workbook.Sheets[workbook.SheetNames[0]];
+
+                    // Convert to array of arrays keeping raw values
+                    const jsonRows = XLSX.utils.sheet_to_json(sheet, { header: 1, raw: true, defval: '' });
+
+                    // Normalize Date objects to YYYY-MM-DD strings
+                    const normalizedRows = jsonRows.map(row =>
+                        row.map(cell => {
+                            if (cell instanceof Date) {
+                                const y = cell.getFullYear();
+                                const m = String(cell.getMonth() + 1).padStart(2, '0');
+                                const d = String(cell.getDate()).padStart(2, '0');
+                                return `${y}-${m}-${d}`;
+                            }
+                            return cell;
+                        })
+                    );
+
+                    // Rebuild as CSV string
+                    this.fileContent = normalizedRows
+                        .map(row => row.map(cell => {
+                            const str = String(cell);
+                            return str.includes(',') || str.includes('"') || str.includes('\n')
+                                ? `"${str.replace(/"/g, '""')}"`
+                                : str;
+                        }).join(','))
+                        .join('\n');
+
+                } catch (err) {
+                    this.showToast('Error', 'Failed to parse Excel file: ' + err.message, 'error');
+                }
+            };
+            reader.onerror = () => {
+                this.showToast('Error', 'Failed to read Excel file', 'error');
+            };
+            reader.readAsArrayBuffer(file);
+        }
     }
 
     /**
@@ -229,6 +304,44 @@ export default class PitsBillingScheduleImporter extends LightningElement {
             }
         }
         return error.message || 'An unknown error occurred';
+    }
+
+    /**
+     * Download a CSV template file
+     * Uses data: URI to avoid Salesforce CSP restrictions on Blob/createObjectURL
+     */
+    handleDownloadCSV() {
+        const rows = [TEMPLATE_HEADERS, ...TEMPLATE_ROWS];
+        const csvContent = rows.map(row => row.join(',')).join('\n');
+        const encodedUri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(csvContent);
+        const link = document.createElement('a');
+        link.setAttribute('href', encodedUri);
+        link.setAttribute('download', 'Billing_Schedule_Global_Template.csv');
+        link.style.display = 'none';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    /**
+     * Download an Excel (.xlsx) template file
+     */
+    handleDownloadExcel() {
+        if (!this.xlsxLibraryLoaded) {
+            this.showToast('Error', 'Excel library is not loaded. Please use CSV download instead.', 'error');
+            return;
+        }
+        try {
+            // eslint-disable-next-line no-undef
+            const XLSX = window.XLSX;
+            const wsData    = [TEMPLATE_HEADERS, ...TEMPLATE_ROWS];
+            const worksheet = XLSX.utils.aoa_to_sheet(wsData);
+            const workbook  = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(workbook, worksheet, 'Billing Schedules');
+            XLSX.writeFile(workbook, 'Billing_Schedule_Global_Template.xlsx');
+        } catch (err) {
+            this.showToast('Error', 'Failed to generate Excel file: ' + err.message, 'error');
+        }
     }
 
     /**
